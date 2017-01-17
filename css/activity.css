@@ -1,0 +1,49 @@
+/* Change url(../activity/activity-helloworld.svg); for set your custom activity icon */
+#main-toolbar #activity-button {
+  background-image: url(../activity/activity-helloworld.svg);
+}
+
+#canvas {
+
+  background-image: url('..img/background.png');
+  width: 1200px;
+  height: 845px;
+
+}
+
+#menu {
+    width: 1200px;
+    height: 845px;
+    background-image: url('../img/background.png');
+
+  }
+
+#deduccion{
+width: 1200px;
+height: 845px;
+background-image: url('../img/deduccion.png');
+}
+
+
+.btn{
+  	width: 100px; 
+  	height: 200px;
+  	top:600px;
+  	left: 450px;
+
+  }
+
+.element{
+position: absolute;
+
+  }
+
+.btn1{
+  height: 80px;
+  width: 200px;
+
+}
+
+.hidden{
+  display: none;
+}
