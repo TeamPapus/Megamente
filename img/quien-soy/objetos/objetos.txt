@@ -1,0 +1,59 @@
+reloj------>x
+sombrero---->x
+telefono---->x
+gafas ---->x
+collar---->x
+mochila---->x
+microfono---->x
+camara---->x
+guitarra---->x 
+bicicleta---->x
+piano---->x
+videojuego---->x
+mangos---> x
+manzana ----->x
+melocotones----> x
+sandia----> x
+banano---->x
+uvas---> x
+baloncesto-->x
+ajedrez--->x
+futbol americano---->x
+tenis---->x
+voleibol---->x
+carro---->x
+flauta----->x
+tomate---->x
+pepino---->x
+brocoli----->x
+zanahoria--->x 
+remolacha
+lechuga---->x
+cafe--->x
+leche---->x
+refresco---> x
+yogurt--->x
+sopa---->x
+computadora----->x
+cuaderno--->x
+lapiz---->x
+corbata----->x
+cinturon---->x
+gorra------>x
+periodico----->x
+grabadora-auriculares------>x
+lazo de cabello----->x
+pañuelo---->x
+papaya----->x
+piña---->x
+manzana-----> x
+melon---> x
+naranja-----> x
+futbol----->x
+bufanda----->x
+cartas----> x
+agua---->x
+cuaderno---->x
+
+
+
