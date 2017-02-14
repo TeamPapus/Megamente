@@ -1,7 +1,7 @@
 [Activity]
-name = Tulwa
-bundle_id = org.sugarlabs.Tulwa
-icon = activity-helloworld
+name = Megamente
+bundle_id = org.sugarlabs.Megamente
+icon = activity-icon
 exec = sugar-activity-web
-activity_version = 1
+activity_version = 0.1
 show_launcher = yes

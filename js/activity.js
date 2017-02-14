@@ -3,7 +3,15 @@ define(function (require) {
     var datastore = require("sugar-web/datastore");
     var jquery = require("jquery");
     var interact = require("interact");
-
+    
+    var mi_imagen = new Image();
+    var imagen = '../Megamente/img/deduccion/deduccion/ejercicio1/zapato-amarillo.png';
+    function load_image() {
+        mi_imagen.src = imagen;
+        console.log("Tamaño de imagen: ");
+        console.log(mi_imagen.height+'x'+mi_imagen.width);
+    }
+    
  var moveItem = function(event) {
         // Current element
         var target = event.target;
@@ -26,22 +34,34 @@ define(function (require) {
         target.setAttribute('data-y', y);
     };
 
+
+    
     // Manipulate the DOM only when it is ready.
     require(['domReady!'], function (doc) {
-
+      
 
         // Initialize the activity.
         activity.setup();
+        
+
+        load_image();
 
         $('#btn').on('click', function(){
         	$('#menu').toggle();
         	$('#deduccion').toggle();
+             load_image();
 
         });
         
         $('#btn2').on('click', function(){
         	$('#menu').toggle();
         	$('#quiensoy').toggle();
+
+        });
+        
+          $('#inicio').on('click', function(){
+        	$('#deduccion').toggle();
+        	$('#menu').toggle();
 
         });
 
