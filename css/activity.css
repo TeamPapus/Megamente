@@ -16,6 +16,25 @@
   width: 200px;
 }
 
+.btnmenu{
+    height: 60px;
+    width: 80px;
+    background-color:darkcyan;
+    border-color:darkcyan;
+}
+
+.btnsiguiente{
+    height: 60px;
+    width: 80px;
+    background-image: url('../img/siguiente.png') ;
+    background-color: transparent;
+}
+
+.btnsiguiente:hover{
+    background-color: transparent;
+    border: none;
+}
+
 /* Menu **/
 #menu {
     width: 1200px;
@@ -28,6 +47,11 @@
     width: 1200px;
     height: 845px;
     background-image: url('../img/bg-deduccion.png');
+}
+
+.objeto{
+    width: 110px;
+    height: 150px;
 }
 
 /* Quien soy? **/

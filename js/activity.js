@@ -3,14 +3,10 @@ define(function (require) {
     var datastore = require("sugar-web/datastore");
     var jquery = require("jquery");
     var interact = require("interact");
-    
-    var mi_imagen = new Image();
-    var imagen = '../Megamente/img/deduccion/objetos/zapato-amarillo.png';
-    function load_image() {
-        mi_imagen.src = imagen;
-        console.log("Tamaño de imagen: ");
-        console.log(mi_imagen.height+'x'+mi_imagen.width);
-    }
+    var deduccion = require('../js/deduccion.js');
+    var cont = [
+        'obj1', 'obj2', 'obj3', 'obj4', 'obj5'
+    ];
     
     // funcion de movimiento para objetos html
     var moveItem = function(event) {
@@ -32,18 +28,34 @@ define(function (require) {
         target.setAttribute('data-y', y);
     };
     
+    // imagenes en su lugar
+      function spr(){
+    	
+    	var ejer = random(deduccion);
+		for(var i=0;i<=4;i++){
+			$('#'+cont[i]).css('background-image','url('+deduccion[ejer].img[i]+')');
+        }
+      }
+    
+     function random(array){
+		return Math.floor(Math.random()*array.length);
+	}
     // Manipulate the DOM only when it is ready.
     require(['domReady!'], function (doc) {
 
         // Initialize the activity.
         activity.setup();
 
-        load_image();
-
+        var items = interact('.objeto');
+        items.draggable({
+            initial:true,
+            onmove:moveItem,
+        });
+        
         $('#btn-deduccion').on('click', function(){
         	$('#menu').toggle();
         	$('#deduccion').toggle();
-            load_image();
+            spr();
         });
         
         $('#btn-quiensoy').on('click', function(){
@@ -55,5 +67,11 @@ define(function (require) {
             $(this).parents('.padre').toggle();
         	$('#menu').toggle();
         });
+        
+        $("#btn_siguiente").on('click',function(){
+        	console.log("btn sigui");
+        	spr();
+        });
+       
     });
 });
