@@ -3,5 +3,5 @@ name = Megamente
 bundle_id = org.sugarlabs.Megamente
 icon = activity-icon
 exec = sugar-activity-web
-activity_version = 0.1
+activity_version = 0.2
 show_launcher = yes
