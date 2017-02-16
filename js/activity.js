@@ -68,9 +68,8 @@ define(function (require) {
         	$('#menu').toggle();
         });
         
-        $("#btn_siguiente").on('click',function(){
-        	console.log("btn sigui");
-        	spr();
+        $(".btnsiguiente").on('click',function(){
+            spr();
         });
        
     });
