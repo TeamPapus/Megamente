@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="27.559601mm"
+   height="29.084467mm"
+   viewBox="0 0 97.65213 103.0552"
+   id="svg15304"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="camisa-gris.svg">
+  <defs
+     id="defs15306" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="-169.44516"
+     inkscape:cy="-59.542785"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="710"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata15309">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-736.2085,-707.94012)">
+    <g
+       id="g16152">
+      <path
+         d="m 803.1833,727.24265 8.4,29.11333 22.27733,-6.04533 -8.504,-29.468 c -4.012,-13.90666 -25.98133,-6.78933 -22.17333,6.4"
+         style="fill:#808285;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path2440"
+         inkscape:connector-curvature="0" />
+      <g
+         id="g16143">
+        <path
+           d="m 753.66823,713.22199 62.012,0 0,97.77333 -62.012,0 z"
+           style="fill:#808285;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="path2436"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path2444"
+           style="fill:#808285;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="m 766.88783,727.24265 -8.40266,29.11333 -22.276,-6.04533 8.50533,-29.468 c 4.012,-13.90666 25.97867,-6.78933 22.17333,6.4" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path2448"
+           style="fill:#afafaf;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="m 736.2085,750.31105 1.19467,-4.14266 16.26533,4.36133 0,4.51866 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path2452"
+           style="fill:#808285;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="m 770.6693,720.62185 14.00533,6.604 14.00133,-6.604 17.004,34.62267 -62.01199,-0.196 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path2456"
+           style="fill:#afafaf;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="m 769.83677,707.94012 -4.576,5.28267 5.63333,22.18 9.50667,-11.26534 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path2460"
+           style="fill:#afafaf;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="m 799.76676,707.94012 4.576,5.28267 -5.63333,22.18 -9.50666,-11.26534 z" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path2464"
+           style="fill:#6b6b6b;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           d="m 784.6741,727.22585 -4.27333,-3.088 -1.33067,1.576 c 1.57733,0.81067 3.74533,1.512 5.604,1.512 m 5.604,-1.81466 c -1.71067,1.09866 -3.48,1.81466 -5.604,1.81466 l 4.528,-3.088 z" />
+      </g>
+      <path
+         d="m 833.86023,750.31105 -1.196,-4.14266 -16.984,4.55733 0,4.51866 z"
+         style="fill:#afafaf;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="path2468"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>
