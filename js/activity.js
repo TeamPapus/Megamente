@@ -4,6 +4,7 @@ define(function (require) {
     var jquery = require("jquery");
     var interact = require("interact");
     var deduccion = require('../js/deduccion.js');
+    var quiensoy = require('../js/quiensoy.js');
     var cont = [
         'obj1', 'obj2', 'obj3', 'obj4', 'obj5'
     ];
@@ -29,24 +30,32 @@ define(function (require) {
     };
     
     // imagenes en su lugar
-      function spr(){
-    	
-    	var ejer = random(deduccion);
-		for(var i=0;i<=4;i++){
-			$('#'+cont[i]).css('background-image','url('+deduccion[ejer].img[i]+')');
-        }
+      function spr(matriz){
+          var ejer = random(matriz);
+          for(var i=0;i<=4;i++){
+              $('.'+cont[i]).css('background','url('+matriz[ejer].img[i]+') 0 0 no-repeat');
+          }
+          return ejer;
       }
     
      function random(array){
 		return Math.floor(Math.random()*array.length);
 	}
+    
+    function objpos(id, top, left){
+        var pos = left; 
+        $('#'+id).children().each(function(){
+            $(this).css({'top': top+'px', 'left': pos+'px'});
+            pos+=200;
+        });
+    }
     // Manipulate the DOM only when it is ready.
     require(['domReady!'], function (doc) {
 
         // Initialize the activity.
         activity.setup();
 
-        var items = interact('.objeto');
+        var items = interact('.movimiento');
         items.draggable({
             initial:true,
             onmove:moveItem,
@@ -55,12 +64,17 @@ define(function (require) {
         $('#btn-deduccion').on('click', function(){
         	$('#menu').toggle();
         	$('#deduccion').toggle();
-            spr();
+            var ejer = spr(deduccion);
+            $('#pistasd').text(deduccion[ejer].pista);
+            objpos('od', 70, 70);
         });
         
         $('#btn-quiensoy').on('click', function(){
         	$('#menu').toggle();
         	$('#quiensoy').toggle();
+            var ejer = spr(quiensoy);
+            $('#pistasqs').text(quiensoy[ejer].pista[0]);
+            objpos('oqs', 500, 70);
         });
         
         $('.inicio').on('click', function(){
@@ -68,8 +82,16 @@ define(function (require) {
         	$('#menu').toggle();
         });
         
-        $(".btnsiguiente").on('click',function(){
-            spr();
+        $("#btndeduccion").on('click',function(){
+            var ejer = spr(deduccion);
+            $('#pistasd').text(deduccion[ejer].pista);
+            objpos('od', 70, 70);
+        });
+        
+        $("#btnquiensoy").on('click',function(){
+            var ejer = spr(quiensoy);
+            $('#pistasqs').text(quiensoy[ejer].pista[0]);
+            objpos('oqs', 500, 70)
         });
        
     });

@@ -54,9 +54,24 @@
     height: 150px;
 }
 
+#pistasd{
+    top: 280px;
+    left: 100px;
+    font-size: 20px;
+    color: white;
+    width: 990px;
+}
+ 
 /* Quien soy? **/
 #quiensoy{
     width: 1200px;
     height: 845px;
     background-image: url('../img/bg-quiensoy.png');
+}
+
+#pistasqs{
+    top: 63px;
+    left: 190px;
+    font-size: 20px;
+    width: 850px;
 }
