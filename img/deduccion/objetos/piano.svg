@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="65.511169mm"
-   height="17.858984mm"
-   viewBox="0 0 232.12619 63.279864"
+   width="11.54048mm"
+   height="42.333332mm"
+   viewBox="0 0 40.891463 149.99999"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="piano.svg">
+   sodipodi:docname="piano.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/objetos/piano.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -25,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="79.847834"
-     inkscape:cy="44.210474"
+     inkscape:zoom="1.4"
+     inkscape:cx="-109.21306"
+     inkscape:cy="160.54482"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,10 +59,12 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-99.123829,-101.27004)">
+     transform="translate(-183.547,-98.973067)">
     <g
        id="g4572"
-       transform="matrix(1.6794659,0,0,1.6794659,-112.30895,-81.065446)">
+       transform="matrix(0,1.0852712,-1.0852712,0,342.26369,-37.654837)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <rect
          ry="0.89484763"
          y="108.56754"
