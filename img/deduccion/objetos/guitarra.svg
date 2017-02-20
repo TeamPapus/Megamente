@@ -9,14 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="88.973938mm"
-   height="89.261765mm"
-   viewBox="0 0 315.26198 316.28184"
+   width="31.044445mm"
+   height="31.144873mm"
+   viewBox="0 0 110 110.35585"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="guitarra.svg"
-   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/quien-soy/objetos/guitarra.png"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/objetos/guitarra.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.24748737"
-     inkscape:cx="-362.86366"
-     inkscape:cy="-95.483146"
+     inkscape:cx="-1175.0263"
+     inkscape:cy="-95.48314"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,9 +59,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(659.34568,-501.57666)">
+     transform="translate(659.34568,-707.50266)">
     <g
-       id="g4599">
+       id="g4599"
+       transform="matrix(0.34891616,0,0,0.34891616,-429.28932,532.49446)">
       <path
          sodipodi:nodetypes="sasccaaassaasaaas"
          inkscape:connector-curvature="0"

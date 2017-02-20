@@ -9,14 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="112.66283mm"
-   height="112.41342mm"
-   viewBox="0 0 399.19902 398.31527"
+   width="31.044443mm"
+   height="39.511112mm"
+   viewBox="0 0 110 140"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="microdono.svg"
-   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/quien-soy/microfono.png"
+   sodipodi:docname="microfono.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/objetos/microfono.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="70.929066"
-     inkscape:cy="242.52237"
+     inkscape:zoom="1.4"
+     inkscape:cx="-89.090778"
+     inkscape:cy="58.456322"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,9 +59,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(927.28385,-201.3362)">
+     transform="translate(1126.8548,-459.65149)">
     <g
-       id="g4391">
+       id="g4391"
+       transform="matrix(-0.27555178,0,0,0.35148038,-1272.3695,388.88577)">
       <ellipse
          ry="63.397614"
          rx="64.660301"

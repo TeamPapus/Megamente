@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="26.398285mm"
-   height="22.430799mm"
-   viewBox="0 0 93.537229 79.479203"
+   width="31.044445mm"
+   height="26.378672mm"
+   viewBox="0 0 110 93.467725"
    id="svg25244"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="gorra.svg">
+   sodipodi:docname="gorra.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/objetos/gorra.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs25246">
     <radialGradient
@@ -2778,8 +2781,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="-28.035535"
-     inkscape:cy="-52.35068"
+     inkscape:cx="-180.89271"
+     inkscape:cy="-52.350678"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2808,9 +2811,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-3761.7118,-898.91974)">
+     transform="translate(-3761.7118,-884.93122)">
     <g
-       id="g28941">
+       id="g28941"
+       transform="matrix(1.1760023,0,0,1.1760023,-662.06994,-172.20047)">
       <path
          sodipodi:nodetypes="cccccccc"
          inkscape:connector-curvature="0"

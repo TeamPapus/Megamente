@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="6.2547321mm"
-   height="31.741222mm"
-   viewBox="0 0 22.162436 112.46889"
+   width="8.3419485mm"
+   height="42.333328mm"
+   viewBox="0 0 29.558085 149.99997"
    id="svg25244"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="corbata.svg">
+   sodipodi:docname="corbata.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/objetos/corbata.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs25246">
     <radialGradient
@@ -2636,8 +2639,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="-36.061119"
-     inkscape:cy="180.36605"
+     inkscape:cx="-252.23346"
+     inkscape:cy="180.36607"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2666,9 +2669,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-2982.037,-799.82287)">
+     transform="translate(-2982.0366,-762.29181)">
     <g
-       id="g28769">
+       id="g28769"
+       transform="matrix(1.3337019,0,0,1.3337019,-995.11172,-304.43348)">
       <path
          sodipodi:nodetypes="ccccccccc"
          d="m 3000.2796,826.86647 c -0.7707,-8.784 -2.312,-10.6334 -3.544,-13.0214 -1.388,-1.156 -3.648,-1.6186 -3.648,-1.6186 0,0 -2.26,0.4626 -3.6467,1.6186 -1.2333,2.388 -2.7746,4.2374 -3.5453,13.0214 -0.7693,8.784 -3.604,72.132 -3.852,74.432 -0.32,2.372 11.044,10.9933 11.044,10.9933 0,0 11.0627,-8.036 11.044,-10.9933 -0.017,-2.956 -3.0813,-65.648 -3.852,-74.432"

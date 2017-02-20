@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="24.710886mm"
-   height="16.765738mm"
-   viewBox="0 0 87.558257 59.406156"
+   width="31.044445mm"
+   height="21.062904mm"
+   viewBox="0 0 110 74.632338"
    id="svg24999"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="futbol-americano.svg">
+   sodipodi:docname="futbol-americano.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/objetos/futbol-americano.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs25001">
     <radialGradient
@@ -81,8 +84,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="2.8633259"
-     inkscape:cy="85.777487"
+     inkscape:cx="-55.916814"
+     inkscape:cy="85.777424"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -103,7 +106,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -111,9 +114,9 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-279.06657,-595.01571)">
+     transform="translate(-279.06657,-579.78946)">
     <g
-       transform="matrix(1.3333333,0,0,-1.3333333,34.50212,2313.7414)"
+       transform="matrix(1.6750752,0,0,-1.6750752,-28.181318,2739.0356)"
        id="g25845">
       <path
          inkscape:connector-curvature="0"

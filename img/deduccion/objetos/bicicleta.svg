@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="196.90871mm"
-   height="111.37601mm"
-   viewBox="0 0 697.70802 394.63942"
+   width="31.044443mm"
+   height="17.559437mm"
+   viewBox="0 0 110 62.218481"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="bicicleta.svg">
+   sodipodi:docname="bicicleta.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/objetos/bicicleta.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="287.30301"
-     inkscape:cy="292.92303"
+     inkscape:cx="-10.40594"
+     inkscape:cy="292.92302"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -56,9 +59,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(756.54411,-42.42276)">
+     transform="translate(756.54411,-374.84368)">
     <g
-       id="g4536">
+       id="g4536"
+       transform="matrix(0.15765907,0,0,0.15765907,-637.26809,368.15535)">
       <path
          id="path4158"
          d="m -616.80977,157.58952 a 139.73624,139.73624 0 0 0 -139.73437,139.73633 139.73624,139.73624 0 0 0 139.73437,139.73632 139.73624,139.73624 0 0 0 139.73633,-139.73632 139.73624,139.73624 0 0 0 -139.73633,-139.73633 z m 0,14.9707 a 124.7645,124.7645 0 0 1 124.76563,124.76563 124.7645,124.7645 0 0 1 -124.76563,124.76367 124.7645,124.7645 0 0 1 -124.76367,-124.76367 124.7645,124.7645 0 0 1 124.76367,-124.76563 z"

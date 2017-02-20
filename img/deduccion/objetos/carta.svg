@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="26.046854mm"
-   height="39.040085mm"
-   viewBox="0 0 92.292007 138.331"
+   width="31.044443mm"
+   height="46.530685mm"
+   viewBox="0 0 110 164.8725"
    id="svg25244"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="carta.svg">
+   sodipodi:docname="carta.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/objetos/carta.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs25246">
     <radialGradient
@@ -3651,9 +3654,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.175"
-     inkscape:cx="-1234.3171"
-     inkscape:cy="793.69092"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="115.3081"
+     inkscape:cy="83.106476"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3682,61 +3685,79 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-8870.4437,-5565.0114)">
+     transform="translate(-8870.4437,-5538.4699)">
     <path
        inkscape:connector-curvature="0"
        id="path60750"
        style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 8870.5717,5568.6381 c 0,-2.0054 1.628,-3.6294 3.632,-3.6267 l 84.9067,0.083 c 2.004,0 3.628,1.6293 3.6253,3.6333 l -0.128,130.988 c 0,2.004 -1.628,3.628 -3.632,3.6267 l -84.9067,-0.084 c -2.004,0 -3.6266,-1.628 -3.6253,-3.6334 z" />
+       d="m 8870.5963,5542.7925 c 0,-2.3902 1.9403,-4.3258 4.3288,-4.3226 l 101.1977,0.099 c 2.3885,0 4.3241,1.9419 4.3209,4.3304 l -0.1526,156.1205 c 0,2.3886 -1.9403,4.3241 -4.3288,4.3226 l -101.1977,-0.1001 c -2.3885,0 -4.3224,-1.9404 -4.3209,-4.3306 z"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path60754"
        style="fill:#7a2b2b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 8916.615,5608.4981 18.8534,25.6986 -18.904,25.6587 -18.8534,-25.696 z" />
+       d="m 8925.4739,5590.3004 22.4707,30.6294 -22.5311,30.5818 -22.4707,-30.6263 z"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path60758"
        style="fill:#943434;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 8916.6236,5659.7742 18.8453,-25.5787 -18.796,-25.616 z" />
+       d="m 8925.4841,5651.4148 22.4611,-30.4865 -22.4023,-30.5309 z"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path60762"
        style="fill:#7a2b2b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 8880.4854,5591.7546 -3.7133,-5.064 3.7227,-5.056 3.716,5.064 z" />
+       d="m 8882.4121,5570.3443 -4.4258,-6.0356 4.437,-6.0261 4.429,6.0356 z"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path60766"
        style="fill:#943434;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 8880.4836,5581.6503 -3.712,5.04 3.7026,5.048 z" />
+       d="m 8882.4099,5558.3013 -4.4242,6.007 4.413,6.0166 z"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path60770"
        style="fill:#7a2b2b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 8952.8117,5676.5725 3.7147,5.064 -3.724,5.056 -3.716,-5.064 z" />
+       d="m 8968.6156,5671.4362 4.4274,6.0356 -4.4385,6.0261 -4.429,-6.0356 z"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
        id="path60774"
        style="fill:#943434;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 8952.8134,5686.6767 3.7134,-5.0413 -3.704,-5.0467 z" />
+       d="m 8968.6176,5683.4791 4.4259,-6.0086 -4.4147,-6.015 z"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <text
-       y="-5680.1572"
-       x="-8963.2695"
+       y="-5677.3804"
+       x="-8980.0068"
        transform="matrix(-0.99999952,-9.8182499e-4,9.8182499e-4,-0.99999952,0,0)"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6665411px;font-family:'Microsoft Tai Le';-inkscape-font-specification:MicrosoftTaiLe;writing-mode:lr-tb;fill:#7a2b2b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text60778">
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.48060036px;font-family:'Microsoft Tai Le';-inkscape-font-specification:MicrosoftTaiLe;writing-mode:lr-tb;fill:#7a2b2b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text60778"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <tspan
-         x="-8963.2695"
-         y="-5680.1572"
+         x="-8980.0068"
+         y="-5677.3804"
          id="tspan60776">A</tspan>
     </text>
     <text
-       y="5580.4414"
-       x="8875.7607"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.66666603px;font-family:'Microsoft Tai Le';-inkscape-font-specification:MicrosoftTaiLe;writing-mode:lr-tb;fill:#7a2b2b;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       id="text60782">
+       y="5556.8604"
+       x="8876.7812"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.48074913px;font-family:'Microsoft Tai Le';-inkscape-font-specification:MicrosoftTaiLe;writing-mode:lr-tb;fill:#7a2b2b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       id="text60782"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <tspan
-         x="8875.7607"
-         y="5580.4414"
+         x="8876.7812"
+         y="5556.8604"
          id="tspan60780">A</tspan>
     </text>
   </g>

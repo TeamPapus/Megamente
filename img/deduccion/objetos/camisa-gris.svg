@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="27.559601mm"
-   height="29.084467mm"
-   viewBox="0 0 97.65213 103.0552"
+   width="31.044443mm"
+   height="32.762127mm"
+   viewBox="0 0 110 116.08628"
    id="svg15304"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="camisa-gris.svg">
+   sodipodi:docname="camisa-gris.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/objetos/camisa-gris.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs15306" />
   <sodipodi:namedview
@@ -26,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="-169.44516"
-     inkscape:cy="-59.542785"
+     inkscape:cx="34.690484"
+     inkscape:cy="-59.542802"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,9 +59,12 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-736.2085,-707.94012)">
+     transform="translate(-736.20848,-694.90903)">
     <g
-       id="g16152">
+       id="g16152"
+       transform="matrix(1.1264475,0,0,1.1264475,-93.091742,-102.54835)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          d="m 803.1833,727.24265 8.4,29.11333 22.27733,-6.04533 -8.504,-29.468 c -4.012,-13.90666 -25.98133,-6.78933 -22.17333,6.4"
          style="fill:#808285;fill-opacity:1;fill-rule:evenodd;stroke:none"

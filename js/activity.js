@@ -8,6 +8,9 @@ define(function (require) {
     var cont = [
         'obj1', 'obj2', 'obj3', 'obj4', 'obj5'
     ];
+    var ejer=0;
+    var pista=0;
+    
     
     // funcion de movimiento para objetos html
     var moveItem = function(event) {
@@ -72,8 +75,10 @@ define(function (require) {
         $('#btn-quiensoy').on('click', function(){
         	$('#menu').toggle();
         	$('#quiensoy').toggle();
-            var ejer = spr(quiensoy);
-            $('#pistasqs').text(quiensoy[ejer].pista[0]);
+            ejer = spr(quiensoy);
+            pista=0;
+            $('#pistasqs').text(quiensoy[ejer].pista[pista]);
+            $('.objetop').css('background','url('+quiensoy[ejer].obj[pista]+') 0 0 no-repeat');
             objpos('oqs', 500, 70);
         });
         
@@ -82,17 +87,26 @@ define(function (require) {
         	$('#menu').toggle();
         });
         
-        $("#btndeduccion").on('click',function(){
-            var ejer = spr(deduccion);
+        $("#btndeduccion").on('click', function(){
+            ejer = spr(deduccion);
             $('#pistasd').text(deduccion[ejer].pista);
             objpos('od', 70, 70);
         });
         
-        $("#btnquiensoy").on('click',function(){
-            var ejer = spr(quiensoy);
-            $('#pistasqs').text(quiensoy[ejer].pista[0]);
+        $("#btnquiensoy").on('click', function(){
+            ejer = spr(quiensoy);
+            pista=0;
+            $('#pistasqs').text(quiensoy[ejer].pista[pista]);
             objpos('oqs', 500, 70)
         });
        
+        $('#mas-pistas').on('click', function(){
+            console.log(quiensoy[ejer].pista.length);
+            pista++;
+            if (quiensoy[ejer].pista.length < pista) pista=0;
+            $('#pistasqs').text(quiensoy[ejer].pista[pista]);
+            $('.objetop').css('background','url('+quiensoy[ejer].obj[pista]+') 0 0 no-repeat');
+            
+        });
     });
 });

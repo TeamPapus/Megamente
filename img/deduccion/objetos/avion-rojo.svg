@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="74.18779mm"
-   height="43.718933mm"
-   viewBox="0 0 262.87012 154.9096"
+   width="31.044445mm"
+   height="18.294519mm"
+   viewBox="0 0 110 64.823098"
    id="svg14005"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="avion-rojo.svg">
+   sodipodi:docname="avion-rojo.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/objetos/avion-rojo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs14007" />
   <sodipodi:namedview
@@ -26,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-356.40267"
+     inkscape:cx="-930.68839"
      inkscape:cy="306.96146"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -56,9 +59,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-728.54553,-1027.2712)">
+     transform="translate(-728.54554,-1117.3577)">
     <g
-       id="g15110">
+       id="g15110"
+       transform="matrix(0.41845759,0,0,0.41845759,423.68013,687.48828)">
       <path
          d="m 981.69126,1110.2581 c -2.13334,6.3507 -3.59067,19.1053 -3.59067,33.8187 0,21.044 2.98133,38.104 6.65733,38.104 3.676,0 6.65734,-17.06 6.65734,-38.104 0,-14.0227 -1.324,-26.268 -3.296,-32.884 -0.76534,0.3706 -1.61467,0.5973 -2.52267,0.5973 -1.50933,0 -2.872,-0.5893 -3.90533,-1.532"
          style="fill:#f4646f;fill-opacity:1;fill-rule:nonzero;stroke:none"

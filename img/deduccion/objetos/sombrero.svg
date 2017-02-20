@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="31.992491mm"
-   height="18.692244mm"
-   viewBox="0 0 113.35923 66.232359"
+   width="31.044441mm"
+   height="18.138327mm"
+   viewBox="0 0 110 64.269661"
    id="svg12295"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="92.94793"
-     inkscape:cy="-54.90335"
+     inkscape:cx="-110.09272"
+     inkscape:cy="-54.903377"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -59,14 +59,16 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-122.59398,-189.12783)">
+     transform="translate(-122.59398,-191.09049)">
     <g
        id="g240"
        transform="matrix(1.25,0,0,-1.25,376.37155,394.78477)"
        style="fill:#e3687f;fill-opacity:1" />
     <g
        id="g6363"
-       transform="matrix(1.1463822,0.33736585,-0.33736585,1.1463822,158.00526,-357.2282)">
+       transform="matrix(1.112411,0.32736856,-0.32736856,1.112411,156.9559,-339.07514)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <ellipse
          transform="matrix(0.99766131,-0.06835135,-0.13168713,0.99129133,0,0)"
          ry="19.365322"

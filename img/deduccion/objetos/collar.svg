@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="67.578766mm"
-   height="109.17421mm"
-   viewBox="0 0 239.45232 386.83778"
+   width="31.044445mm"
+   height="50.152626mm"
+   viewBox="0 0 110 177.70617"
    id="svg4287"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -43,8 +43,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="-501.45665"
-     inkscape:cy="295.48429"
+     inkscape:cx="-180.22814"
+     inkscape:cy="295.48424"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -65,7 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -73,10 +73,12 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-52.369056,-643.52348)">
+     transform="translate(-52.369058,-852.65504)">
     <g
        id="g4892"
-       transform="matrix(8.156576,0,0,8.156576,-2088.4416,-7373.8581)">
+       transform="matrix(3.7469813,0,0,3.7469813,-931.08007,-2830.3829)"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          sodipodi:nodetypes="cacac"
          inkscape:connector-curvature="0"
