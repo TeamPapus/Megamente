@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="40.454861mm"
-   height="47.620659mm"
-   viewBox="0 0 143.34399 168.73462"
+   width="31.044445mm"
+   height="36.543369mm"
+   viewBox="0 0 110 129.48438"
    id="svg16293"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="pitahaya.svg">
+   sodipodi:docname="pitahaya.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/alimentos/pitahaya.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs16295">
     <linearGradient
@@ -1223,8 +1226,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="-11.569843"
-     inkscape:cy="50.158513"
+     inkscape:cx="-140.44778"
+     inkscape:cy="50.158509"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1253,9 +1256,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-207.61375,-624.42349)">
+     transform="translate(-207.61375,-663.67372)">
     <g
-       id="g17831">
+       id="g17831"
+       transform="matrix(0.76738477,0,0,0.76738477,48.29412,184.50065)">
       <path
          d="m 334.92086,694.40264 c -3.656,-1.32933 -13.29733,-15.29199 -12.632,-18.28399 0.664,-2.992 -0.33333,-20.94267 -2.32666,-22.93734 -1.99467,-1.99466 -8.976,0.99734 -12.63334,-1.99466 -3.656,-2.992 -7.812,-5.31867 -7.812,-5.31867 0,0 -4.15467,2.32667 -7.812,5.31867 -3.65734,2.992 -10.63734,0 -12.632,1.99466 -1.99467,1.99467 -2.992,19.94534 -2.328,22.93734 0.66533,2.992 -8.97467,16.95466 -12.632,18.28399 -3.65733,1.32934 -7.64533,22.60534 -5.984,26.92667 1.66267,4.32133 5.984,20.944 6.64933,26.26266 0.664,5.31867 13.29733,7.97734 17.28667,11.96667 3.988,3.98933 11.80133,7.97867 17.452,9.30933 5.652,-1.33066 13.464,-5.32 17.45334,-9.30933 3.988,-3.98933 16.62133,-6.648 17.28533,-11.96667 0.66533,-5.31866 4.98666,-21.94133 6.64933,-26.26266 1.66133,-4.32133 -2.32667,-25.59733 -5.984,-26.92667"
          style="fill:#ff175b;fill-opacity:1;fill-rule:nonzero;stroke:none"

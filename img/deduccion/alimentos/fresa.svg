@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="38.717125mm"
-   height="46.696537mm"
-   viewBox="0 0 137.18666 165.46017"
+   width="31.044443mm"
+   height="37.442551mm"
+   viewBox="0 0 109.99999 132.67045"
    id="svg15993"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="fresa.svg">
+   sodipodi:docname="fresa.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/alimentos/fresa.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs15995">
     <linearGradient
@@ -684,8 +687,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-509.62086"
-     inkscape:cy="-214.75202"
+     inkscape:cx="-663.90657"
+     inkscape:cy="-214.75195"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -714,9 +717,9 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-310.33515,-152.15002)">
+     transform="translate(-310.33515,-184.9398)">
     <g
-       transform="matrix(1.3333333,0,0,-1.3333333,-64.912237,2435.7024)"
+       transform="matrix(1.0691029,0,0,-1.0691029,9.4515838,2015.9542)"
        id="g16730">
       <path
          inkscape:connector-curvature="0"

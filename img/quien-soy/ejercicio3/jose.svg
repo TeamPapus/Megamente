@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="77.511703mm"
-   height="99.013321mm"
-   viewBox="0 0 274.64778 350.8346"
+   width="54.79192mm"
+   height="69.991112mm"
+   viewBox="0 0 194.14461 248"
    id="svg10614"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="jose.svg">
+   sodipodi:docname="jose.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/quien-soy/ejercicio3/jose.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs10616" />
   <sodipodi:namedview
@@ -26,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="51.999184"
-     inkscape:cy="23.270283"
+     inkscape:cx="-380.3461"
+     inkscape:cy="23.270319"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -56,9 +59,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-466.05321,-239.33028)">
+     transform="translate(-466.05321,-342.16492)">
     <g
-       id="g11298">
+       id="g11298"
+       transform="matrix(0.70688572,0,0,0.70688572,136.60685,172.98577)">
       <g
          transform="matrix(1.25,0,0,-1.25,594.26666,254.26708)"
          id="g324">
@@ -360,7 +364,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.19869388,0,0,0.19869388,724.87974,363.69259)"
+       transform="matrix(0.14045387,0,0,0.14045387,649.01399,430.07486)"
        id="layer1-6"
        inkscape:label="Capa 1">
       <g
@@ -421,7 +425,7 @@
       </g>
     </g>
     <g
-       transform="matrix(0.39364284,0,0,0.39364284,763.86139,418.11852)"
+       transform="matrix(0.2782605,0,0,0.2782605,676.56956,468.54778)"
        id="layer1-5"
        inkscape:label="Capa 1">
       <g

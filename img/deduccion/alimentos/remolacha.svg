@@ -15,7 +15,10 @@
    id="svg26100"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="remolacha.svg">
+   sodipodi:docname="remolacha.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/alimentos/remolacha.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs26102">
     <linearGradient
@@ -1071,7 +1074,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="-2.2497233"
+     inkscape:cx="-35.821152"
      inkscape:cy="60.896186"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -1093,7 +1096,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

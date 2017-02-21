@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="44.990852mm"
-   height="36.619228mm"
-   viewBox="0 0 159.41641 129.75317"
+   width="31.044445mm"
+   height="25.267883mm"
+   viewBox="0 0 110 89.531869"
    id="svg18056"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="ciruela.svg">
+   sodipodi:docname="ciruela.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/alimentos/ciruela.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs18058">
     <mask
@@ -432,7 +435,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-322.43465"
+     inkscape:cx="842.01217"
      inkscape:cy="-157.98056"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -462,9 +465,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-123.14894,-244.62848)">
+     transform="translate(-123.14894,-284.84978)">
     <g
-       id="g18828">
+       id="g18828"
+       transform="matrix(0.69001684,0,0,0.69001684,38.174098,116.05201)">
       <path
          d="m 282.56534,253.85801 c 0,0 -19.81867,30.05733 -51.66,5.904 0,0 10.53733,-29.68533 51.66,-5.904"
          style="fill:#7bd917;fill-opacity:1;fill-rule:nonzero;stroke:none"

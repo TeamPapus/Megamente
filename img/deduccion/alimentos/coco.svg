@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="42.379467mm"
-   height="37.392323mm"
-   viewBox="0 0 150.16347 132.49248"
+   width="31.044445mm"
+   height="27.391184mm"
+   viewBox="0 0 110.00001 97.055375"
    id="svg16254"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="coco.svg">
+   sodipodi:docname="coco.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/alimentos/coco.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs16256">
     <linearGradient
@@ -102,8 +105,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="-109.07781"
-     inkscape:cy="8.1101912"
+     inkscape:cx="-33.363522"
+     inkscape:cy="8.110181"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -132,9 +135,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-579.13941,-551.75032)">
+     transform="translate(-579.13941,-587.18741)">
     <g
-       id="g17025">
+       id="g17025"
+       transform="matrix(0.732535,0,0,0.732535,154.89952,183.011)">
       <path
          d="m 698.43942,617.03297 c 0,34.428 -26.70667,59.884 -59.64934,59.884 -32.944,0 -59.65067,-25.456 -59.65067,-59.884 0,-34.42799 26.70667,-65.28266 59.65067,-65.28266 32.94267,0 59.64934,30.85467 59.64934,65.28266"
          style="fill:#935503;fill-opacity:1;fill-rule:nonzero;stroke:none"

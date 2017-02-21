@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="39.010796mm"
-   height="34.563046mm"
-   viewBox="0 0 138.22723 122.46748"
+   width="31.044445mm"
+   height="27.504967mm"
+   viewBox="0 0 110 97.45854"
    id="svg14051"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="guayaba.svg">
+   sodipodi:docname="guayaba.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/alimentos/guayaba.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs14053">
     <linearGradient
@@ -159,8 +162,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="5.0308504"
-     inkscape:cy="63.060089"
+     inkscape:cx="42.88799"
+     inkscape:cy="63.060092"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -189,9 +192,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-210.54552,-366.19988)">
+     transform="translate(-210.54552,-391.20883)">
     <g
-       id="g14860">
+       id="g14860"
+       transform="matrix(0.79579114,0,0,0.79579114,42.995262,99.790207)">
       <path
          sodipodi:nodetypes="ccccc"
          d="m 300.76706,367.75399 c 0,0 3.21466,5.26667 2.512,18.41867 l 2.488,0 c 0,0 -0.35677,-17.50914 0.35657,-19.65181 0,0 -3.57124,-1.26686 -5.35657,1.23314"

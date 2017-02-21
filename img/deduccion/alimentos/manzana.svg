@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="45.209461mm"
-   height="34.756786mm"
-   viewBox="0 0 160.191 123.15397"
+   width="31.044445mm"
+   height="23.866798mm"
+   viewBox="0 0 110 84.567398"
    id="svg15993"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="manzana.svg">
+   sodipodi:docname="manzana.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/alimentos/manzana.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs15995">
     <linearGradient
@@ -1143,8 +1146,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35"
-     inkscape:cx="-146.62414"
-     inkscape:cy="-513.74812"
+     inkscape:cx="-758.05272"
+     inkscape:cy="-513.74814"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1173,9 +1176,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(52.661578,104.53986)">
+     transform="translate(52.661571,65.953302)">
     <g
-       id="g18156">
+       id="g18156"
+       transform="matrix(0.68668025,0,0,0.68668025,-16.499913,5.8321626)">
       <g
          transform="matrix(1.3333333,0,0,-1.3333333,50.095431,-68.817275)"
          id="g926">

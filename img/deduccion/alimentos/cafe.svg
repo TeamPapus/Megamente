@@ -10,13 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="42.364189mm"
-   height="42.364189mm"
-   viewBox="0 0 150.10933 150.10933"
+   width="31.044445mm"
+   height="31.044443mm"
+   viewBox="0 0 110 109.99999"
    id="svg15993"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="cafe.svg">
+   sodipodi:docname="cafe.svg"
+   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/alimentos/cafe.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs15995">
     <linearGradient
@@ -3098,8 +3101,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="135.40475"
-     inkscape:cy="-44.552524"
+     inkscape:cx="-80.7679"
+     inkscape:cy="-44.552537"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3128,9 +3131,10 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(389.34308,84.808896)">
+     transform="translate(389.34308,44.699575)">
     <g
-       id="g21375">
+       id="g21375"
+       transform="matrix(0.73279922,0,0,0.73279922,-104.03277,17.448324)">
       <path
          d="m -239.23375,-9.754239 c 0,-41.451999 -33.604,-75.054665 -75.05466,-75.054665 -41.45334,0 -75.05467,33.602666 -75.05467,75.054665 0,41.451991 33.60133,75.054661 75.05467,75.054661 32.26799,0 59.77333,-20.36667 70.37999,-48.944 0.007,-0.004 0.012,-0.005 0.0173,-0.009 1.79066,-1.01734 2.99466,-2.66533 3.50133,-4.50533 0.47867,-1.76933 0.30533,-3.70667 -0.608,-5.436 1.144,-5.20667 1.764,-10.60933 1.764,-16.160001"
          style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
