@@ -77,7 +77,7 @@ define(function (require) {
             objpos('od', 70, 70);
         });
 
-        var items = interact('.movimiento');
+        var items = interact('.movimiento_d');
         items.draggable({
             initial:true,
             onmove:moveItem,
@@ -104,6 +104,12 @@ define(function (require) {
                 pos+=130;
             });
             objpos('oqs', 500, 0);
+        });
+
+        var cosas = interact('.movimiento_qs');
+        cosas.draggable({
+            initial:true,
+            onmove:moveItem,
         });
 
         $("#btnquiensoy").on('click', function() {
