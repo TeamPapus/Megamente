@@ -30,10 +30,10 @@ define(function (require) {
     };
 
     // imagenes en su lugar
-    function spr(matriz) {
+    function spr(id, matriz) {
         var ejer = random(matriz);
         for (var i=0; i<=matriz[ejer].img.length; i++) {
-            $('.'+cont[i]).css({'background': 'url(' + matriz[ejer].img[i] + ') 0 0 no-repeat', 'background-position': 'center'});
+            $('#' + id + ' .'+cont[i]).css({'background': 'url(' + matriz[ejer].img[i] + ') 0 0 no-repeat', 'background-position': 'center'});
         }
         return ejer;
     }
@@ -72,7 +72,7 @@ define(function (require) {
         $('#btn-deduccion').on('click', function() {
         	$('#menu').toggle();
         	$('#deduccion').toggle();
-            var ejer = spr(deduccion);
+            var ejer = spr('od', deduccion);
             $('#pistasd').text(deduccion[ejer].pista);
             objpos('od', 70, 70);
         });
@@ -84,7 +84,7 @@ define(function (require) {
         });
 
         $('#btndeduccion').on('click', function() {
-            var ejer = spr(deduccion);
+            var ejer = spr('od', deduccion);
             $('#pistasd').text(deduccion[ejer].pista);
             objpos('od', 70, 70);
         });
@@ -92,7 +92,7 @@ define(function (require) {
         $('#btn-quiensoy').on('click', function() {
         	$('#menu').toggle();
         	$('#quiensoy').toggle();
-            ejer  = spr(quiensoy);
+            ejer  = spr('oqs', quiensoy);
             pista = 0;
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
             $('.objetop').css('background','url(' + quiensoy[ejer].obj[pista][0] + ') 0 0 no-repeat');
@@ -102,19 +102,20 @@ define(function (require) {
             $('#pizarra').children().each(function() {
                 $(this).css('left', pos+'px');
                 pos+=130;
+                $(this).children().remove();
             });
             objpos('oqs', 500, 0);
         });
 
         $("#btnquiensoy").on('click', function() {
-            ejer  = spr(quiensoy);
+            ejer  = spr('oqs', quiensoy);
             pista = 0;
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
             nompos(ejer, quiensoy);
             $('#pizarra').children().each(function() {
                 $(this).children().remove();
             });
-            objpos('oqs', 500, 0)
+            objpos('oqs', 500, 0);
         });
 
         $('#mas-pistas').on('click', function() {
@@ -138,7 +139,6 @@ define(function (require) {
                     temp = $(this);
                 }
             });
-            console.log(vertical);
             var objeto_cruz = '<p class="element objcruz" style="text-align:center; margin-top: 0px; font-size:20px;background-color: darkcyan; color: white; width: 120px; height: 25px; top: '+ vertical +'px;">' + data + '</p>';
             if (existe) {
                  temp.remove();
