@@ -53,7 +53,7 @@ define(function (require) {
     function nompos(ejer, matriz) {
         var pos = 0;
         $('#cont_nombres').children().each(function(index) {
-            $(this).text(matriz[ejer].nombres[index]);
+            $(this).text(matriz[ejer].nombres[index][0]);
             $(this).css('left', pos+'px');
             pos += 135;
         });
@@ -144,7 +144,7 @@ define(function (require) {
                     temp = $(this);
                 }
             });
-            console.log(vertical);
+            
             var objeto_cruz = '<p class="element objcruz" style="text-align:center; margin-top: 0px; font-size:20px;background-color: darkcyan; color: white; width: 120px; height: 25px; top: '+ vertical +'px;">' + data + '</p>';
             if (existe) {
                  temp.remove();
@@ -155,7 +155,24 @@ define(function (require) {
                  });
             }
             else $(this).append(objeto_cruz);
+
+            var respuesta = $('div.cruz').index($(this));
+            if ($(this).children().length == (quiensoy[ejer].nombres[respuesta].length - 1)) {
+                var relacion = 0;
+                $(this).children().each(function (index, value) {
+                    if ($(this).text() === quiensoy[ejer].nombres[respuesta][(index + 1)]) {
+                        relacion++;        
+                    }
+                });
+                if ( relacion == $(this).children().length){
+                    $('#cont_nombres :eq(' + respuesta + ')').addClass('movimiento_qs');
+                    $('#cont_nombres :eq(' + respuesta + ')').css('background-color', 'yellow');
+                }
+            }
         });
+
+
+        
     });
 
 });

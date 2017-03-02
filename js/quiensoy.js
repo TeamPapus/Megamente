@@ -18,7 +18,7 @@ define(function (require) {
             '6). Raquel, Paula, María, Ana llevan teléfono.'
 		],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/lentes.png', 'lentes'],
+            ['../Megamente/img/deduccion/objetos/lentes.png', 'gafas'],
             ['../Megamente/img/deduccion/objetos/reloj.png', 'reloj'],
             ['../Megamente/img/deduccion/objetos/collar.png', 'collar'],
             ['../Megamente/img/deduccion/objetos/sombrero.png', 'sombrero'],
@@ -26,12 +26,12 @@ define(function (require) {
             ['../Megamente/img/deduccion/objetos/telefono.png', 'telefono']
         ],
         'nombres' : [
-            'Inés',
-			'Luisa',
-			'Paula',
-            'María',
-            'Raquel',
-            'Ana'
+            ['Inés', 'gafas', 'collar', 'mochila'],
+			['Luisa', 'reloj', 'mochila'],
+			['Paula', 'collar', 'sombrero', 'telefono'],
+            ['María', 'reloj', 'sombrero', 'telefono'],
+            ['Raquel', 'mochila', 'telefono'],
+            ['Ana', 'collar', 'telefono']
         ]
 	},
 	{
@@ -61,12 +61,12 @@ define(function (require) {
             ['../Megamente/img/deduccion/objetos/videojuego.png', 'video juego']
         ],
         'nombres' : [
-            'Ana',
-			'David',
-			'Juan',
-            'José',
-            'Luisa',
-            'Antonio'
+            ['Ana', 'microfono', 'camara'],
+			['David', 'microfono', 'guitarra', 'piano'],
+			['Juan', 'bicicleta', 'microfono', 'videojuego'],
+            ['José', 'guitarra', 'bicicleta', 'videojuego'],
+            ['Luisa', 'piano', 'videojuego'],
+            ['Antonio', 'guitarra', 'piano', 'videojuego']
         ]
 	},
     {
@@ -95,12 +95,12 @@ define(function (require) {
                 ['../Megamente/img/deduccion/objetos/videojuego.png', 'video juego']
         ],
         'nombres' : [
-            'Gabriela',
-    		'María',
-    		'José',
-            'Ana',
-            'Javier',
-            'Paula'
+            ['Gabriela', 'microfono', 'camara'],
+    		['María', 'microfono', 'guitarra', 'piano'],
+    		['José', 'microfono', 'bicicleta'],
+            ['Ana', 'piano'],
+            ['Javier', 'piano', 'microfono'],
+            ['Paula', 'videojuego']
         ]
     }
     ];
