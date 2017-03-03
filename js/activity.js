@@ -55,7 +55,8 @@ define(function (require) {
         var pos = 0;
         $('#cont_nombres').children().each(function(index) {
             $(this).text(matriz[ejer].nombres[index][0]);
-            $(this).css('left', pos+'px');
+            $(this).css({'left': pos+'px', 'background-color': 'white'});
+            $(this).removeClass('movimiento_qs');
             pos += 135;
         });
     }
@@ -113,51 +114,90 @@ define(function (require) {
         // Initialize the activity.
         activity.setup();
 
+        /** 
+        /* Regrasa al menu principal
+         */
         $('.inicio').on('click', function() {
+            // Busca el elemto html con la clase "padre" y lo esconde
             $(this).parents('.padre').toggle();
+            // Hace visible la pantalla del menu principal
         	$('#menu').toggle();
         });
 
+        /** 
+        /* Cambia del menu principal al juego de deduccion
+         */
         $('#btn-deduccion').on('click', function() {
+            // Esconde el menu principal
         	$('#menu').toggle();
+            // Hace visible la pantall del juego deduccion
         	$('#deduccion').toggle();
+            // Carga al azar un ejercicio de deduccion
             var ejer = spr('od', deduccion);
+            // Acomoda la pista deducion
             $('#pistasd').text(deduccion[ejer].pista);
+            // Ordena la lista de objetos
             objpos('od', 70, 70);
         });
 
+        /** 
+        /* Funcion de elementos arrastrables del juego deduccion
+         */
+        // Lista de objetos arrastrables
         var items = interact('.movimiento_d');
+        // Atributos de los objetos arrastrables
         items.draggable({
             initial:true,
             onmove:moveItem,
         });
 
+        /** 
+        /* Carga nuevo ejerccion de deduccion
+         */
         $('#btndeduccion').on('click', function() {
+            // Carga al azar un ejercicio de deduccion
             var ejer = spr('od', deduccion);
+            // Acomoda la pista deducion
             $('#pistasd').text(deduccion[ejer].pista);
+            // Ordena la lista de objetos
             objpos('od', 70, 70);
         });
 
+        /** 
+        /* Pasa del menu principal al juego quien soy
+         */
         $('#btn-quiensoy').on('click', function() {
+            // Esconde el menu principal
         	$('#menu').toggle();
+            // Hace visible la pantall del juego quien soy
         	$('#quiensoy').toggle();
+            // Organiza los personajes del juego quien soy
             ejer  = spr('oqs', quiensoy);
-            pista = 0;
+            pista = 0; // Cantidad de pistas
+            // Coloca la lista en su lugar
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
+            // Coloca el objeto en su lugar
             $('.objetop').css('background','url(' + quiensoy[ejer].obj[pista][0] + ') 0 0 no-repeat');
             $('.objetop').attr('data',quiensoy[ejer].obj[pista][1]);
+            // Ordena la lista de nombres por objetos especificos
             nompos(ejer, quiensoy);
-            var pos = 0;
+            var pos = 0; // Espaciados horizontal de lista de objetos especificos por nombre
+            // Recorre la lista de elementos html de listas de objetos por nombre especifico
             $('#pizarra').children().each(function() {
+                // Organiza cada lista de objetos
                 $(this).css('left', pos+'px');
-                pos+=130;
+                pos+=130; // incremento del espaciador
+                // Remueve todos los objetos de la lista de objetos por nombre espcifico
                 $(this).children().remove();
             });
+            // Ordena los persojes en su lugar especifico
             objpos('oqs', 450, 0);
-            var pos = 30;
+            var pos = 30; // espaciador horizontal
+            // Recorre la lista de elementos html de las casillas de nombres de personajes
             $('#contendor_qs').children().each(function() {
+                // Ordena las casillas de nombres por personaje
                 $(this).css({'top': '0px', 'left': pos + 'px'});
-                pos+=200;
+                pos+=200; // Aumentos de espaciador
             });
 
         });
@@ -197,35 +237,64 @@ define(function (require) {
             var temp = '';
             var vertical = 0;
 
+            /** 
+            /* Verifica si el objeto exite en la 
+            /* parizarra para ese determinado nombre 
+            /* y lo guarda en la variable temp
+             */
+            // Captura nombre del objeto
             var data = $('.objetop').attr('data');
+            // Recorre la lista de elementos html por nombre
             $(this).children().each(function () {
-                vertical += 30;
+                vertical += 30; // Espaciador vertical para los objetos por nombre
+                // Verificar si el elemento ya se encuentra en lista
                 if ($(this).text() == data) {
-                    existe = 1;
-                    temp = $(this);
+                    existe = 1; // Indicador de existencia del objeto
+                    temp = $(this); // Objeto de la lista
                 }
             });
 
+            /** 
+            /* Elemina el objeto (si existe) junto con todos 
+            /* sus atributos en caso contrario lo agrega  
+             */
+            // Elemento que se agragara la lista por nombre
             var objeto_cruz = '<p class="element objcruz" style="text-align:center; margin-top: 0px; font-size:20px;background-color: darkcyan; color: white; width: 120px; height: 25px; top: '+ vertical +'px;">' + data + '</p>';
+            // Verifica si existe el objeto en la lista por nombre
             if (existe) {
-                 temp.remove();
-                 vertical = 0;
-                 $(this).children().each(function() {
-                     $(this).css('top', vertical + 'px');
-                     vertical += 30;
-                 });
+                // Remueve el objeto de la lista
+                temp.remove();
+                vertical = 0; // Resetea el espaciador vertical de los objetos de la lista
+                // Recorre la lista de elementos html
+                $(this).children().each(function() {
+                    // Reacomoda los objeto existentes en la lista
+                    $(this).css('top', vertical + 'px');
+                    vertical += 30;
+                });
+                // Captura el indeice de la lista de nombres correspondientes a la lista de objetos
+                var respuesta = $('div.cruz').index($(this));
+                // Remueve las clase de arrastre para el nombre correspondiente a la lista de objetos
+                $('#cont_nombres :eq(' + respuesta + ')').removeClass('movimiento_qs');
+                $('#cont_nombres :eq(' + respuesta + ')').css('background-color', 'white');
             }
+            // Agrega el objeto a lista de objetos correspondiente a cada nombre en caso que no exista
             else $(this).append(objeto_cruz);
 
+            // Recupera el indice de la lista de objetos correspondientes a cada nombre
             var respuesta = $('div.cruz').index($(this));
+            // Verifica si la cantidad de objetos en la lista de objetos coincide con la cantidad en la matriz
             if ($(this).children().length == (quiensoy[ejer].nombres[respuesta].length - 1)) {
-                var relacion = 0;
+                var relacion = 0; // Cantidad de coincidencias entre la lista de objetos por nombre y la matriz
+                // Recorre la lista de elementos html de lista de objetos correspondiente
                 $(this).children().each(function (index, value) {
+                    // Verifica la coincidencia entre la lista de bojetos y la lista de bojetos de la matriz
                     if ($(this).text() === quiensoy[ejer].nombres[respuesta][(index + 1)]) {
-                        relacion++;
+                        relacion++; // Cantidad de coincidencias aumenta
                     }
                 });
-                if ( relacion == $(this).children().length){
+                // Verifica de la cantidad de coincidencias es igual a la cantidad de objetos en la lista de objetos
+                if (relacion == $(this).children().length){
+                    // Agrega las clases de arratres a los nombres correspondientes a la lista de objetos
                     $('#cont_nombres :eq(' + respuesta + ')').addClass('movimiento_qs');
                     $('#cont_nombres :eq(' + respuesta + ')').css('background-color', 'yellow');
                 }
