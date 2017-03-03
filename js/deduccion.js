@@ -2,7 +2,7 @@ define(function (require) {
     return [
         {
             'img' : [
-<<<<<<< HEAD
+
                 '../img/deduccion/personajes/juan.svg',
                 '../img/deduccion/personajes/beatriz.svg',
                 '../img/deduccion/personajes/alonso.svg',
@@ -23,28 +23,7 @@ define(function (require) {
 		],
             'pista' : [
                 '¿Qué avión vuela más alto? 1). El avión amarillo vuela más que el avión azul y menos que el avión naranja. 2). El avión rojo vuela más que el avión verde. 3). El avión naranja vuela menos que el avión verde.'
-=======
-                '../Megamente/img/deduccion/personajes/juan.svg',
-                '../Megamente/img/deduccion/personajes/beatriz.svg',
-                '../Megamente/img/deduccion/personajes/alonso.svg',
-                '../Megamente/img/deduccion/personajes/irene.svg',
-                '../Megamente/img/deduccion/personajes/ana.svg'
-    		],
-                'pista' : [
-                    '¿Qué personaje es mayor? 1). Irene es mayor que Ana y menor que Alonso. 2). Beatriz es mayor que Alonso. 3). Juan es mayor que Beatriz.'
-    		]
-        },
-        {
-            'img' : [
-                '../Megamente/img/deduccion/objetos/avion-verde.svg',
-                '../Megamente/img/deduccion/objetos/avion-rojo.svg',
-                '../Megamente/img/deduccion/objetos/avion-naranja.svg',
-                '../Megamente/img/deduccion/objetos/avion-amarillo.svg',
-                '../Megamente/img/deduccion/objetos/avion-azul.svg'
-    		],
-                'pista' : [
-                    '¿Qué avión vuela más alto? 1). El avión amarillo vuela más que el avión azul y menos que el avión naranja. 2). El avión rojo vuela más que el avión verde. 3). El avión naranja vuela menos que el avión verde.'
->>>>>>> d9dd9524f29c55c65f080a99978a27fbdba5af19
+
             ]
         },
         {
@@ -239,8 +218,78 @@ define(function (require) {
             'pista' : [
                '¿Qué pájaro vuela menos?  1).El pájaro azul vuela menos que el pájaro rosa y más que el pájaro rojo.  2).El pájaro amarillo vuela más que el pájaro rosa y menos que el pájaro verde.'
             ]
+        },
+         {
+            'img' : [
+                '../img/deduccion/alimentos/chocolate-azul.png',
+                '../img/deduccion/alimentos/chocolate-verde.png',
+                '../img/deduccion/alimentos/chocolate-amarillo.png',
+                '../img/deduccion/alimentos/chocolate-lila.png',
+                '../img/deduccion/alimentos/chocolate-rojo.png'
+            ],
+            'pista' : [
+               '¿Qué chocolate es más dulce?  1).El chocolate amarillo es más dulce que el chocolate lila.  2).El chocolate verde es más dulce que el chocolate amarillo. 3). El chocolate azul es menos dulce que el chocolate lila y más que el chocolate rojo.'
+            ]
+        },
+        {
+            'img' : [
+                '../img/deduccion/objetos/edificio-azul.png',
+                '../img/deduccion/objetos/edificio-verde.png',
+                '../img/deduccion/objetos/edificio-naranja.png',
+                '../img/deduccion/objetos/edificio-blanco.png',
+                '../img/deduccion/objetos/edificio-rojo.png'
+            ],
+            'pista' : [
+               '¿Qué edificio es más alto?  1).El edificio azul es menos alto que el edificio verde y más que el edificio naranja.  2).El edificio naranja es más alto que el edificio blanco. 3).El edificio rojo es menos alto que el edificio blanco.'
+            ]
+        },
+        {
+            'img' : [
+                '../img/deduccion/objetos/faja-azul.png',
+                '../img/deduccion/objetos/faja-verde.png',
+                '../img/deduccion/objetos/faja-anaranjada.png',
+                '../img/deduccion/objetos/faja-amarilla.png',
+                '../img/deduccion/objetos/faja-rosa.png'
+            ],
+            'pista' : [
+               '¿Qué faja es menos cómoda?  1).La faja azul es menos cómoda que la faja amarilla.  2).La faja naranja es más cómoda que la faja verde y menos que la faja rosa. 3).La faja amarilla es menos cómoda que la faja verde.'
+            ]
+        },
+        {
+            'img' : [
+                '../img/deduccion/personajes/julia.svg',
+                '../img/deduccion/personajes/camilo.svg',
+                '../img/deduccion/personajes/martha.svg',
+                '../img/deduccion/personajes/rosario.svg',
+                '../img/deduccion/personajes/pedro.svg'
+            ],
+            'pista' : [
+               '¿Qué personaje es mayor?  1).Camilo es mayor que Martha y menor que Julia.  2).Rosario es menor que Pedro. 3).Julia es menor que Rosario.'
+            ]
+        },
+        {
+            'img' : [
+                '../img/deduccion/personajes/jose.svg',
+                '../img/deduccion/personajes/ricardo.svg',
+                '../img/deduccion/personajes/belen.svg',
+                '../img/deduccion/personajes/javier.svg',
+                '../img/deduccion/personajes/ines.svg'
+            ],
+            'pista' : [
+               '¿Qué personaje es menor?  1).José es mayor que Ricardo y menor que Belén.  2).Javier es mayor que Inés y menor que Ricardo.'
+            ]
+        },
+        {
+            'img' : [
+                '../img/deduccion/objetos/libro-verde.png',
+                '../img/deduccion/objetos/libro-azul.png',
+                '../img/deduccion/objetos/libro-blanco.png',
+                '../img/deduccion/objetos/libro-amarillo.png',
+                '../img/deduccion/objetos/libro-rosa.png'
+            ],
+            'pista' : [
+               '¿Qué libro cuesta menos dinero?  1).El libro verde cuesta más que el libro azul.  2).El libro blanco cuesta menos que el libro azul. 3). El libro amarillo cuesta más que el libro rosa y menos que el libro blanco.'
+            ]
         }
-        
-        
     ];
 });
