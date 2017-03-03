@@ -10,9 +10,9 @@ define(function (require) {
     var pista       = 0;
     var resps_qs    = [];
 
-    // funcion de movimiento para objetos html
+    // funcion de movimiento para elementos html
     var moveItem = function(event) {
-        // Current element
+        // elemento actual
         var target = event.target;
         // Get axis values + movement change
         if (!target.hasAttribute('data-x')) {
@@ -55,8 +55,8 @@ define(function (require) {
         var pos = 0;
         $('#cont_nombres').children().each(function(index) {
             $(this).text(matriz[ejer].nombres[index][0]);
-            $(this).css({'left': pos+'px', 'background-color': 'white'});
-            $(this).removeClass('movimiento_qs');
+            $(this).css({'top':'-20px','left': pos+'px', 'background-color': 'white'});
+            $(this).addClass('nombre');
             pos += 135;
         });
     }
@@ -119,9 +119,11 @@ define(function (require) {
          */
         $('.inicio').on('click', function() {
             // Busca el elemto html con la clase "padre" y lo esconde
-            $(this).parents('.padre').toggle();
+            //$(this).parents('.padre').toggle();
             // Hace visible la pantalla del menu principal
-        	$('#menu').toggle();
+        	//$('#menu').toggle();
+            // Recarga la pagina
+            location.reload();
         });
 
         /** 
@@ -202,25 +204,57 @@ define(function (require) {
 
         });
 
+        /** 
+        /* Funcion de atraste de nombres de personajes
+         */
         var cosas = interact('.movimiento_qs');
         cosas.draggable({
             initial:true,
             onmove:moveItem,
         });
 
+        /** 
+        /* Funcion de atraste de nombres de personajes
+         */
         $("#btnquiensoy").on('click', function() {
+            $('#cont_nombres').children().each(function(index) {
+                $(this).remove();
+            });
+            for (var i=0; i<=5; i++) {
+                $('#cont_nombres').append('<p class="nombre element"></p>');
+            }
+            $('.respuesta').each(function() {
+                $(this).removeClass('respuesta_location');
+            });
+            $('#contendor_qs').children().each(function() {
+                $(this).removeAttr('respuesta_location');
+            });
+            // Organiza los personajes del juego quien soy
             ejer  = spr('oqs', quiensoy);
-            pista = 0;
+            pista = 0; // Cantidad de pistas
+            // Coloca la lista en su lugar
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
+            // Coloca el objeto en su lugar
+            $('.objetop').css('background','url(' + quiensoy[ejer].obj[pista][0] + ') 0 0 no-repeat');
+            $('.objetop').attr('data',quiensoy[ejer].obj[pista][1]);
+            // Ordena la lista de nombres por objetos especificos
             nompos(ejer, quiensoy);
+            var pos = 0; // Espaciados horizontal de lista de objetos especificos por nombre
             $('#pizarra').children().each(function() {
+                // Organiza cada lista de objetos
+                $(this).css('left', pos+'px');
+                pos+=130; // incremento del espaciador
+                // Remueve todos los objetos de la lista de objetos por nombre espcifico
                 $(this).children().remove();
             });
-            objpos('oqs', 500, 0);
-            var pos = 30;
+            // Ordena los persojes en su lugar especifico
+            objpos('oqs', 450, 0);
+            var pos = 30; // espaciador horizontal
+            // Recorre la lista de elementos html de las casillas de nombres de personajes
             $('#contendor_qs').children().each(function() {
+                // Ordena las casillas de nombres por personaje
                 $(this).css({'top': '0px', 'left': pos + 'px'});
-                pos+=200;
+                pos+=200; // Aumentos de espaciador
             });
         });
 
@@ -236,12 +270,7 @@ define(function (require) {
             var existe = 0;
             var temp = '';
             var vertical = 0;
-
-            /** 
-            /* Verifica si el objeto exite en la 
-            /* parizarra para ese determinado nombre 
-            /* y lo guarda en la variable temp
-             */
+            
             // Captura nombre del objeto
             var data = $('.objetop').attr('data');
             // Recorre la lista de elementos html por nombre
@@ -254,10 +283,6 @@ define(function (require) {
                 }
             });
 
-            /** 
-            /* Elemina el objeto (si existe) junto con todos 
-            /* sus atributos en caso contrario lo agrega  
-             */
             // Elemento que se agragara la lista por nombre
             var objeto_cruz = '<p class="element objcruz" style="text-align:center; margin-top: 0px; font-size:20px;background-color: darkcyan; color: white; width: 120px; height: 25px; top: '+ vertical +'px;">' + data + '</p>';
             // Verifica si existe el objeto en la lista por nombre
@@ -295,6 +320,7 @@ define(function (require) {
                 // Verifica de la cantidad de coincidencias es igual a la cantidad de objetos en la lista de objetos
                 if (relacion == $(this).children().length){
                     // Agrega las clases de arratres a los nombres correspondientes a la lista de objetos
+                    //$('#cont_nombres :eq(' + respuesta + ')').removeClass('nombre');
                     $('#cont_nombres :eq(' + respuesta + ')').addClass('movimiento_qs');
                     $('#cont_nombres :eq(' + respuesta + ')').css('background-color', 'yellow');
                 }
