@@ -26,12 +26,12 @@ define(function (require) {
             ['../img/deduccion/objetos/telefono.png', 'telefono']
         ],
         'nombres' : [
-            ['Inés', 'gafas', 'collar', 'mochila'],
+            ['Inés', 'afas', 'collar', 'mochila'],
 			['Luisa', 'reloj', 'mochila'],
-			['Paula', 'collar', 'sombrero', 'telefono'],
-            ['María', 'reloj', 'sombrero', 'telefono'],
-            ['Raquel', 'mochila', 'telefono'],
-            ['Ana', 'collar', 'telefono']
+			['Paula', 'collar', 'sombrero', 'teléfono'],
+            ['María', 'reloj', 'sombrero', 'teléfono'],
+            ['Raquel', 'mochila', 'teléfono'],
+            ['Ana', 'collar', 'teléfono']
         ]
 	},
 	{
@@ -60,9 +60,9 @@ define(function (require) {
             ['../img/deduccion/objetos/videojuego.png', 'video juego']
         ],
         'nombres' : [
-            ['Ana', 'microfono', 'camara'],
-			['David', 'microfono', 'guitarra', 'piano'],
-			['Juan', 'bicicleta', 'microfono', 'videojuego'],
+            ['Ana', 'micrófono', 'cámara'],
+			['David', 'micrófono', 'guitarra', 'piano'],
+			['Juan', 'bicicleta', 'micrófono', 'videojuego'],
             ['José', 'guitarra', 'bicicleta', 'videojuego'],
             ['Luisa', 'piano', 'videojuego'],
             ['Antonio', 'guitarra', 'piano', 'videojuego']
@@ -94,11 +94,11 @@ define(function (require) {
             ['../img/deduccion/objetos/videojuego.png', 'video juego']
         ],
         'nombres' : [
-            ['Gabriela', 'microfono', 'camara'],
-    		['María', 'microfono', 'guitarra', 'piano'],
-    		['José', 'microfono', 'bicicleta'],
+            ['Gabriela', 'micrófono', 'cámara'],
+    		['María', 'micrófono', 'guitarra', 'piano'],
+    		['José', 'micrófono', 'bicicleta'],
             ['Ana', 'piano'],
-            ['Javier', 'piano', 'microfono'],
+            ['Javier', 'piano', 'micrófono'],
             ['Paula', 'videojuego']
         ]
     }];
