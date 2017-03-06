@@ -6,5 +6,5 @@
 	* agregar 3 ejercicios a la matriz de quien soy
     
 --> realizados:
-    * Validacion con errores
+    * Validacion de ejercicios con errores todavia
     * Ejercicios agregados en matriz quien soy.
