@@ -1,6 +1,10 @@
-=== BITACORA RESUELVO ====
+=== BITACORA Megamente ====
 
 ==> 06.03.2017 ===========
 --> Por hacer:
 	* Revisar y componer los errores de validacion de ejercicios de quien soy
 	* agregar 3 ejercicios a la matriz de quien soy
+    
+--> realizados:
+    * Validacion con errores
+    * Ejercicios agregados en matriz quien soy.

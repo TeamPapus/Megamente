@@ -101,5 +101,40 @@ define(function (require) {
             ['Javier', 'piano', 'micrófono'],
             ['Paula', 'videojuego']
         ]
-    }];
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio4/maria.svg',
+            '../img/quien-soy/ejercicio4/david.svg',
+            '../img/quien-soy/ejercicio4/lorena.svg',
+            '../img/quien-soy/ejercicio4/paula.svg',
+            '../img/quien-soy/ejercicio4/isabel.svg',
+            '../img/quien-soy/ejercicio4/ricardo.svg'
+    	],
+        'pista' : [
+            '1). María, David, Lorena y Paula comen mangos.',
+            '2). María come manzana.',
+            '3). Isabel come melocotones.',
+            '4). Ricardo, María, David, Isabel y Paula comen sandía.',
+            '5). Ricardo, Lorena e Isabel comen bananos.',
+            '6). David come uvas.'
+    	],
+        'obj' : [
+            ['../img/deduccion/alimentos/mango.png', 'mango'],
+            ['../img/deduccion/alimentos/manzana.png', 'manzana'],
+            ['../img/deduccion/alimentos/melocoton.png', 'melocotón'],
+            ['../img/deduccion/alimentos/sandia.png', 'sandia'],
+            ['../img/deduccion/alimentos/banano.png', 'bananos'],
+            ['../img/deduccion/alimentos/uva.svg', 'uvas']
+        ],
+        'nombres' : [
+            ['Maria', 'mango', 'manzana','sandia'],
+    		['David', 'mango', 'sandia', 'uvas'],
+    		['Lorena', 'mango', 'bananos'],
+            ['Paula', 'mango', 'sandia'],
+            ['isabel', 'sandia', 'bananos'],
+            ['Ricardo', 'sandia', 'bananos']
+        ]
+    }
+    ];
 });
