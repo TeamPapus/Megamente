@@ -132,7 +132,7 @@ define(function (require) {
     		['David', 'mango', 'sandia', 'uvas'],
     		['Lorena', 'mango', 'bananos'],
             ['Paula', 'mango', 'sandia'],
-            ['Isabel', 'sandia', 'bananos'],
+            ['Isabel', 'melocotón', 'sandia', 'bananos'],
             ['Ricardo', 'sandia', 'bananos']
         ]
     },
@@ -183,7 +183,7 @@ define(function (require) {
             '1). Ana y Raquel cantan.',
             '2). Ricardo y Ana toman fotografía.',
             '3). Antonio y Lorena tocan la guitarra.',
-            '4). Antonio, Lorena, Raquel y Pedro tienen carro.',
+            '4). Antonio, Raquel y Pedro tienen carro.',
             '5). Antonio, Ricardo, Ana, Raquel y Pedro juegan videojuegos.',
             '6). Lorena toca la flauta.'
     	],
@@ -200,7 +200,7 @@ define(function (require) {
     		['Raquel', 'mircrófono', 'carro','videojuego'],
     		['Ricardo', 'cámara','videojuego'],
             ['Antonio', 'guitarra', 'carro', 'videojuego'],
-            ['Lorena', 'guitarra','flauta'],
+            ['Lorena', 'guitarra', 'flauta'],
             ['Pedro', 'carro', 'videojuego']
         ]
     },
