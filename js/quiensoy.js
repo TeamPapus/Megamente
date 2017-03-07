@@ -132,8 +132,210 @@ define(function (require) {
     		['David', 'mango', 'sandia', 'uvas'],
     		['Lorena', 'mango', 'bananos'],
             ['Paula', 'mango', 'sandia'],
-            ['isabel', 'sandia', 'bananos'],
+            ['Isabel', 'sandia', 'bananos'],
             ['Ricardo', 'sandia', 'bananos']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio5/david.svg',
+            '../img/quien-soy/ejercicio5/teresa.svg',
+            '../img/quien-soy/ejercicio5/isabel.svg',
+            '../img/quien-soy/ejercicio5/ricardo.svg',
+            '../img/quien-soy/ejercicio5/raquel.svg',
+            '../img/quien-soy/ejercicio5/ines.svg'
+    	],
+        'pista' : [
+            '1). Inés, Teresa, Isabel y Ricardo juegan baloncesto.',
+            '2). Raquel juega ajedrez.',
+            '3). David, Inés y Teresa juegan fútbol.',
+            '4). Raquel y David juegan fútbol americano.',
+            '5). Inés y Ricardo juegan tenis.',
+            '6). Raquel, David, Isabel y Ricardo juegan al voleibol.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/baloncesto.png', 'baloncesto'],
+            ['../img/deduccion/objetos/ajedrez.png', 'ajedrez'],
+            ['../img/deduccion/objetos/futbol.png', 'fútbol'],
+            ['../img/deduccion/objetos/futbol-americano.png', 'fútbol-americano'],
+            ['../img/deduccion/objetos/tenis.png', 'tenis'],
+            ['../img/deduccion/objetos/voleibol.svg', 'voleibol']
+        ],
+        'nombres' : [
+            ['Inés', 'baloncesto', 'fútbol','tenis'],
+    		['Teresa', 'baloncesto', 'fútbol'],
+    		['Isabel', 'baloncesto','tenis', 'voleibol'],
+            ['Ricardo', 'mango', 'voleibol'],
+            ['Raquel', 'ajedrez','fútbol-americano', 'voleibol'],
+            ['David', 'fútbol', 'fútbol-americano','voleibol']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio6/pedro.svg',
+            '../img/quien-soy/ejercicio6/ana.svg',
+            '../img/quien-soy/ejercicio6/lorena.svg',
+            '../img/quien-soy/ejercicio6/raquel.svg',
+            '../img/quien-soy/ejercicio6/ricardo.svg',
+            '../img/quien-soy/ejercicio6/antonio.svg'
+    	],
+        'pista' : [
+            '1). Ana y Raquel cantan.',
+            '2). Ricardo y Ana toman fotografía.',
+            '3). Antonio y Lorena tocan la guitarra.',
+            '4). Antonio, Lorena, Raquel y Pedro tienen carro.',
+            '5). Antonio, Ricardo, Ana, Raquel y Pedro juegan videojuegos.',
+            '6). Lorena toca la flauta.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/microfono.png', 'mircrófono'],
+            ['../img/deduccion/objetos/camara.png', 'cámara'],
+            ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
+            ['../img/deduccion/objetos/carro.png', 'carro'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuego'],
+            ['../img/deduccion/objetos/flauta.png', 'flauta']
+        ],
+        'nombres' : [
+            ['Ana', 'mircrófono', 'camara','videojuego'],
+    		['Raquel', 'mircrófono', 'carro','videojuego'],
+    		['Ricardo', 'cámara','videojuego'],
+            ['Antonio', 'guitarra', 'carro', 'videojuego'],
+            ['Lorena', 'guitarra','flauta'],
+            ['Pedro', 'carro', 'videojuego']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio7/jorge.svg',
+            '../img/quien-soy/ejercicio7/pedro.svg',
+            '../img/quien-soy/ejercicio7/ana.svg',
+            '../img/quien-soy/ejercicio7/teresa.svg',
+            '../img/quien-soy/ejercicio7/luisa.svg',
+            '../img/quien-soy/ejercicio7/raquel.svg'
+    	],
+        'pista' : [
+            '1). Jorge canta.',
+            '2). Luisa toma fotografías.',
+            '3). Raquel toca la guitarra.',
+            '4). Raquel, Luisa, Teresa, Ana y Pedro tienen carro.',
+            '5). Jorge y Teresa tocan el piano.',
+            '6). Ana y Teresa juegan videojuegos.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/microfono.png', 'mircrófono'],
+            ['../img/deduccion/objetos/camara.png', 'cámara'],
+            ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
+            ['../img/deduccion/objetos/carro.png', 'carro'],
+            ['../img/deduccion/objetos/piano.png', 'piano'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuego']
+        ],
+        'nombres' : [
+            ['Jorge', 'mircrófono', 'piano'],
+    		['Luisa', 'cámara', 'carro'],
+    		['Raquel', 'guitarra','carro'],
+            ['Teresa', 'carro', 'piano', 'videojuego'],
+            ['Ana', 'carro','videojuego'],
+            ['Pedro', 'carro']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio8/jorge.svg',
+            '../img/quien-soy/ejercicio8/pedro.svg',
+            '../img/quien-soy/ejercicio8/ana.svg',
+            '../img/quien-soy/ejercicio8/teresa.svg',
+            '../img/quien-soy/ejercicio8/luisa.svg',
+            '../img/quien-soy/ejercicio8/raquel.svg'
+    	],
+        'pista' : [
+            '1). Jorge y Raquel comen tomate.',
+            '2). Cristina y Raquel comen pepino.',
+            '3). Jorge, José y Cristina comen brócoli.',
+            '4). Ana y Jorge comen zanahoria.',
+            '5). José y Ana comen remolacha.',
+            '6). Pedro y José comen lechuga.'
+    	],
+        'obj' : [
+            ['../img/deduccion/alimentos/tomate.png', 'tomate'],
+            ['../img/deduccion/alimentos/pepino.png', 'pepino'],
+            ['../img/deduccion/alimentos/brocoli.png', 'brócoli'],
+            ['../img/deduccion/alimentos/zanahoria.png', 'zanahoria'],
+            ['../img/deduccion/alimentos/remolacha.png', 'remolacha'],
+            ['../img/deduccion/alimentos/lechuga.png', 'lechuga']
+        ],
+        'nombres' : [
+            ['Jorge', 'tomate', 'brócoli','zanahoria'],
+    		['Raquel', 'tomate', 'pepino'],
+    		['Cristina', 'pepino','brócoli'],
+            ['José', 'brócoli', 'piano', 'lechuga'],
+            ['Ana', 'carro','remolacha'],
+            ['Pedro', 'lechuga']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio9/jorge.svg',
+            '../img/quien-soy/ejercicio9/raquel.svg',
+            '../img/quien-soy/ejercicio9/pedro.svg',
+            '../img/quien-soy/ejercicio9/ruth.svg',
+            '../img/quien-soy/ejercicio9/jose.svg',
+            '../img/quien-soy/ejercicio9/paula.svg'
+    	],
+        'pista' : [
+            '1). Jorge y Raquel beben café.',
+            '2). Ruth y Raquel beben leche.',
+            '3). Jorge, José y Pedro beben refresco.',
+            '4). Ruth y Pedro beben yogurt.',
+            '5). José y Paula beben sopa.'
+    	],
+        'obj' : [
+            ['../img/deduccion/alimentos/cafe.png', 'café'],
+            ['../img/deduccion/alimentos/leche.png', 'leche'],
+            ['../img/deduccion/alimentos/refresco.png', 'refresco'],
+            ['../img/deduccion/alimentos/yogurt.svg', 'yogurt'],
+            ['../img/deduccion/alimentos/lechuga.png', 'lechuga'],
+            ['../img/deduccion/alimentos/sopa.png', 'sopa']
+        ],
+        'nombres' : [
+            ['Jorge', 'café', 'refresco'],
+    		['Raquel', 'café', 'leche'],
+    		['Ruth', 'leche','yogurt'],
+            ['José', 'refresco', 'sopa'],
+            ['Pedro', 'refresco','yogurt'],
+            ['Paula', 'sopa']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio10/jorge.svg',
+            '../img/quien-soy/ejercicio10/raquel.svg',
+            '../img/quien-soy/ejercicio9/pedro.svg',
+            '../img/quien-soy/ejercicio9/ruth.svg',
+            '../img/quien-soy/ejercicio9/jose.svg',
+            '../img/quien-soy/ejercicio9/paula.svg'
+    	],
+        'pista' : [
+            '1). Jorge y Raquel beben café.',
+            '2). Ruth y Raquel beben leche.',
+            '3). Jorge, José y Pedro beben refresco.',
+            '4). Ruth y Pedro beben yogurt.',
+            '5). José y Paula beben sopa.'
+    	],
+        'obj' : [
+            ['../img/deduccion/alimentos/cafe.png', 'café'],
+            ['../img/deduccion/alimentos/leche.png', 'leche'],
+            ['../img/deduccion/alimentos/refresco.png', 'refresco'],
+            ['../img/deduccion/alimentos/yogurt.svg', 'yogurt'],
+            ['../img/deduccion/alimentos/lechuga.png', 'lechuga'],
+            ['../img/deduccion/alimentos/sopa.png', 'sopa']
+        ],
+        'nombres' : [
+            ['Jorge', 'café', 'refresco'],
+    		['Raquel', 'café', 'leche'],
+    		['Ruth', 'leche','yogurt'],
+            ['José', 'refresco', 'sopa'],
+            ['Pedro', 'refresco','yogurt'],
+            ['Paula', 'sopa']
         ]
     }
     ];
