@@ -318,10 +318,16 @@ define(function (require) {
             });
         });
 
+        /*
+         * Cambia las pistas de quien soy
+         */
         $('#mas-pistas').on('click', function() {
-            pista++;
-            if (pista >= quiensoy[ejer].pista.length) pista=0;
+            pista++; // Aumento de indice de las pistas
+            // Verifica si el aumento es mayor o igual al numero de pistas en la matriz
+            if (pista >= quiensoy[ejer].pista.length) pista=0; // Reinicio de cuenta de las pistas
+            // Coloca la pistas en su lugar
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
+            // Colocar el objeto correspondiente a la pista
             $('.objetop').css('background','url(' + quiensoy[ejer].obj[pista][0] + ') 0 0 no-repeat');
             $('.objetop').attr('data',quiensoy[ejer].obj[pista][1]);
         });
@@ -373,8 +379,10 @@ define(function (require) {
                 // Recorre la lista de elementos html de lista de objetos correspondiente
                 $(this).children().each(function (index, value) {
                     // Verifica la coincidencia entre la lista de bojetos y la lista de bojetos de la matriz
-                    if ($(this).text() === quiensoy[ejer].nombres[respuesta][(index + 1)]) {
-                        relacion++; // Cantidad de coincidencias aumenta
+                    for (var i=1; i<=quiensoy[ejer].nombres[respuesta].length; i++){
+                        if ($(this).text() === quiensoy[ejer].nombres[respuesta][i]) {
+                            relacion++; // Cantidad de coincidencias aumenta
+                        }
                     }
                 });
                 // Verifica de la cantidad de coincidencias es igual a la cantidad de objetos en la lista de objetos
