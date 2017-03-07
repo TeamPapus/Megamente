@@ -8,3 +8,10 @@
 --> realizados:
     * Validacion de ejercicios con errores todavia
     * Ejercicios agregados en matriz quien soy.
+
+==> 07.03.2017 ===========
+
+--> por Hacer:
+    * componer validacion
+    * terminar matriz con objetos dimensionados
+    
