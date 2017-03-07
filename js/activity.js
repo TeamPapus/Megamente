@@ -248,7 +248,7 @@ define(function (require) {
             $('#pizarra').children().each(function() {
                 // Organiza cada lista de objetos
                 $(this).css('left', pos+'px');
-                pos+=130; // incremento del espaciador
+                pos+=135; // incremento del espaciador
                 // Remueve todos los objetos de la lista de objetos por nombre espcifico
                 $(this).children().remove();
             });
@@ -344,7 +344,7 @@ define(function (require) {
             });
 
             // Elemento que se agragara la lista por nombre
-            var objeto_cruz = '<p class="element objcruz" style="text-align:center; margin-top: 0px; font-size:20px;background-color: darkcyan; color: white; width: 120px; height: 25px; top: '+ vertical +'px;">' + data + '</p>';
+            var objeto_cruz = '<p class="element objcruz" style="text-align:center; margin-top: 0px; font-size:20px;background-color: darkcyan; color: white; width: 125px; height: 25px; top: '+ vertical +'px;">' + data + '</p>';
             // Verifica si existe el objeto en la lista por nombre
             if (existe) {
                 // Remueve el objeto de la lista

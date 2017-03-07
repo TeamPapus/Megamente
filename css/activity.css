@@ -87,14 +87,20 @@
 }
 
 #cont_nombres {
-    width: 786px;
+    width: 805px;
+    width: 200px;
+    height: 264px;
+}
+
+#cont_nombres {
+    width: 805px;
     height: 38px;
     top: 187px;
     left: 286px;
 }
 
 .nombre {
-    width: 120px;
+    width: 125px;
     height: 100%;
     top: -20px;
     left: 0px;
@@ -106,15 +112,15 @@
 
 #pizarra {
     top: 229px;
-    left: 296px;
-    width: 782px;
+    left: 286px;
+    width: 805px;
     height: 173px;
 }
 
 .cruz {
     top: 0px;
     left: 0px;
-    width: 120px;
+    width: 125px;
     height: 172px;
 }
 
