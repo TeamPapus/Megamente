@@ -373,8 +373,10 @@ define(function (require) {
                 // Recorre la lista de elementos html de lista de objetos correspondiente
                 $(this).children().each(function (index, value) {
                     // Verifica la coincidencia entre la lista de bojetos y la lista de bojetos de la matriz
-                    if ($(this).text() === quiensoy[ejer].nombres[respuesta][(index + 1)]) {
-                        relacion++; // Cantidad de coincidencias aumenta
+                    for (var i=0; i<quiensoy[ejer].nombres[respuesta].length; i++) {
+                        if ($(this).text() === quiensoy[ejer].nombres[respuesta][i]) {
+                            relacion++; // Cantidad de coincidencias aumenta
+                        }
                     }
                 });
                 // Verifica de la cantidad de coincidencias es igual a la cantidad de objetos en la lista de objetos
