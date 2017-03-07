@@ -374,6 +374,8 @@ define(function (require) {
             // Recupera el indice de la lista de objetos correspondientes a cada nombre
             var respuesta = $('div.cruz').index($(this));
             // Verifica si la cantidad de objetos en la lista de objetos coincide con la cantidad en la matriz
+            console.log($(this).children().length);
+            console.log((quiensoy[ejer].nombres[respuesta].length - 1));
             if ($(this).children().length == (quiensoy[ejer].nombres[respuesta].length - 1)) {
                 var relacion = 0; // Cantidad de coincidencias entre la lista de objetos por nombre y la matriz
                 // Recorre la lista de elementos html de lista de objetos correspondiente
