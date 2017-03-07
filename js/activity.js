@@ -143,7 +143,9 @@ define(function (require) {
                     });
                     $('.nombre').each(function() {
                         $(this).addClass('nombre_checked');
+                        $(this).css('background-color','darkcyan');
                     });
+                    $('#myModal').css('display', 'block');
                 }
             });
         }
@@ -270,6 +272,11 @@ define(function (require) {
         var cosas = interact('.movimiento_qs');
         cosas.draggable({
             initial:true,
+            restrict: {
+                restriction: document.getElementById('canvas'),
+                endOnly: true,
+                elementRect: { top: 0, left: 0, bottom: 1, right: 1 }
+            },
             onmove:moveItem,
         });
 
@@ -303,7 +310,7 @@ define(function (require) {
             $('#pizarra').children().each(function() {
                 // Organiza cada lista de objetos
                 $(this).css('left', pos+'px');
-                pos+=130; // incremento del espaciador
+                pos+=135; // incremento del espaciador
                 // Remueve todos los objetos de la lista de objetos por nombre espcifico
                 $(this).children().remove();
             });
@@ -315,10 +322,11 @@ define(function (require) {
                 // Ordena las casillas de nombres por personaje
                 $(this).css({'top': '0px', 'left': pos + 'px'});
                 pos+=200; // Aumentos de espaciador
+                $(this).removeClass('respuesta_checked');
             });
         });
 
-        /*
+        /**
          * Cambia las pistas de quien soy
          */
         $('#mas-pistas').on('click', function() {
@@ -331,7 +339,10 @@ define(function (require) {
             $('.objetop').css('background','url(' + quiensoy[ejer].obj[pista][0] + ') 0 0 no-repeat');
             $('.objetop').attr('data',quiensoy[ejer].obj[pista][1]);
         });
-
+        
+        /**
+         * Funcion que agrega objetos a la lista de objetos determinados por nombre
+         */
         $('.cruz').on('click', function() {
             var existe = 0;
             var temp = '';
@@ -374,8 +385,6 @@ define(function (require) {
             // Recupera el indice de la lista de objetos correspondientes a cada nombre
             var respuesta = $('div.cruz').index($(this));
             // Verifica si la cantidad de objetos en la lista de objetos coincide con la cantidad en la matriz
-            console.log($(this).children().length);
-            console.log((quiensoy[ejer].nombres[respuesta].length - 1));
             if ($(this).children().length == (quiensoy[ejer].nombres[respuesta].length - 1)) {
                 var relacion = 0; // Cantidad de coincidencias entre la lista de objetos por nombre y la matriz
                 // Recorre la lista de elementos html de lista de objetos correspondiente
@@ -390,13 +399,19 @@ define(function (require) {
                 // Verifica de la cantidad de coincidencias es igual a la cantidad de objetos en la lista de objetos
                 if (relacion == $(this).children().length){
                     // Agrega las clases de arratres a los nombres correspondientes a la lista de objetos
-                    //$('#cont_nombres :eq(' + respuesta + ')').removeClass('nombre');
                     $('#cont_nombres :eq(' + respuesta + ')').addClass('movimiento_qs');
                     $('#cont_nombres :eq(' + respuesta + ')').css('background-color', 'yellow');
                 }
+            } else {
+                // Remueve las clases de arratres a los nombres correspondientes a la lista de objetos
+                $('#cont_nombres :eq(' + respuesta + ')').removeClass('movimiento_qs');
+                $('#cont_nombres :eq(' + respuesta + ')').css('background-color', 'white');
             }
         });
 
+        /**
+         * Funcion de objetos arrastrables de quien soy
+         */
         var objects = interact('.respuesta');
         objects.dropzone({
             accept:'.movimiento_qs',
@@ -405,6 +420,55 @@ define(function (require) {
             ondrop:stopItem,
             ondragleave:leaveItem
         });
+        
+        /**
+         * Funcion de modal
+         */
+        $('.close').click(function() {
+            $('#myModal').css('display', 'none');
+            $('#cont_nombres').children().each(function(index) {
+                $(this).remove();
+            });
+            for (var i=0; i<=5; i++) {
+                $('#cont_nombres').append('<p class="nombre element"></p>');
+            }
+            $('.respuesta').each(function() {
+                $(this).removeClass('respuesta_location');
+            });
+            $('#contendor_qs').children().each(function() {
+                $(this).removeAttr('respuesta_location');
+            });
+            // Organiza los personajes del juego quien soy
+            ejer  = spr('oqs', quiensoy);
+            pista = 0; // Cantidad de pistas
+            // Coloca la lista en su lugar
+            $('#pistasqs').text(quiensoy[ejer].pista[pista]);
+            // Coloca el objeto en su lugar
+            $('.objetop').css('background','url(' + quiensoy[ejer].obj[pista][0] + ') 0 0 no-repeat');
+            $('.objetop').attr('data',quiensoy[ejer].obj[pista][1]);
+            // Ordena la lista de nombres por objetos especificos
+            nompos(ejer, quiensoy);
+            var pos = 0; // Espaciados horizontal de lista de objetos especificos por nombre
+            $('#pizarra').children().each(function() {
+                // Organiza cada lista de objetos
+                $(this).css('left', pos+'px');
+                pos+=135; // incremento del espaciador
+                // Remueve todos los objetos de la lista de objetos por nombre espcifico
+                $(this).children().remove();
+            });
+            // Ordena los persojes en su lugar especifico
+            objpos('oqs', 450, 0);
+            var pos = 30; // espaciador horizontal
+            // Recorre la lista de elementos html de las casillas de nombres de personajes
+            $('#contendor_qs').children().each(function() {
+                // Ordena las casillas de nombres por personaje
+                $(this).css({'top': '0px', 'left': pos + 'px'});
+                pos+=200; // Aumentos de espaciador
+                $(this).removeClass('respuesta_checked');
+            });
+        });
+        
+        
 
     });
 
