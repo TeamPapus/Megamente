@@ -525,7 +525,7 @@ define(function (require) {
             '4). Gloria, Ana, Raquel e Inés llevan gorra.',
             '5). Gloria e Inés llevan mochila.',
             '6). Gloria, Raquel y Paula llevan teléfono.'
-    	],
+    	],t
         'obj' : [
             ['../img/deduccion/objetos/lentes.svg', 'gafas'],
             ['../img/deduccion/objetos/pañuelo.svg', 'pañuelo'],
