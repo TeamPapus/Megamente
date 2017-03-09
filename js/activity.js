@@ -467,8 +467,6 @@ define(function (require) {
                 $(this).removeClass('respuesta_checked');
             });
         });
-        
-        
 
     });
 

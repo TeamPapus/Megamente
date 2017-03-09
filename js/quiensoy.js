@@ -436,7 +436,7 @@ define(function (require) {
             ['Juan ', 'gafas', 'cinturón', 'mochila'],
     		['Antonio', 'gafas'],
     		['Jorge', 'corbata'],
-            ['Daniel', 'gorra''cinturón', 'mochila'],
+            ['Daniel', 'gorra', 'cinturón', 'mochila'],
             ['Javier', 'cinturón','teléfono'],
             ['Ricardo', 'cinturón','teléfono']
         ]
@@ -676,8 +676,8 @@ define(function (require) {
             ['Juan', 'pañuelos','teléfono'],
             ['Antonio', 'mochila','teléfono']
         ]
-    }
-        {
+    },
+    {
         'img' : [
             '../img/quien-soy/ejercicio19/alejandro.svg',
             '../img/quien-soy/ejercicio19/alicia.svg',
