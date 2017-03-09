@@ -538,9 +538,177 @@ define(function (require) {
             ['Ana ', 'gafas', 'gorra'],
     		['Paula', 'gafas', 'pañuelo','teléfono'],
     		['Raquel', 'pañuelo','gorra','teléfono'],
-            ['Teresa', 'lazo','mochila'],
-            ['Inés', 'collar'],
-            ['Gloria', 'collar','gorra']
+            ['Teresa', 'collar'],
+            ['Inés', 'collar','gorra','mochila'],
+            ['Gloria', 'gorra','mochila', 'teléfono']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio16/isabel.svg',
+            '../img/quien-soy/ejercicio16/lorena.svg',
+            '../img/quien-soy/ejercicio16/david.svg',
+            '../img/quien-soy/ejercicio16/carlos.svg',
+            '../img/quien-soy/ejercicio16/ricardo.svg',
+            '../img/quien-soy/ejercicio16/antonio.svg'
+    	],
+        'pista' : [
+            '1). Isabel y Lorena cantan.',
+            '2). Ricardo, Carlos y David toman fotografías.',
+            '3). Lorena toca guitarra.',
+            '4). Antonio, Ricardo, Isabel y David montan en bicicleta.',
+            '5). Isabel, Lorena y David tocan el piano.',
+            '6). Antonio, Ricardo y Carlos juegan videojuegos.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/microfono.svg', 'cantan'],
+            ['../img/deduccion/objetos/camara.svg', 'fotografías'],
+            ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
+            ['../img/deduccion/objetos/bicicleta.svg', 'bicicleta'],
+            ['../img/deduccion/objetos/piano.png', 'piano'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuegos']
+        ],
+        'nombres' : [
+            ['Isabel ', 'cantan', 'bicicleta','piano'],
+    		['Lorena', 'cantan', 'guitarra','piano'],
+    		['David', 'fotografías','bicicleta','piano'],
+            ['Carlos', 'fotografías','videojuegos'],
+            ['Ricardo', 'fotografías','bicicleta','videojuegos'],
+            ['Antonio', 'bicicleta','videojuegos']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio17/javier.svg',
+            '../img/quien-soy/ejercicio17/antonio.svg',
+            '../img/quien-soy/ejercicio17/david.svg',
+            '../img/quien-soy/ejercicio17/ricardo.svg',
+            '../img/quien-soy/ejercicio17/paula.svg',
+            '../img/quien-soy/ejercicio17/luis.svg'
+    	],
+        'pista' : [
+            '1). Javier, Antonio, David y Ricardo cantan.',
+            '2). Javier, Paula y Luis tocan la guitarra.',
+            '3). Antonio y Ricardo montan en bicicleta.',
+            '4). Paula toca el piano.',
+            '5). Paula, Ricardo y Luis juegan videojuegos.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/microfono.svg', 'cantan'],
+            ['../img/deduccion/objetos/guitarra.svg', 'guitarra'],
+            ['../img/deduccion/objetos/bicicleta.png', 'bicicleta'],
+            ['../img/deduccion/objetos/piano.svg', 'piano'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuegos']
+        ],
+        'nombres' : [
+            ['Javier ', 'cantan', 'guitarra'],
+    		['Antonio', 'cantan', 'bicicleta'],
+    		['David', 'cantan'],
+            ['Ricardo', 'cantan', 'bicicleta','videojuegos'],
+            ['Paula', 'guitarra','piano','videojuegos'],
+            ['Luis', 'guitarra','videojuegos']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio18/isabel.svg',
+            '../img/quien-soy/ejercicio18/lorena.svg',
+            '../img/quien-soy/ejercicio18/david.svg',
+            '../img/quien-soy/ejercicio18/carlos.svg',
+            '../img/quien-soy/ejercicio18/ricardo.svg',
+            '../img/quien-soy/ejercicio18/antonio.svg'
+    	],
+        'pista' : [
+            '1). Francisco y Antonio usan gafas.',
+            '2). Ricardo lleva corbata.',
+            '3). Jorge, Jose y Antonio llevan pañuelos.',
+            '4). Oscar lleva gorra.',
+            '5). Jorge, Francisco y José llevan mochilas.',
+            '6). Jorge y José llevan teléfono.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/lentes.svg', 'gafas'],
+            ['../img/deduccion/objetos/corbata.svg', 'corbata'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/gorra.svg', 'gorra'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochilas'],
+            ['../img/deduccion/objetos/telefono.svg', 'teléfono']
+        ],
+        'nombres' : [
+            ['Francisco ', 'gafas', 'mochila'],
+    		['Antonio', 'gafas', 'pañuelos'],
+    		['Ricardo', 'corbata'],
+            ['Jorge', 'pañuelos', 'mochila','teléfono'],
+            ['José', 'pañuelos','mochila','teléfono'],
+            ['Oscar', 'gorra']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio19/alejandro.svg',
+            '../img/quien-soy/ejercicio19/alicia.svg',
+            '../img/quien-soy/ejercicio19/juan.svg',
+            '../img/quien-soy/ejercicio19/antonio.svg',
+            '../img/quien-soy/ejercicio19/fabiola.svg',
+            '../img/quien-soy/ejercicio19/javier.svg'
+    	],
+        'pista' : [
+            '1). Fabiola, Javier y Alejandro usan gafas.',
+            '2). Fabiola y Alicia llevan corbata.',
+            '3). Juan lleva pañuelo.',
+            '4). Fabiola, Javier y Alejandro llevan gorra.',
+            '5). Antonio y Alicia llevan mochila.',
+            '6). Antonio, Juan, Alicia y Alejandro llevan teléfono.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/lentes.svg', 'gafas'],
+            ['../img/deduccion/objetos/corbata.svg', 'corbata'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/gorra.svg', 'gorra'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochilas'],
+            ['../img/deduccion/objetos/telefono.svg', 'teléfono']
+        ],
+        'nombres' : [
+            ['Fabiola ', 'gafas', 'gorra', 'corbata'],
+    		['Javier', 'gafas', 'gorra'],
+    		['Alejandro', 'gafas', 'gorra','teléfono'],
+            ['Alicia', 'corbata', 'mochila','teléfono'],
+            ['Juan', 'pañuelos','teléfono'],
+            ['Antonio', 'mochila','teléfono']
+        ]
+    }
+        {
+        'img' : [
+            '../img/quien-soy/ejercicio19/alejandro.svg',
+            '../img/quien-soy/ejercicio19/alicia.svg',
+            '../img/quien-soy/ejercicio19/juan.svg',
+            '../img/quien-soy/ejercicio19/antonio.svg',
+            '../img/quien-soy/ejercicio19/fabiola.svg',
+            '../img/quien-soy/ejercicio19/javier.svg'
+    	],
+        'pista' : [
+            '1). Fabiola, Javier y Alejandro usan gafas.',
+            '2). Fabiola y Alicia llevan corbata.',
+            '3). Juan lleva pañuelo.',
+            '4). Fabiola, Javier y Alejandro llevan gorra.',
+            '5). Antonio y Alicia llevan mochila.',
+            '6). Antonio, Juan, Alicia y Alejandro llevan teléfono.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/lentes.svg', 'gafas'],
+            ['../img/deduccion/objetos/corbata.svg', 'corbata'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/gorra.svg', 'gorra'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochilas'],
+            ['../img/deduccion/objetos/telefono.svg', 'teléfono']
+        ],
+        'nombres' : [
+            ['Fabiola ', 'gafas', 'gorra', 'corbata'],
+    		['Javier', 'gafas', 'gorra'],
+    		['Alejandro', 'gafas', 'gorra','teléfono'],
+            ['Alicia', 'corbata', 'mochila','teléfono'],
+            ['Juan', 'pañuelos','teléfono'],
+            ['Antonio', 'mochila','teléfono']
         ]
     }
     ];
