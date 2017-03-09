@@ -15,3 +15,11 @@
     * componer validacion
     * terminar matriz con objetos dimensionados
     
+    realizado:
+    *validacion quien soy finalizada
+    * matriz quien soy al 15 de 40.
+    
+----> por hacer:
+    * validacion de deduccion
+    * terminar matriz de quien soy
+    
