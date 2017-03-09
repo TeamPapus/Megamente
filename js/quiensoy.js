@@ -23,7 +23,7 @@ define(function (require) {
             ['../img/deduccion/objetos/collar.png', 'collar'],
             ['../img/deduccion/objetos/sombrero.png', 'sombrero'],
             ['../img/deduccion/objetos/mochila2.png', 'mochila'],
-            ['../img/deduccion/objetos/telefono.png', 'telefono']
+            ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
             ['Inés', 'gafas', 'collar', 'mochila'],
@@ -52,12 +52,13 @@ define(function (require) {
             '6). Luisa, Juan, José y Antonio juegan videojuegos.'
 		],
         'obj' : [
-            ['../img/deduccion/objetos/microfono.png', 'microfono'],
-            ['../img/deduccion/objetos/camara.png', 'camara'],
+            ['../img/deduccion/objetos/microfono.png', 'micrófono'],
+            ['../img/deduccion/objetos/camara.png', 'cámara'],
             ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
             ['../img/deduccion/objetos/bicicleta.png', 'bicicleta'],
             ['../img/deduccion/objetos/piano.png', 'piano'],
-            ['../img/deduccion/objetos/videojuego.png', 'video juego']
+            ['../img/deduccion/objetos/videojuego.png', 'videojuego']
+
         ],
         'nombres' : [
             ['Ana', 'micrófono', 'cámara'],
