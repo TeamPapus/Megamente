@@ -67,7 +67,7 @@ define(function (require) {
             // Actualiza los atributos de cada elemento
             $(this).css({'top': top+'px', 'left': pos+'px'});
             // Espacio aumenta
-            pos+=190;
+            pos+=200;
         });
     }
 
@@ -420,6 +420,10 @@ define(function (require) {
             ondrop:stopItem,
             ondragleave:leaveItem
         });
+        
+        /*$('#get-modal').click(function() {
+            $('#myModal').css('display', 'block');
+        });*/
         
         /**
          * Funcion de modal

@@ -244,8 +244,8 @@ define(function (require) {
             '../img/quien-soy/ejercicio8/jorge.svg',
             '../img/quien-soy/ejercicio8/pedro.svg',
             '../img/quien-soy/ejercicio8/ana.svg',
-            '../img/quien-soy/ejercicio8/teresa.svg',
-            '../img/quien-soy/ejercicio8/luisa.svg',
+            '../img/quien-soy/ejercicio8/cristina.svg',
+            '../img/quien-soy/ejercicio8/jose.svg',
             '../img/quien-soy/ejercicio8/raquel.svg'
     	],
         'pista' : [
@@ -511,10 +511,10 @@ define(function (require) {
     },
     {
         'img' : [
-            '../img/quien-soy/ejercicio15/maria.svg',
-            '../img/quien-soy/ejercicio15/lorena.svg',
+            '../img/quien-soy/ejercicio15/teresa.svg',
+            '../img/quien-soy/ejercicio15/gloria.svg',
             '../img/quien-soy/ejercicio15/raquel.svg',
-            '../img/quien-soy/ejercicio15/isabel.svg',
+            '../img/quien-soy/ejercicio15/ines.svg',
             '../img/quien-soy/ejercicio15/ana.svg',
             '../img/quien-soy/ejercicio15/paula.svg'
     	],
@@ -611,10 +611,10 @@ define(function (require) {
     },
     {
         'img' : [
-            '../img/quien-soy/ejercicio18/isabel.svg',
-            '../img/quien-soy/ejercicio18/lorena.svg',
-            '../img/quien-soy/ejercicio18/david.svg',
-            '../img/quien-soy/ejercicio18/carlos.svg',
+            '../img/quien-soy/ejercicio18/francisco.svg',
+            '../img/quien-soy/ejercicio18/jorge.svg',
+            '../img/quien-soy/ejercicio18/jose.svg',
+            '../img/quien-soy/ejercicio18/oscar.svg',
             '../img/quien-soy/ejercicio18/ricardo.svg',
             '../img/quien-soy/ejercicio18/antonio.svg'
     	],
