@@ -50,6 +50,7 @@
 }
 
 .objeto {
+    z-index: 3;
     width: 110px;
     height: 150px;
 }
@@ -207,4 +208,29 @@
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+.bloques{
+    position: absolute;
+    height: 343px;
+    width: 155px;
+    top: 450px;
+  }
+
+#bloque_1{
+  left: 68px;
+}
+#bloque_2{
+  left: 295px;
+}
+#bloque_3{
+  left: 523px;
+}
+#bloque_4{
+  left: 749px;
+}
+#bloque_5{
+  left: 977px;
+}
+.respuesta_ded{
+  background-color: darkcyan;
 }

@@ -34,8 +34,8 @@ define(function (require) {
         target.setAttribute('data-x', x);
         target.setAttribute('data-y', y);
     };
-    
-    /** 
+
+    /**
      * Funcion para generar un numero al azar dependiendo de la longitud de un arreglo
      */
     function random(array) {
@@ -43,7 +43,7 @@ define(function (require) {
         return Math.floor(Math.random() * array.length);
 	}
 
-    /** 
+    /**
      * Funcion que colocar las imagenes de cambian cada ejercicio
      */
     function spr(id, matriz) {
@@ -57,7 +57,7 @@ define(function (require) {
         return ejer;
     }
 
-    /** 
+    /**
      * Funcion para ordenar en pantalla los elementos html que con tinen imagenes
      */
     function objpos(id, top, left) {
@@ -71,7 +71,7 @@ define(function (require) {
         });
     }
 
-    /** 
+    /**
      * Funcion para ordenar los nombre de los personajes de quien soy
      */
     function nompos(ejer, matriz) {
@@ -87,15 +87,24 @@ define(function (require) {
     }
 
     /**
-     * Funcion que agrega una clase a las zonas de arrastre
+     * Funcion que agrega una clase a las zonas de arrastre quiensoy
      */
     var dragItem = function(event) {
-        var dropzoneElement = event.target; // Caputa el elento sobre el cual se arrastro otro
+        var dropzoneElement = event.target; // Caputa el evento sobre el cual se arrastro otro
         // Agrega la clase
         dropzoneElement.classList.add('respuesta_location');
     };
+    /**
+     * Funcion que agrega una clase a las zonas de arrastre deduccion
+     */
+    var dragItem_ded = function(event) {
+        var dropzoneElement = event.target; // Caputa el evento sobre el cual se arrastro otro
+        // Agrega la clase
+        dropzoneElement.classList.add('respuesta_ded');
+    };
 
-    /** 
+
+    /**
      * Funcion que remueve los acentos
      */
     function remove_accent(str) {
@@ -110,7 +119,7 @@ define(function (require) {
         // Retorna la palabra sin acentos
         return res;
     }
-    
+
     /**
      * Funcion que obtiene el nombre de una imagen a partir de la cadena de su ubicacion
      */
@@ -162,7 +171,7 @@ define(function (require) {
     };
 
     /**
-     * Funcion que cambia al clase de las zonas de arrastre
+     * Funcion que cambia al clase de las zonas de arrastre quiensoy
      */
     var leaveItem = function(event) {
         //  Captura el elemento que sale de la zona de arrastre
@@ -170,13 +179,26 @@ define(function (require) {
         // Remueve la clase del elemento
         dropzoneElement.classList.remove('respuesta_location');
     };
+    /**
+     * Funcion que cambia al clase de las zonas de arrastre deduccion
+     */
+    var leaveItem_ded = function(event) {
+        //  Captura el elemento que sale de la zona de arrastre
+        var dropzoneElement = event.target;
+        // Remueve la clase del elemento
+        dropzoneElement.classList.remove('respuesta_ded');
+    };
+
+
+
+
 
     // Manipulate the DOM only when it is ready.
     require(['domReady!'], function (doc) {
         // Initialize the activity.
         activity.setup();
 
-        /** 
+        /**
         /* Regrasa al menu principal
          */
         $('.inicio').on('click', function() {
@@ -188,7 +210,7 @@ define(function (require) {
             location.reload();
         });
 
-        /** 
+        /**
         /* Cambia del menu principal al juego de deduccion
          */
         $('#btn-deduccion').on('click', function() {
@@ -204,7 +226,7 @@ define(function (require) {
             objpos('od', 70, 70);
         });
 
-        /** 
+        /**
         /* Funcion de elementos arrastrables del juego deduccion
          */
         // Lista de objetos arrastrables
@@ -212,10 +234,26 @@ define(function (require) {
         // Atributos de los objetos arrastrables
         items.draggable({
             initial:true,
+            restrict: {
+                restriction: document.getElementById('canvas'),
+                endOnly: true,
+                elementRect: { top: 0, left: 0, bottom: 1, right: 1 }
+            },
             onmove:moveItem,
         });
 
-        /** 
+        /**
+         * Funcion de objetos arrastrables de deduccion
+         */
+        var objects = interact('.bloques');
+        objects.dropzone({
+            accept:'.movimiento_d',
+            overlap: 0.75,
+            ondragenter:dragItem_ded,
+          /*  ondrop:stopItem,*/
+            ondragleave:leaveItem_ded
+        });
+        /**
         /* Carga nuevo ejerccion de deduccion
          */
         $('#btndeduccion').on('click', function() {
@@ -227,7 +265,7 @@ define(function (require) {
             objpos('od', 70, 70);
         });
 
-        /** 
+        /**
         /* Pasa del menu principal al juego quien soy
          */
         $('#btn-quiensoy').on('click', function() {
@@ -266,7 +304,7 @@ define(function (require) {
 
         });
 
-        /** 
+        /**
         /* Funcion de atraste de nombres de personajes
          */
         var cosas = interact('.movimiento_qs');
@@ -280,7 +318,7 @@ define(function (require) {
             onmove:moveItem,
         });
 
-        /** 
+        /**
         /* Funcion de atraste de nombres de personajes
          */
         $("#btnquiensoy").on('click', function() {
@@ -339,7 +377,7 @@ define(function (require) {
             $('.objetop').css('background','url(' + quiensoy[ejer].obj[pista][0] + ') 0 0 no-repeat');
             $('.objetop').attr('data',quiensoy[ejer].obj[pista][1]);
         });
-        
+
         /**
          * Funcion que agrega objetos a la lista de objetos determinados por nombre
          */
@@ -347,7 +385,7 @@ define(function (require) {
             var existe = 0;
             var temp = '';
             var vertical = 0;
-            
+
             // Captura nombre del objeto
             var data = $('.objetop').attr('data');
             // Recorre la lista de elementos html por nombre
@@ -400,6 +438,7 @@ define(function (require) {
                 if (relacion == $(this).children().length){
                     // Agrega las clases de arratres a los nombres correspondientes a la lista de objetos
                     $('#cont_nombres :eq(' + respuesta + ')').addClass('movimiento_qs');
+                    console.log(respuesta);
                     $('#cont_nombres :eq(' + respuesta + ')').css('background-color', 'yellow');
                 }
             } else {
@@ -420,11 +459,11 @@ define(function (require) {
             ondrop:stopItem,
             ondragleave:leaveItem
         });
-        
+
         /*$('#get-modal').click(function() {
             $('#myModal').css('display', 'block');
         });*/
-        
+
         /**
          * Funcion de modal
          */
