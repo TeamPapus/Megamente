@@ -42,11 +42,26 @@ define(function (require) {
         // La funcion retorna un numero al azar
         return Math.floor(Math.random() * array.length);
 	}
+    
+    /**
+     * Funcion que colocar las imagenes de cambian cada ejercicio de deduccion
+     */
+    function spr_dd(id, matriz) {
+        var ejer = random(matriz); //Numero de ejercicio generado al azar
+        // Ciclo de busqueda de imagenes en la matriz
+        for (var i=0; i<=matriz[ejer].img.length; i++) {
+            // Coloca cada imagen en su elemento html correspondiente
+            console.log(matriz[ejer].img[i]);
+            $('#' + id + ' .'+cont[i]).css({'background': 'url(' + matriz[ejer].img[i][0] + ') 0 0 no-repeat', 'background-position': 'center'});
+        }
+        // La cuncion retorna el nuemro de ejercicio
+        return ejer;
+    }
 
     /**
-     * Funcion que colocar las imagenes de cambian cada ejercicio
+     * Funcion que colocar las imagenes de cambian cada ejercicio de quiensoy
      */
-    function spr(id, matriz) {
+    function spr_qs(id, matriz) {
         var ejer = random(matriz); //Numero de ejercicio generado al azar
         // Ciclo de busqueda de imagenes en la matriz
         for (var i=0; i<=matriz[ejer].img.length; i++) {
@@ -219,7 +234,7 @@ define(function (require) {
             // Hace visible la pantall del juego deduccion
         	$('#deduccion').toggle();
             // Carga al azar un ejercicio de deduccion
-            var ejer = spr('od', deduccion);
+            var ejer = spr_dd('od', deduccion);
             // Acomoda la pista deducion
             $('#pistasd').text(deduccion[ejer].pista);
             // Ordena la lista de objetos
@@ -258,7 +273,7 @@ define(function (require) {
          */
         $('#btndeduccion').on('click', function() {
             // Carga al azar un ejercicio de deduccion
-            var ejer = spr('od', deduccion);
+            var ejer = spr_dd('od', deduccion);
             // Acomoda la pista deducion
             $('#pistasd').text(deduccion[ejer].pista);
             // Ordena la lista de objetos
@@ -274,7 +289,7 @@ define(function (require) {
             // Hace visible la pantall del juego quien soy
         	$('#quiensoy').toggle();
             // Organiza los personajes del juego quien soy
-            ejer  = spr('oqs', quiensoy);
+            ejer  = spr_qs('oqs', quiensoy);
             pista = 0; // Cantidad de pistas
             // Coloca la lista en su lugar
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
@@ -335,7 +350,7 @@ define(function (require) {
                 $(this).removeAttr('respuesta_location');
             });
             // Organiza los personajes del juego quien soy
-            ejer  = spr('oqs', quiensoy);
+            ejer  = spr_qs('oqs', quiensoy);
             pista = 0; // Cantidad de pistas
             // Coloca la lista en su lugar
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
@@ -482,7 +497,7 @@ define(function (require) {
                 $(this).removeAttr('respuesta_location');
             });
             // Organiza los personajes del juego quien soy
-            ejer  = spr('oqs', quiensoy);
+            ejer  = spr_qs('oqs', quiensoy);
             pista = 0; // Cantidad de pistas
             // Coloca la lista en su lugar
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
