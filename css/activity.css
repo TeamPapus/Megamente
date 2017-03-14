@@ -63,6 +63,59 @@
     width: 990px;
 }
 
+.bloques{
+    position: absolute;
+    height: 343px;
+    width: 155px;
+    top: 450px;
+}
+
+#bloque_1{
+  left: 68px;
+}
+
+#bloque_2{
+  left: 295px;
+}
+
+#bloque_3{
+  left: 523px;
+}
+
+#bloque_4{
+  left: 749px;
+}
+
+#bloque_5{
+  left: 977px;
+}
+
+.respuesta_ded{
+  background-color: darkcyan;
+}
+
+.signos {
+    width: 52px;
+    height: 92px;
+    top: 580px;
+}
+
+#signo1 {
+    left: 233px;
+}
+
+#signo2 {
+    left: 460px;
+}
+
+#signo3 {
+    left: 688px;
+}
+
+#signo4 {
+    left: 914px;
+}
+
 /* Quien soy? **/
 #quiensoy {
     width: 1200px;
@@ -208,29 +261,4 @@
     color: white;
     text-decoration: none;
     cursor: pointer;
-}
-.bloques{
-    position: absolute;
-    height: 343px;
-    width: 155px;
-    top: 450px;
-  }
-
-#bloque_1{
-  left: 68px;
-}
-#bloque_2{
-  left: 295px;
-}
-#bloque_3{
-  left: 523px;
-}
-#bloque_4{
-  left: 749px;
-}
-#bloque_5{
-  left: 977px;
-}
-.respuesta_ded{
-  background-color: darkcyan;
 }

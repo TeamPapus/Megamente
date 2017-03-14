@@ -12,6 +12,7 @@ define(function (require) {
     var ejer        = 0;
     var pista       = 0;
     var resps_qs    = [];
+    var cont_dd     = 0;
 
     /**
      * Funcion de movimiento para elementos html
@@ -48,14 +49,31 @@ define(function (require) {
      */
     function spr_dd(id, matriz) {
         var ejer = random(matriz); //Numero de ejercicio generado al azar
-        console.log(ejer);
         // Ciclo de busqueda de imagenes en la matriz
         for (var i=0; i<=(matriz[ejer].img.length - 1); i++) {
             // Coloca cada imagen en su elemento html correspondiente
             $('#' + id + ' .'+cont[i]).css({'background': 'url(' + matriz[ejer].img[i][0] + ') 0 0 no-repeat', 'background-position': 'center'});
+            $('#' + id + ' .'+cont[i]).attr('data', matriz[ejer].img[i][1]);
         }
         // La cuncion retorna el nuemro de ejercicio
         return ejer;
+    }
+    
+    function sigpos(ejer){
+        var signo = '';
+        if (deduccion[ejer].signo == '<')
+            signo = 'img/signo-menor.png';
+        else 
+            signo = 'img/signo-mayor.png';
+        $('#sg').children().each(function() {
+            $(this).css({'background': 'url(' + signo + ') 0 0 no-repeat', 'background-position': 'center'});
+        });
+    }
+    
+    function orden(ejer) {
+        $('#bl').children().each(function(index) {
+            $(this).attr('data', deduccion[ejer].solucion[index]);
+        });
     }
 
     /**
@@ -174,6 +192,19 @@ define(function (require) {
             });
         }
     }
+    
+    /**
+     * Funcion que valida deduccion
+     */
+    function validardd(draggableElement, dropzoneElement) {
+        var arrastrable = $(draggableElement);
+        var zona_arrastre = $(dropzoneElement);
+        if(arrastrable.attr('data') == zona_arrastre.attr('data')) { console.log(cont_dd); cont_dd++; }
+        if(cont_dd == 5) {
+            console.log('igual');
+            $('#Modal_dd').css('display', 'block');
+        }
+    }
 
     /**
      * Funcion que obtiene si el elemento html arrastrado en corresponde al de la imagen correspondiente
@@ -183,6 +214,13 @@ define(function (require) {
         var draggableElement = event.relatedTarget, dropzoneElement = event.target;
         // Llamado de la funcion que verifica los nombres
         validarqs(draggableElement, dropzoneElement);
+    };
+    
+     var stopItem_ded = function(event) {
+        // Captura los elemntos arrastrados y los de zona de arrastre
+        var draggableElement = event.relatedTarget, dropzoneElement = event.target;
+        // Llamado de la funcion que verifica los nombres
+        validardd(draggableElement, dropzoneElement);
     };
 
     /**
@@ -231,16 +269,9 @@ define(function (require) {
             $('#pistasd').text(deduccion[ejer].pista);
             // Ordena la lista de objetos
             objpos('od', 70, 70);
-
-            /*$('.bl').children().each(function(){
-              var pos = 68;
-              $(this).css('left','68px');
-              for (var i = 0; i < 5; i++) {
-                pos+=;
-              }
-            });*/
-
-
+            sigpos(ejer);
+            orden(ejer);
+            cont_dd = 0;
         });
 
         /**
@@ -267,7 +298,7 @@ define(function (require) {
             accept:'.movimiento_d',
             overlap: 0.75,
             ondragenter:dragItem_ded,
-          /*  ondrop:stopItem,*/
+            ondrop:stopItem_ded,
             ondragleave:leaveItem_ded
         });
         
@@ -281,6 +312,9 @@ define(function (require) {
             $('#pistasd').text(deduccion[ejer].pista);
             // Ordena la lista de objetos
             objpos('od', 70, 70);
+            sigpos(ejer);
+            orden(ejer);
+            cont_dd = 0;
         });
         /**
         /* Pasa del menu principal al juego quien soy

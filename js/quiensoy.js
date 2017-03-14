@@ -433,7 +433,7 @@ define(function (require) {
             ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
-            ['Juan ', 'gafas', 'cinturón', 'mochila'],
+            ['Juan', 'gafas', 'cinturón', 'mochila'],
     		['Antonio', 'gafas'],
     		['Jorge', 'corbata'],
             ['Daniel', 'gorra', 'cinturón', 'mochila'],
