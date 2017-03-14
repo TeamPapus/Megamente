@@ -2,12 +2,12 @@ define(function (require) {
     return [
     {
     	'img' : [
-    		'../Megamente/img/quien-soy/ejercicio1/maria.svg',
-    		'../Megamente/img/quien-soy/ejercicio1/ines.svg',
-    		'../Megamente/img/quien-soy/ejercicio1/luisa.svg',
-			'../Megamente/img/quien-soy/ejercicio1/paula.svg',
-			'../Megamente/img/quien-soy/ejercicio1/ana.svg',
-      '../Megamente/img/quien-soy/ejercicio1/raquel.svg'
+    		'../img/quien-soy/ejercicio1/maria.svg',
+    		'../img/quien-soy/ejercicio1/ines.svg',
+    		'../img/quien-soy/ejercicio1/luisa.svg',
+			'../img/quien-soy/ejercicio1/paula.svg',
+			'../img/quien-soy/ejercicio1/ana.svg',
+            '../img/quien-soy/ejercicio1/raquel.svg'
 		],
 		'pista' : [
 			'1). Inés usa gafas.',
@@ -18,12 +18,12 @@ define(function (require) {
             '6). Raquel, Paula, María, Ana llevan teléfono.'
 		],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/lentes.png', 'gafas'],
-            ['../Megamente/img/deduccion/objetos/reloj.png', 'reloj'],
-            ['../Megamente/img/deduccion/objetos/collar.png', 'collar'],
-            ['../Megamente/img/deduccion/objetos/sombrero.png', 'sombrero'],
-            ['../Megamente/img/deduccion/objetos/mochila2.png', 'mochila'],
-            ['../Megamente/img/deduccion/objetos/telefono.png', 'teléfono']
+            ['../img/deduccion/objetos/lentes.png', 'gafas'],
+            ['../img/deduccion/objetos/reloj.png', 'reloj'],
+            ['../img/deduccion/objetos/collar.png', 'collar'],
+            ['../img/deduccion/objetos/sombrero.png', 'sombrero'],
+            ['../img/deduccion/objetos/mochila2.png', 'mochila'],
+            ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
             ['Inés', 'gafas', 'collar', 'mochila'],
@@ -36,12 +36,12 @@ define(function (require) {
 	},
 	{
 		'img' : [
-			'../Megamente/img/quien-soy/ejercicio2/ana.svg',
-			'../Megamente/img/quien-soy/ejercicio2/david.svg',
-			'../Megamente/img/quien-soy/ejercicio2/juan.svg',
-			'../Megamente/img/quien-soy/ejercicio2/jose.svg',
-			'../Megamente/img/quien-soy/ejercicio2/antonio.svg',
-            '../Megamente/img/quien-soy/ejercicio2/luisa.svg'
+			'../img/quien-soy/ejercicio2/ana.svg',
+			'../img/quien-soy/ejercicio2/david.svg',
+			'../img/quien-soy/ejercicio2/juan.svg',
+			'../img/quien-soy/ejercicio2/jose.svg',
+			'../img/quien-soy/ejercicio2/antonio.svg',
+            '../img/quien-soy/ejercicio2/luisa.svg'
 		],
 		'pista' : [
 			'1). Ana, David y Juan cantan.',
@@ -52,12 +52,12 @@ define(function (require) {
             '6). Luisa, Juan, José y Antonio juegan videojuegos.'
 		],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/microfono.png', 'micrófono'],
-            ['../Megamente/img/deduccion/objetos/camara.png', 'cámara'],
-            ['../Megamente/img/deduccion/objetos/guitarra.png', 'guitarra'],
-            ['../Megamente/img/deduccion/objetos/bicicleta.png', 'bicicleta'],
-            ['../Megamente/img/deduccion/objetos/piano.png', 'piano'],
-            ['../Megamente/img/deduccion/objetos/videojuego.png', 'videojuego']
+            ['../img/deduccion/objetos/microfono.png', 'micrófono'],
+            ['../img/deduccion/objetos/camara.png', 'cámara'],
+            ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
+            ['../img/deduccion/objetos/bicicleta.png', 'bicicleta'],
+            ['../img/deduccion/objetos/piano.png', 'piano'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuego']
 
         ],
         'nombres' : [
@@ -71,12 +71,12 @@ define(function (require) {
 	},
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio3/gabriela.svg',
-            '../Megamente/img/quien-soy/ejercicio3/maria.svg',
-            '../Megamente/img/quien-soy/ejercicio3/ana.svg',
-            '../Megamente/img/quien-soy/ejercicio3/javier.svg',
-            '../Megamente/img/quien-soy/ejercicio3/jose.svg',
-            '../Megamente/img/quien-soy/ejercicio3/paula.svg'
+            '../img/quien-soy/ejercicio3/gabriela.svg',
+            '../img/quien-soy/ejercicio3/maria.svg',
+            '../img/quien-soy/ejercicio3/ana.svg',
+            '../img/quien-soy/ejercicio3/javier.svg',
+            '../img/quien-soy/ejercicio3/jose.svg',
+            '../img/quien-soy/ejercicio3/paula.svg'
     	],
         'pista' : [
             '1). Gabriela, María, José y Javier cantan.',
@@ -87,12 +87,12 @@ define(function (require) {
             '6). Paula juega videojuegos.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/microfono.png', 'micrófono'],
-            ['../Megamente/img/deduccion/objetos/camara.png', 'cámara'],
-            ['../Megamente/img/deduccion/objetos/guitarra.png', 'guitarra'],
-            ['../Megamente/img/deduccion/objetos/bicicleta.png', 'bicicleta'],
-            ['../Megamente/img/deduccion/objetos/piano.png', 'piano'],
-            ['../Megamente/img/deduccion/objetos/videojuego.png', 'videojuego']
+            ['../img/deduccion/objetos/microfono.png', 'micrófono'],
+            ['../img/deduccion/objetos/camara.png', 'cámara'],
+            ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
+            ['../img/deduccion/objetos/bicicleta.png', 'bicicleta'],
+            ['../img/deduccion/objetos/piano.png', 'piano'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuego']
         ],
         'nombres' : [
             ['Gabriela', 'micrófono', 'cámara'],
@@ -105,12 +105,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio4/maria.svg',
-            '../Megamente/img/quien-soy/ejercicio4/david.svg',
-            '../Megamente/img/quien-soy/ejercicio4/lorena.svg',
-            '../Megamente/img/quien-soy/ejercicio4/paula.svg',
-            '../Megamente/img/quien-soy/ejercicio4/isabel.svg',
-            '../Megamente/img/quien-soy/ejercicio4/ricardo.svg'
+            '../img/quien-soy/ejercicio4/maria.svg',
+            '../img/quien-soy/ejercicio4/david.svg',
+            '../img/quien-soy/ejercicio4/lorena.svg',
+            '../img/quien-soy/ejercicio4/paula.svg',
+            '../img/quien-soy/ejercicio4/isabel.svg',
+            '../img/quien-soy/ejercicio4/ricardo.svg'
     	],
         'pista' : [
             '1). María, David, Lorena y Paula comen mangos.',
@@ -121,12 +121,12 @@ define(function (require) {
             '6). David come uvas.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/alimentos/mango.png', 'mango'],
-            ['../Megamente/img/deduccion/alimentos/manzana.png', 'manzana'],
-            ['../Megamente/img/deduccion/alimentos/melocoton.png', 'melocotón'],
-            ['../Megamente/img/deduccion/alimentos/sandia.png', 'sandia'],
-            ['../Megamente/img/deduccion/alimentos/banano.png', 'bananos'],
-            ['../Megamente/img/deduccion/alimentos/uva.svg', 'uvas']
+            ['../img/deduccion/alimentos/mango.png', 'mango'],
+            ['../img/deduccion/alimentos/manzana.png', 'manzana'],
+            ['../img/deduccion/alimentos/melocoton.png', 'melocotón'],
+            ['../img/deduccion/alimentos/sandia.png', 'sandia'],
+            ['../img/deduccion/alimentos/banano.png', 'bananos'],
+            ['../img/deduccion/alimentos/uva.svg', 'uvas']
         ],
         'nombres' : [
             ['Maria', 'mango', 'manzana','sandia'],
@@ -139,12 +139,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio5/david.svg',
-            '../Megamente/img/quien-soy/ejercicio5/teresa.svg',
-            '../Megamente/img/quien-soy/ejercicio5/isabel.svg',
-            '../Megamente/img/quien-soy/ejercicio5/ricardo.svg',
-            '../Megamente/img/quien-soy/ejercicio5/raquel.svg',
-            '../Megamente/img/quien-soy/ejercicio5/ines.svg'
+            '../img/quien-soy/ejercicio5/david.svg',
+            '../img/quien-soy/ejercicio5/teresa.svg',
+            '../img/quien-soy/ejercicio5/isabel.svg',
+            '../img/quien-soy/ejercicio5/ricardo.svg',
+            '../img/quien-soy/ejercicio5/raquel.svg',
+            '../img/quien-soy/ejercicio5/ines.svg'
     	],
         'pista' : [
             '1). Inés, Teresa, Isabel y Ricardo juegan baloncesto.',
@@ -155,12 +155,12 @@ define(function (require) {
             '6). Raquel, David, Isabel y Ricardo juegan al voleibol.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/baloncesto.png', 'baloncesto'],
-            ['../Megamente/img/deduccion/objetos/ajedrez.png', 'ajedrez'],
-            ['../Megamente/img/deduccion/objetos/futbol.png', 'fútbol'],
-            ['../Megamente/img/deduccion/objetos/futbol-americano.png', 'fútbol-americano'],
-            ['../Megamente/img/deduccion/objetos/tenis.png', 'tenis'],
-            ['../Megamente/img/deduccion/objetos/voleibol.svg', 'voleibol']
+            ['../img/deduccion/objetos/baloncesto.png', 'baloncesto'],
+            ['../img/deduccion/objetos/ajedrez.png', 'ajedrez'],
+            ['../img/deduccion/objetos/futbol.png', 'fútbol'],
+            ['../img/deduccion/objetos/futbol-americano.png', 'fútbol-americano'],
+            ['../img/deduccion/objetos/tenis.png', 'tenis'],
+            ['../img/deduccion/objetos/voleibol.svg', 'voleibol']
         ],
         'nombres' : [
             ['Inés', 'baloncesto', 'fútbol','tenis'],
@@ -173,12 +173,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio6/pedro.svg',
-            '../Megamente/img/quien-soy/ejercicio6/ana.svg',
-            '../Megamente/img/quien-soy/ejercicio6/lorena.svg',
-            '../Megamente/img/quien-soy/ejercicio6/raquel.svg',
-            '../Megamente/img/quien-soy/ejercicio6/ricardo.svg',
-            '../Megamente/img/quien-soy/ejercicio6/antonio.svg'
+            '../img/quien-soy/ejercicio6/pedro.svg',
+            '../img/quien-soy/ejercicio6/ana.svg',
+            '../img/quien-soy/ejercicio6/lorena.svg',
+            '../img/quien-soy/ejercicio6/raquel.svg',
+            '../img/quien-soy/ejercicio6/ricardo.svg',
+            '../img/quien-soy/ejercicio6/antonio.svg'
     	],
         'pista' : [
             '1). Ana y Raquel cantan.',
@@ -189,12 +189,12 @@ define(function (require) {
             '6). Lorena toca la flauta.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/microfono.png', 'mircrófono'],
-            ['../Megamente/img/deduccion/objetos/camara.png', 'cámara'],
-            ['../Megamente/img/deduccion/objetos/guitarra.png', 'guitarra'],
-            ['../Megamente/img/deduccion/objetos/carro.png', 'carro'],
-            ['../Megamente/img/deduccion/objetos/videojuego.png', 'videojuego'],
-            ['../Megamente/img/deduccion/objetos/flauta.png', 'flauta']
+            ['../img/deduccion/objetos/microfono.png', 'mircrófono'],
+            ['../img/deduccion/objetos/camara.png', 'cámara'],
+            ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
+            ['../img/deduccion/objetos/carro.png', 'carro'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuego'],
+            ['../img/deduccion/objetos/flauta.png', 'flauta']
         ],
         'nombres' : [
             ['Ana', 'mircrófono', 'cámara','videojuego'],
@@ -207,12 +207,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio7/jorge.svg',
-            '../Megamente/img/quien-soy/ejercicio7/pedro.svg',
-            '../Megamente/img/quien-soy/ejercicio7/ana.svg',
-            '../Megamente/img/quien-soy/ejercicio7/teresa.svg',
-            '../Megamente/img/quien-soy/ejercicio7/luisa.svg',
-            '../Megamente/img/quien-soy/ejercicio7/raquel.svg'
+            '../img/quien-soy/ejercicio7/jorge.svg',
+            '../img/quien-soy/ejercicio7/pedro.svg',
+            '../img/quien-soy/ejercicio7/ana.svg',
+            '../img/quien-soy/ejercicio7/teresa.svg',
+            '../img/quien-soy/ejercicio7/luisa.svg',
+            '../img/quien-soy/ejercicio7/raquel.svg'
     	],
         'pista' : [
             '1). Jorge canta.',
@@ -223,12 +223,12 @@ define(function (require) {
             '6). Ana y Teresa juegan videojuegos.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/microfono.png', 'mircrófono'],
-            ['../Megamente/img/deduccion/objetos/camara.png', 'cámara'],
-            ['../Megamente/img/deduccion/objetos/guitarra.png', 'guitarra'],
-            ['../Megamente/img/deduccion/objetos/carro.png', 'carro'],
-            ['../Megamente/img/deduccion/objetos/piano.png', 'piano'],
-            ['../Megamente/img/deduccion/objetos/videojuego.png', 'videojuego']
+            ['../img/deduccion/objetos/microfono.png', 'mircrófono'],
+            ['../img/deduccion/objetos/camara.png', 'cámara'],
+            ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
+            ['../img/deduccion/objetos/carro.png', 'carro'],
+            ['../img/deduccion/objetos/piano.png', 'piano'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuego']
         ],
         'nombres' : [
             ['Jorge', 'mircrófono', 'piano'],
@@ -241,12 +241,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio8/jorge.svg',
-            '../Megamente/img/quien-soy/ejercicio8/pedro.svg',
-            '../Megamente/img/quien-soy/ejercicio8/ana.svg',
-            '../Megamente/img/quien-soy/ejercicio8/cristina.svg',
-            '../Megamente/img/quien-soy/ejercicio8/jose.svg',
-            '../Megamente/img/quien-soy/ejercicio8/raquel.svg'
+            '../img/quien-soy/ejercicio8/jorge.svg',
+            '../img/quien-soy/ejercicio8/pedro.svg',
+            '../img/quien-soy/ejercicio8/ana.svg',
+            '../img/quien-soy/ejercicio8/cristina.svg',
+            '../img/quien-soy/ejercicio8/jose.svg',
+            '../img/quien-soy/ejercicio8/raquel.svg'
     	],
         'pista' : [
             '1). Jorge y Raquel comen tomate.',
@@ -257,12 +257,12 @@ define(function (require) {
             '6). Pedro y José comen lechuga.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/alimentos/tomate.png', 'tomate'],
-            ['../Megamente/img/deduccion/alimentos/pepino.png', 'pepino'],
-            ['../Megamente/img/deduccion/alimentos/brocoli.png', 'brócoli'],
-            ['../Megamente/img/deduccion/alimentos/zanahoria.png', 'zanahoria'],
-            ['../Megamente/img/deduccion/alimentos/remolacha.png', 'remolacha'],
-            ['../Megamente/img/deduccion/alimentos/lechuga.png', 'lechuga']
+            ['../img/deduccion/alimentos/tomate.png', 'tomate'],
+            ['../img/deduccion/alimentos/pepino.png', 'pepino'],
+            ['../img/deduccion/alimentos/brocoli.png', 'brócoli'],
+            ['../img/deduccion/alimentos/zanahoria.png', 'zanahoria'],
+            ['../img/deduccion/alimentos/remolacha.png', 'remolacha'],
+            ['../img/deduccion/alimentos/lechuga.png', 'lechuga']
         ],
         'nombres' : [
             ['Jorge', 'tomate', 'brócoli','zanahoria'],
@@ -275,12 +275,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio9/jorge.svg',
-            '../Megamente/img/quien-soy/ejercicio9/raquel.svg',
-            '../Megamente/img/quien-soy/ejercicio9/pedro.svg',
-            '../Megamente/img/quien-soy/ejercicio9/ruth.svg',
-            '../Megamente/img/quien-soy/ejercicio9/jose.svg',
-            '../Megamente/img/quien-soy/ejercicio9/paula.svg'
+            '../img/quien-soy/ejercicio9/jorge.svg',
+            '../img/quien-soy/ejercicio9/raquel.svg',
+            '../img/quien-soy/ejercicio9/pedro.svg',
+            '../img/quien-soy/ejercicio9/ruth.svg',
+            '../img/quien-soy/ejercicio9/jose.svg',
+            '../img/quien-soy/ejercicio9/paula.svg'
     	],
         'pista' : [
             '1). Jorge y Raquel beben café.',
@@ -290,11 +290,11 @@ define(function (require) {
             '5). José y Paula beben sopa.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/alimentos/cafe.png', 'café'],
-            ['../Megamente/img/deduccion/alimentos/leche.png', 'leche'],
-            ['../Megamente/img/deduccion/alimentos/refresco.png', 'refresco'],
-            ['../Megamente/img/deduccion/alimentos/yogurt.svg', 'yogurt'],
-            ['../Megamente/img/deduccion/alimentos/sopa.png', 'sopa']
+            ['../img/deduccion/alimentos/cafe.png', 'café'],
+            ['../img/deduccion/alimentos/leche.png', 'leche'],
+            ['../img/deduccion/alimentos/refresco.png', 'refresco'],
+            ['../img/deduccion/alimentos/yogurt.svg', 'yogurt'],
+            ['../img/deduccion/alimentos/sopa.png', 'sopa']
         ],
         'nombres' : [
             ['Jorge', 'café', 'refresco'],
@@ -307,12 +307,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio10/lorena.svg',
-            '../Megamente/img/quien-soy/ejercicio10/teresa.svg',
-            '../Megamente/img/quien-soy/ejercicio10/isabel.svg',
-            '../Megamente/img/quien-soy/ejercicio10/ana.svg',
-            '../Megamente/img/quien-soy/ejercicio10/maria.svg',
-            '../Megamente/img/quien-soy/ejercicio10/raquel.svg'
+            '../img/quien-soy/ejercicio10/lorena.svg',
+            '../img/quien-soy/ejercicio10/teresa.svg',
+            '../img/quien-soy/ejercicio10/isabel.svg',
+            '../img/quien-soy/ejercicio10/ana.svg',
+            '../img/quien-soy/ejercicio10/maria.svg',
+            '../img/quien-soy/ejercicio10/raquel.svg'
     	],
         'pista' : [
             '1). Lorena, Ana y María usan gafas.',
@@ -323,12 +323,12 @@ define(function (require) {
             '6). Lorena, Teresa y Ana llevan teléfono.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/lentes.png', 'gafas'],
-            ['../Megamente/img/deduccion/objetos/reloj.png', 'reloj'],
-            ['../Megamente/img/deduccion/objetos/collar.png', 'collar'],
-            ['../Megamente/img/deduccion/objetos/sombrero.svg', 'sombrero'],
-            ['../Megamente/img/deduccion/objetos/mochila2.png', 'mochila'],
-            ['../Megamente/img/deduccion/objetos/telefono.png', 'teléfono']
+            ['../img/deduccion/objetos/lentes.png', 'gafas'],
+            ['../img/deduccion/objetos/reloj.png', 'reloj'],
+            ['../img/deduccion/objetos/collar.png', 'collar'],
+            ['../img/deduccion/objetos/sombrero.svg', 'sombrero'],
+            ['../img/deduccion/objetos/mochila2.png', 'mochila'],
+            ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
             ['Lorena', 'gafas', 'reloj', 'teléfono'],
@@ -341,12 +341,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio11/lorena.svg',
-            '../Megamente/img/quien-soy/ejercicio11/teresa.svg',
-            '../Megamente/img/quien-soy/ejercicio11/isabel.svg',
-            '../Megamente/img/quien-soy/ejercicio11/ana.svg',
-            '../Megamente/img/quien-soy/ejercicio11/maria.svg',
-            '../Megamente/img/quien-soy/ejercicio11/raquel.svg'
+            '../img/quien-soy/ejercicio11/lorena.svg',
+            '../img/quien-soy/ejercicio11/teresa.svg',
+            '../img/quien-soy/ejercicio11/isabel.svg',
+            '../img/quien-soy/ejercicio11/ana.svg',
+            '../img/quien-soy/ejercicio11/maria.svg',
+            '../img/quien-soy/ejercicio11/raquel.svg'
     	],
         'pista' : [
             '1). David, Javier y Juan tienen el pelo amarillo.',
@@ -357,12 +357,12 @@ define(function (require) {
             '6). Lorena, Teresa y Ana llevan teléfono.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/lentes.png', 'gafas'],
-            ['../Megamente/img/deduccion/objetos/reloj.png', 'reloj'],
-            ['../Megamente/img/deduccion/objetos/collar.png', 'collar'],
-            ['../Megamente/img/deduccion/objetos/sombrero.svg', 'sombrero'],
-            ['../Megamente/img/deduccion/objetos/mochila2.png', 'mochila'],
-            ['../Megamente/img/deduccion/objetos/telefono.png', 'teléfono']
+            ['../img/deduccion/objetos/lentes.png', 'gafas'],
+            ['../img/deduccion/objetos/reloj.png', 'reloj'],
+            ['../img/deduccion/objetos/collar.png', 'collar'],
+            ['../img/deduccion/objetos/sombrero.svg', 'sombrero'],
+            ['../img/deduccion/objetos/mochila2.png', 'mochila'],
+            ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
             ['Lorena', 'gafas', 'reloj', 'teléfono'],
@@ -375,12 +375,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio12/maria.svg',
-            '../Megamente/img/quien-soy/ejercicio12/david.svg',
-            '../Megamente/img/quien-soy/ejercicio12/antonio.svg',
-            '../Megamente/img/quien-soy/ejercicio12/gloria.svg',
-            '../Megamente/img/quien-soy/ejercicio12/isabel.svg',
-            '../Megamente/img/quien-soy/ejercicio12/paula.svg'
+            '../img/quien-soy/ejercicio12/maria.svg',
+            '../img/quien-soy/ejercicio12/david.svg',
+            '../img/quien-soy/ejercicio12/antonio.svg',
+            '../img/quien-soy/ejercicio12/gloria.svg',
+            '../img/quien-soy/ejercicio12/isabel.svg',
+            '../img/quien-soy/ejercicio12/paula.svg'
     	],
         'pista' : [
             '1). María tiene una computadora.',
@@ -391,12 +391,12 @@ define(function (require) {
             '6). María e Isabel tienen lápiz.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/computadora.png', 'computadora'],
-            ['../Megamente/img/deduccion/objetos/telefono.png', 'teléfono'],
-            ['../Megamente/img/deduccion/objetos/videojuego.png', 'nintendo'],
-            ['../Megamente/img/deduccion/objetos/cuaderno.svg', 'cuaderno'],
-            ['../Megamente/img/deduccion/objetos/mochila2.png', 'mochila'],
-            ['../Megamente/img/deduccion/objetos/lapiz.png', 'lápiz']
+            ['../img/deduccion/objetos/computadora.png', 'computadora'],
+            ['../img/deduccion/objetos/telefono.png', 'teléfono'],
+            ['../img/deduccion/objetos/videojuego.png', 'nintendo'],
+            ['../img/deduccion/objetos/cuaderno.svg', 'cuaderno'],
+            ['../img/deduccion/objetos/mochila2.png', 'mochila'],
+            ['../img/deduccion/objetos/lapiz.png', 'lápiz']
         ],
         'nombres' : [
             ['María', 'computadora', 'lápiz'],
@@ -409,12 +409,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio13/ricardo.svg',
-            '../Megamente/img/quien-soy/ejercicio13/antonio.svg',
-            '../Megamente/img/quien-soy/ejercicio13/jorge.svg',
-            '../Megamente/img/quien-soy/ejercicio13/juan.svg',
-            '../Megamente/img/quien-soy/ejercicio13/daniel.svg',
-            '../Megamente/img/quien-soy/ejercicio13/javier.svg'
+            '../img/quien-soy/ejercicio13/ricardo.svg',
+            '../img/quien-soy/ejercicio13/antonio.svg',
+            '../img/quien-soy/ejercicio13/jorge.svg',
+            '../img/quien-soy/ejercicio13/juan.svg',
+            '../img/quien-soy/ejercicio13/daniel.svg',
+            '../img/quien-soy/ejercicio13/javier.svg'
     	],
         'pista' : [
             '1). Juan y Antonio usan gafas.',
@@ -425,12 +425,12 @@ define(function (require) {
             '6). Ricardo y Javier llevan teléfono.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/lentes.png', 'gafas'],
-            ['../Megamente/img/deduccion/objetos/corbata.png', 'corbata'],
-            ['../Megamente/img/deduccion/objetos/cinturon.png', 'cinturón'],
-            ['../Megamente/img/deduccion/objetos/gorra.svg', 'gorra'],
-            ['../Megamente/img/deduccion/objetos/mochila2.png', 'mochila'],
-            ['../Megamente/img/deduccion/objetos/telefono.png', 'teléfono']
+            ['../img/deduccion/objetos/lentes.png', 'gafas'],
+            ['../img/deduccion/objetos/corbata.png', 'corbata'],
+            ['../img/deduccion/objetos/cinturon.png', 'cinturón'],
+            ['../img/deduccion/objetos/gorra.svg', 'gorra'],
+            ['../img/deduccion/objetos/mochila2.png', 'mochila'],
+            ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
             ['Juan ', 'gafas', 'cinturón', 'mochila'],
@@ -443,12 +443,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio14/ricardo.svg',
-            '../Megamente/img/quien-soy/ejercicio14/antonio.svg',
-            '../Megamente/img/quien-soy/ejercicio14/jorge.svg',
-            '../Megamente/img/quien-soy/ejercicio14/juan.svg',
-            '../Megamente/img/quien-soy/ejercicio14/daniel.svg',
-            '../Megamente/img/quien-soy/ejercicio14/javier.svg'
+            '../img/quien-soy/ejercicio14/ricardo.svg',
+            '../img/quien-soy/ejercicio14/antonio.svg',
+            '../img/quien-soy/ejercicio14/jorge.svg',
+            '../img/quien-soy/ejercicio14/juan.svg',
+            '../img/quien-soy/ejercicio14/daniel.svg',
+            '../img/quien-soy/ejercicio14/javier.svg'
     	],
         'pista' : [
             '1). María lee el periódico.',
@@ -459,12 +459,12 @@ define(function (require) {
             '6). Lorena lleva teléfono.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/periodico.svg', 'periódico'],
-            ['../Megamente/img/deduccion/objetos/grabadora.png', 'música'],
-            ['../Megamente/img/deduccion/objetos/collar.png', 'collar'],
-            ['../Megamente/img/deduccion/objetos/lazo.svg', 'lazo'],
-            ['../Megamente/img/deduccion/objetos/mochila2.png', 'mochila'],
-            ['../Megamente/img/deduccion/objetos/telefono.png', 'teléfono']
+            ['../img/deduccion/objetos/periodico.svg', 'periódico'],
+            ['../img/deduccion/objetos/grabadora.png', 'música'],
+            ['../img/deduccion/objetos/collar.png', 'collar'],
+            ['../img/deduccion/objetos/lazo.svg', 'lazo'],
+            ['../img/deduccion/objetos/mochila2.png', 'mochila'],
+            ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
             ['María ', 'periódico', 'lazo', 'mochila'],
@@ -477,12 +477,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio14/maria.svg',
-            '../Megamente/img/quien-soy/ejercicio14/lorena.svg',
-            '../Megamente/img/quien-soy/ejercicio14/raquel.svg',
-            '../Megamente/img/quien-soy/ejercicio14/isabel.svg',
-            '../Megamente/img/quien-soy/ejercicio14/ana.svg',
-            '../Megamente/img/quien-soy/ejercicio14/paula.svg'
+            '../img/quien-soy/ejercicio14/maria.svg',
+            '../img/quien-soy/ejercicio14/lorena.svg',
+            '../img/quien-soy/ejercicio14/raquel.svg',
+            '../img/quien-soy/ejercicio14/isabel.svg',
+            '../img/quien-soy/ejercicio14/ana.svg',
+            '../img/quien-soy/ejercicio14/paula.svg'
     	],
         'pista' : [
             '1). María lee el periódico.',
@@ -493,12 +493,12 @@ define(function (require) {
             '6). Lorena lleva teléfono.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/periodico.svg', 'periódico'],
-            ['../Megamente/img/deduccion/objetos/grabadora.png', 'música'],
-            ['../Megamente/img/deduccion/objetos/collar.png', 'collar'],
-            ['../Megamente/img/deduccion/objetos/lazo.svg', 'lazo'],
-            ['../Megamente/img/deduccion/objetos/mochila2.png', 'mochila'],
-            ['../Megamente/img/deduccion/objetos/telefono.png', 'teléfono']
+            ['../img/deduccion/objetos/periodico.svg', 'periódico'],
+            ['../img/deduccion/objetos/grabadora.png', 'música'],
+            ['../img/deduccion/objetos/collar.png', 'collar'],
+            ['../img/deduccion/objetos/lazo.svg', 'lazo'],
+            ['../img/deduccion/objetos/mochila2.png', 'mochila'],
+            ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
             ['María ', 'periódico', 'lazo', 'mochila'],
@@ -511,12 +511,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio15/teresa.svg',
-            '../Megamente/img/quien-soy/ejercicio15/gloria.svg',
-            '../Megamente/img/quien-soy/ejercicio15/raquel.svg',
-            '../Megamente/img/quien-soy/ejercicio15/ines.svg',
-            '../Megamente/img/quien-soy/ejercicio15/ana.svg',
-            '../Megamente/img/quien-soy/ejercicio15/paula.svg'
+            '../img/quien-soy/ejercicio15/teresa.svg',
+            '../img/quien-soy/ejercicio15/gloria.svg',
+            '../img/quien-soy/ejercicio15/raquel.svg',
+            '../img/quien-soy/ejercicio15/ines.svg',
+            '../img/quien-soy/ejercicio15/ana.svg',
+            '../img/quien-soy/ejercicio15/paula.svg'
     	],
         'pista' : [
             '1). Ana y Paula usan gafas.',
@@ -527,12 +527,12 @@ define(function (require) {
             '6). Gloria, Raquel y Paula llevan teléfono.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/lentes.svg', 'gafas'],
-            ['../Megamente/img/deduccion/objetos/pañuelo.svg', 'pañuelo'],
-            ['../Megamente/img/deduccion/objetos/collar.png', 'collar'],
-            ['../Megamente/img/deduccion/objetos/gorra.svg', 'gorra'],
-            ['../Megamente/img/deduccion/objetos/mochila2.png', 'mochila'],
-            ['../Megamente/img/deduccion/objetos/telefono.png', 'teléfono']
+            ['../img/deduccion/objetos/lentes.svg', 'gafas'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelo'],
+            ['../img/deduccion/objetos/collar.png', 'collar'],
+            ['../img/deduccion/objetos/gorra.svg', 'gorra'],
+            ['../img/deduccion/objetos/mochila2.png', 'mochila'],
+            ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
             ['Ana ', 'gafas', 'gorra'],
@@ -545,12 +545,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio16/isabel.svg',
-            '../Megamente/img/quien-soy/ejercicio16/lorena.svg',
-            '../Megamente/img/quien-soy/ejercicio16/david.svg',
-            '../Megamente/img/quien-soy/ejercicio16/carlos.svg',
-            '../Megamente/img/quien-soy/ejercicio16/ricardo.svg',
-            '../Megamente/img/quien-soy/ejercicio16/antonio.svg'
+            '../img/quien-soy/ejercicio16/isabel.svg',
+            '../img/quien-soy/ejercicio16/lorena.svg',
+            '../img/quien-soy/ejercicio16/david.svg',
+            '../img/quien-soy/ejercicio16/carlos.svg',
+            '../img/quien-soy/ejercicio16/ricardo.svg',
+            '../img/quien-soy/ejercicio16/antonio.svg'
     	],
         'pista' : [
             '1). Isabel y Lorena cantan.',
@@ -561,12 +561,12 @@ define(function (require) {
             '6). Antonio, Ricardo y Carlos juegan videojuegos.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/microfono.svg', 'cantan'],
-            ['../Megamente/img/deduccion/objetos/camara.svg', 'fotografías'],
-            ['../Megamente/img/deduccion/objetos/guitarra.png', 'guitarra'],
-            ['../Megamente/img/deduccion/objetos/bicicleta.svg', 'bicicleta'],
-            ['../Megamente/img/deduccion/objetos/piano.png', 'piano'],
-            ['../Megamente/img/deduccion/objetos/videojuego.png', 'videojuegos']
+            ['../img/deduccion/objetos/microfono.svg', 'cantan'],
+            ['../img/deduccion/objetos/camara.svg', 'fotografías'],
+            ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
+            ['../img/deduccion/objetos/bicicleta.svg', 'bicicleta'],
+            ['../img/deduccion/objetos/piano.png', 'piano'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuegos']
         ],
         'nombres' : [
             ['Isabel ', 'cantan', 'bicicleta','piano'],
@@ -579,12 +579,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio17/javier.svg',
-            '../Megamente/img/quien-soy/ejercicio17/antonio.svg',
-            '../Megamente/img/quien-soy/ejercicio17/david.svg',
-            '../Megamente/img/quien-soy/ejercicio17/ricardo.svg',
-            '../Megamente/img/quien-soy/ejercicio17/paula.svg',
-            '../Megamente/img/quien-soy/ejercicio17/luis.svg'
+            '../img/quien-soy/ejercicio17/javier.svg',
+            '../img/quien-soy/ejercicio17/antonio.svg',
+            '../img/quien-soy/ejercicio17/david.svg',
+            '../img/quien-soy/ejercicio17/ricardo.svg',
+            '../img/quien-soy/ejercicio17/paula.svg',
+            '../img/quien-soy/ejercicio17/luis.svg'
     	],
         'pista' : [
             '1). Javier, Antonio, David y Ricardo cantan.',
@@ -594,11 +594,11 @@ define(function (require) {
             '5). Paula, Ricardo y Luis juegan videojuegos.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/microfono.svg', 'cantan'],
-            ['../Megamente/img/deduccion/objetos/guitarra.svg', 'guitarra'],
-            ['../Megamente/img/deduccion/objetos/bicicleta.png', 'bicicleta'],
-            ['../Megamente/img/deduccion/objetos/piano.svg', 'piano'],
-            ['../Megamente/img/deduccion/objetos/videojuego.png', 'videojuegos']
+            ['../img/deduccion/objetos/microfono.svg', 'cantan'],
+            ['../img/deduccion/objetos/guitarra.svg', 'guitarra'],
+            ['../img/deduccion/objetos/bicicleta.png', 'bicicleta'],
+            ['../img/deduccion/objetos/piano.svg', 'piano'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuegos']
         ],
         'nombres' : [
             ['Javier ', 'cantan', 'guitarra'],
@@ -611,12 +611,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio18/francisco.svg',
-            '../Megamente/img/quien-soy/ejercicio18/jorge.svg',
-            '../Megamente/img/quien-soy/ejercicio18/jose.svg',
-            '../Megamente/img/quien-soy/ejercicio18/oscar.svg',
-            '../Megamente/img/quien-soy/ejercicio18/ricardo.svg',
-            '../Megamente/img/quien-soy/ejercicio18/antonio.svg'
+            '../img/quien-soy/ejercicio18/francisco.svg',
+            '../img/quien-soy/ejercicio18/jorge.svg',
+            '../img/quien-soy/ejercicio18/jose.svg',
+            '../img/quien-soy/ejercicio18/oscar.svg',
+            '../img/quien-soy/ejercicio18/ricardo.svg',
+            '../img/quien-soy/ejercicio18/antonio.svg'
     	],
         'pista' : [
             '1). Francisco y Antonio usan gafas.',
@@ -627,12 +627,12 @@ define(function (require) {
             '6). Jorge y José llevan teléfono.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/lentes.svg', 'gafas'],
-            ['../Megamente/img/deduccion/objetos/corbata.svg', 'corbata'],
-            ['../Megamente/img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
-            ['../Megamente/img/deduccion/objetos/gorra.svg', 'gorra'],
-            ['../Megamente/img/deduccion/objetos/mochila2.svg', 'mochilas'],
-            ['../Megamente/img/deduccion/objetos/telefono.svg', 'teléfono']
+            ['../img/deduccion/objetos/lentes.svg', 'gafas'],
+            ['../img/deduccion/objetos/corbata.svg', 'corbata'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/gorra.svg', 'gorra'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochilas'],
+            ['../img/deduccion/objetos/telefono.svg', 'teléfono']
         ],
         'nombres' : [
             ['Francisco ', 'gafas', 'mochila'],
@@ -645,12 +645,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio19/alejandro.svg',
-            '../Megamente/img/quien-soy/ejercicio19/alicia.svg',
-            '../Megamente/img/quien-soy/ejercicio19/juan.svg',
-            '../Megamente/img/quien-soy/ejercicio19/antonio.svg',
-            '../Megamente/img/quien-soy/ejercicio19/fabiola.svg',
-            '../Megamente/img/quien-soy/ejercicio19/javier.svg'
+            '../img/quien-soy/ejercicio19/alejandro.svg',
+            '../img/quien-soy/ejercicio19/alicia.svg',
+            '../img/quien-soy/ejercicio19/juan.svg',
+            '../img/quien-soy/ejercicio19/antonio.svg',
+            '../img/quien-soy/ejercicio19/fabiola.svg',
+            '../img/quien-soy/ejercicio19/javier.svg'
     	],
         'pista' : [
             '1). Fabiola, Javier y Alejandro usan gafas.',
@@ -661,12 +661,12 @@ define(function (require) {
             '6). Antonio, Juan, Alicia y Alejandro llevan teléfono.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/lentes.svg', 'gafas'],
-            ['../Megamente/img/deduccion/objetos/corbata.svg', 'corbata'],
-            ['../Megamente/img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
-            ['../Megamente/img/deduccion/objetos/gorra.svg', 'gorra'],
-            ['../Megamente/img/deduccion/objetos/mochila2.svg', 'mochilas'],
-            ['../Megamente/img/deduccion/objetos/telefono.svg', 'teléfono']
+            ['../img/deduccion/objetos/lentes.svg', 'gafas'],
+            ['../img/deduccion/objetos/corbata.svg', 'corbata'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/gorra.svg', 'gorra'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochilas'],
+            ['../img/deduccion/objetos/telefono.svg', 'teléfono']
         ],
         'nombres' : [
             ['Fabiola ', 'gafas', 'gorra', 'corbata'],
@@ -679,12 +679,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../Megamente/img/quien-soy/ejercicio19/alejandro.svg',
-            '../Megamente/img/quien-soy/ejercicio19/alicia.svg',
-            '../Megamente/img/quien-soy/ejercicio19/juan.svg',
-            '../Megamente/img/quien-soy/ejercicio19/antonio.svg',
-            '../Megamente/img/quien-soy/ejercicio19/fabiola.svg',
-            '../Megamente/img/quien-soy/ejercicio19/javier.svg'
+            '../img/quien-soy/ejercicio19/alejandro.svg',
+            '../img/quien-soy/ejercicio19/alicia.svg',
+            '../img/quien-soy/ejercicio19/juan.svg',
+            '../img/quien-soy/ejercicio19/antonio.svg',
+            '../img/quien-soy/ejercicio19/fabiola.svg',
+            '../img/quien-soy/ejercicio19/javier.svg'
     	],
         'pista' : [
             '1). Fabiola, Javier y Alejandro usan gafas.',
@@ -695,12 +695,12 @@ define(function (require) {
             '6). Antonio, Juan, Alicia y Alejandro llevan teléfono.'
     	],
         'obj' : [
-            ['../Megamente/img/deduccion/objetos/lentes.svg', 'gafas'],
-            ['../Megamente/img/deduccion/objetos/corbata.svg', 'corbata'],
-            ['../Megamente/img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
-            ['../Megamente/img/deduccion/objetos/gorra.svg', 'gorra'],
-            ['../Megamente/img/deduccion/objetos/mochila2.svg', 'mochilas'],
-            ['../Megamente/img/deduccion/objetos/telefono.svg', 'teléfono']
+            ['../img/deduccion/objetos/lentes.svg', 'gafas'],
+            ['../img/deduccion/objetos/corbata.svg', 'corbata'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/gorra.svg', 'gorra'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochilas'],
+            ['../img/deduccion/objetos/telefono.svg', 'teléfono']
         ],
         'nombres' : [
             ['Fabiola ', 'gafas', 'gorra', 'corbata'],
