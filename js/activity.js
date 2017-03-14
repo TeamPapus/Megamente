@@ -48,8 +48,9 @@ define(function (require) {
      */
     function spr_dd(id, matriz) {
         var ejer = random(matriz); //Numero de ejercicio generado al azar
+        console.log(ejer);
         // Ciclo de busqueda de imagenes en la matriz
-        for (var i=0; i<=matriz[ejer].img.length; i++) {
+        for (var i=0; i<=(matriz[ejer].img.length - 1); i++) {
             // Coloca cada imagen en su elemento html correspondiente
             $('#' + id + ' .'+cont[i]).css({'background': 'url(' + matriz[ejer].img[i][0] + ') 0 0 no-repeat', 'background-position': 'center'});
         }
@@ -475,15 +476,6 @@ define(function (require) {
             ondragleave:leaveItem
         });
 
-<<<<<<< HEAD
-=======
-        /*$('#get-modal').click(function() {
-            $('#myModal').css('display', 'block');
-        });*/
-
-
-
->>>>>>> f8821ed8756a626eae77a8121b3ad595edf1c56a
         /**
          * Funcion de modal
          */
