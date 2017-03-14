@@ -233,14 +233,21 @@ define(function (require) {
         dropzoneElement.classList.remove('respuesta_location');
     };
     
+    function salida_dd(draggableElement, dropzoneElement) {
+        var arrastrable = $(draggableElement);
+        var zona_arrastre = $(dropzoneElement);
+        if(arrastrable.attr('data') == zona_arrastre.attr('data')) { console.log(cont_dd); cont_dd--; }
+    }
+    
     /**
      * Funcion que cambia al clase de las zonas de arrastre deduccion
      */
     var leaveItem_ded = function(event) {
         //  Captura el elemento que sale de la zona de arrastre
-        var dropzoneElement = event.target;
+        var draggableElement = event.relatedTarget, dropzoneElement = event.target;
         // Remueve la clase del elemento
         dropzoneElement.classList.remove('respuesta_ded');
+        salida_dd(draggableElement, dropzoneElement);
     };
 
     // Manipulate the DOM only when it is ready.
@@ -316,6 +323,26 @@ define(function (require) {
             orden(ejer);
             cont_dd = 0;
         });
+        
+        $('#dd_close').click(function() {
+            $('#Modal_dd').css('display', 'none');
+             $('#od').children().each(function(index) {
+                $(this).remove();
+            });
+            for (var i=0; i<=4; i++) {
+                $('#od').append('<div class="objeto movimiento_d obj' + (i+1) + ' element"></div>');
+            }
+            // Carga al azar un ejercicio de deduccion
+            var ejer = spr_dd('od', deduccion);
+            // Acomoda la pista deducion
+            $('#pistasd').text(deduccion[ejer].pista);
+            // Ordena la lista de objetos
+            objpos('od', 70, 70);
+            sigpos(ejer);
+            orden(ejer);
+            cont_dd = 0;
+        });
+        
         /**
         /* Pasa del menu principal al juego quien soy
          */
