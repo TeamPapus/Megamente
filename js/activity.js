@@ -51,7 +51,6 @@ define(function (require) {
         // Ciclo de busqueda de imagenes en la matriz
         for (var i=0; i<=matriz[ejer].img.length; i++) {
             // Coloca cada imagen en su elemento html correspondiente
-            console.log(matriz[ejer].img[i]);
             $('#' + id + ' .'+cont[i]).css({'background': 'url(' + matriz[ejer].img[i][0] + ') 0 0 no-repeat', 'background-position': 'center'});
         }
         // La cuncion retorna el nuemro de ejercicio
@@ -64,7 +63,7 @@ define(function (require) {
     function spr_qs(id, matriz) {
         var ejer = random(matriz); //Numero de ejercicio generado al azar
         // Ciclo de busqueda de imagenes en la matriz
-        for (var i=0; i<=matriz[ejer].img.length; i++) {
+        for (var i=0; i<=(matriz[ejer].img.length - 1); i++) {
             // Coloca cada imagen en su elemento html correspondiente
             $('#' + id + ' .'+cont[i]).css({'background': 'url(' + matriz[ejer].img[i] + ') 0 0 no-repeat', 'background-position': 'center'});
         }
@@ -109,6 +108,7 @@ define(function (require) {
         // Agrega la clase
         dropzoneElement.classList.add('respuesta_location');
     };
+    
     /**
      * Funcion que agrega una clase a las zonas de arrastre deduccion
      */
@@ -117,7 +117,6 @@ define(function (require) {
         // Agrega la clase
         dropzoneElement.classList.add('respuesta_ded');
     };
-
 
     /**
      * Funcion que remueve los acentos
@@ -194,6 +193,7 @@ define(function (require) {
         // Remueve la clase del elemento
         dropzoneElement.classList.remove('respuesta_location');
     };
+    
     /**
      * Funcion que cambia al clase de las zonas de arrastre deduccion
      */
@@ -204,10 +204,6 @@ define(function (require) {
         dropzoneElement.classList.remove('respuesta_ded');
     };
 
-
-
-
-
     // Manipulate the DOM only when it is ready.
     require(['domReady!'], function (doc) {
         // Initialize the activity.
@@ -217,11 +213,6 @@ define(function (require) {
         /* Regrasa al menu principal
          */
         $('.inicio').on('click', function() {
-            // Busca el elemto html con la clase "padre" y lo esconde
-            //$(this).parents('.padre').toggle();
-            // Hace visible la pantalla del menu principal
-        	//$('#menu').toggle();
-            // Recarga la pagina
             location.reload();
         });
 
@@ -268,6 +259,7 @@ define(function (require) {
           /*  ondrop:stopItem,*/
             ondragleave:leaveItem_ded
         });
+        
         /**
         /* Carga nuevo ejerccion de deduccion
          */
@@ -453,7 +445,6 @@ define(function (require) {
                 if (relacion == $(this).children().length){
                     // Agrega las clases de arratres a los nombres correspondientes a la lista de objetos
                     $('#cont_nombres :eq(' + respuesta + ')').addClass('movimiento_qs');
-                    console.log(respuesta);
                     $('#cont_nombres :eq(' + respuesta + ')').css('background-color', 'yellow');
                 }
             } else {
@@ -474,10 +465,6 @@ define(function (require) {
             ondrop:stopItem,
             ondragleave:leaveItem
         });
-
-        /*$('#get-modal').click(function() {
-            $('#myModal').css('display', 'block');
-        });*/
 
         /**
          * Funcion de modal

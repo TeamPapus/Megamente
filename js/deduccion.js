@@ -14,13 +14,15 @@ define(function (require) {
         },
         {
             'img' : [
-                '../img/deduccion/objetos/avion-verde.svg',
-                '../img/deduccion/objetos/avion-rojo.svg',
-                '../img/deduccion/objetos/avion-naranja.svg',
-                '../img/deduccion/objetos/avion-amarillo.svg',
-                '../img/deduccion/objetos/avion-azul.svg'
+                ['../img/deduccion/objetos/avion-verde.svg', ''],
+                ['../img/deduccion/objetos/avion-rojo.svg', ''],
+                ['../img/deduccion/objetos/avion-naranja.svg', ''],
+                ['../img/deduccion/objetos/avion-amarillo.svg', ''],
+                ['../img/deduccion/objetos/avion-azul.svg', '']
             ],
-            'pista' : '¿Qué avión vuela más alto? 1). El avión amarillo vuela más que el avión azul y menos que el avión naranja. 2). El avión rojo vuela más que el avión verde. 3). El avión naranja vuela menos que el avión verde.'
+            'pista' : '¿Qué avión vuela más alto? 1). El avión amarillo vuela más que el avión azul y menos que el avión naranja. 2). El avión rojo vuela más que el avión verde. 3). El avión naranja vuela menos que el avión verde.',
+            'signo': '>',
+            'solucion': ['ana', 'alonso', 'irene', 'beatriz', 'juan']
         },
         {
             'img' : [
