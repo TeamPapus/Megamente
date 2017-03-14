@@ -230,6 +230,16 @@ define(function (require) {
             $('#pistasd').text(deduccion[ejer].pista);
             // Ordena la lista de objetos
             objpos('od', 70, 70);
+
+            /*$('.bl').children().each(function(){
+              var pos = 68;
+              $(this).css('left','68px');
+              for (var i = 0; i < 5; i++) {
+                pos+=;
+              }
+            });*/
+
+
         });
 
         /**
@@ -271,7 +281,6 @@ define(function (require) {
             // Ordena la lista de objetos
             objpos('od', 70, 70);
         });
-
         /**
         /* Pasa del menu principal al juego quien soy
          */
@@ -466,6 +475,15 @@ define(function (require) {
             ondragleave:leaveItem
         });
 
+<<<<<<< HEAD
+=======
+        /*$('#get-modal').click(function() {
+            $('#myModal').css('display', 'block');
+        });*/
+
+
+
+>>>>>>> f8821ed8756a626eae77a8121b3ad595edf1c56a
         /**
          * Funcion de modal
          */

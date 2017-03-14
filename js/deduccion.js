@@ -10,10 +10,11 @@ define(function (require) {
             ],
             'pista' : '¿Qué personaje es mayor? 1). Irene es mayor que Ana y menor que Alonso. 2). Beatriz es mayor que Alonso. 3). Juan es mayor que Beatriz.',
             'signo': '>',
-            'solucion': ['ana', 'alonso', 'irene', 'beatriz', 'juan']
+            'solucion': ['juan', 'beatriz', 'alonzo', 'irene', 'ana']
         },
         {
             'img' : [
+<<<<<<< HEAD
                 ['../img/deduccion/objetos/avion-verde.svg', ''],
                 ['../img/deduccion/objetos/avion-rojo.svg', ''],
                 ['../img/deduccion/objetos/avion-naranja.svg', ''],
@@ -222,54 +223,66 @@ define(function (require) {
             'pista' : [
                '¿Qué edificio es más alto?  1).El edificio azul es menos alto que el edificio verde y más que el edificio naranja.  2).El edificio naranja es más alto que el edificio blanco. 3).El edificio rojo es menos alto que el edificio blanco.'
             ]
+=======
+                ['../img/deduccion/objetos/avion-verde.svg','verde'],
+                ['../img/deduccion/objetos/avion-rojo.svg','rojo'],
+                ['../img/deduccion/objetos/avion-naranja.svg','naranja'],
+                ['../img/deduccion/objetos/avion-amarillo.svg','amarillo'],
+                ['../img/deduccion/objetos/avion-azul.svg','azul']
+            ],
+            'pista' : '¿Qué avión vuela más alto? 1). El avión amarillo vuela más que el avión azul y menos que el avión naranja. 2). El avión rojo vuela más que el avión verde. 3). El avión naranja vuela menos que el avión verde.',
+            'signo': '>',
+            'solucion': ['rojo', 'verde', 'naranja', 'amarillo', 'azul']
+>>>>>>> f8821ed8756a626eae77a8121b3ad595edf1c56a
         },
         {
             'img' : [
-                '../img/deduccion/objetos/faja-azul.png',
-                '../img/deduccion/objetos/faja-verde.png',
-                '../img/deduccion/objetos/faja-anaranjada.png',
-                '../img/deduccion/objetos/faja-amarilla.png',
-                '../img/deduccion/objetos/faja-rosa.png'
+                ['../img/deduccion/alimentos/naranja.svg','naranja'],
+                ['../img/deduccion/alimentos/fresa.svg','fresa'],
+                ['../img/deduccion/alimentos/sandia.svg','sandia'],
+                ['../img/deduccion/alimentos/manzana.svg','manzana'],
+                ['../img/deduccion/alimentos/pera.svg''pera']
             ],
-            'pista' : [
-               '¿Qué faja es menos cómoda?  1).La faja azul es menos cómoda que la faja amarilla.  2).La faja naranja es más cómoda que la faja verde y menos que la faja rosa. 3).La faja amarilla es menos cómoda que la faja verde.'
-            ]
+            'pista' : '¿Qué fruta es menos jugosa?. 1). La pera es más jugosa que la manzana. 2). La sandía es menos jugosa que la manzana. 3). La fresa es más jugosa que la naranja y menos que la sandía.',
+            'signo':'<',
+            'solucion':['naranja','fresa','sandia','manzana','pera']
         },
         {
             'img' : [
-                '../img/deduccion/personajes/julia.svg',
-                '../img/deduccion/personajes/camilo.svg',
-                '../img/deduccion/personajes/martha.svg',
-                '../img/deduccion/personajes/rosario.svg',
-                '../img/deduccion/personajes/pedro.svg'
+                ['../img/deduccion/objetos/camisa-verde.svg','verde'],
+                ['../img/deduccion/objetos/camisa-rosa.svg','rosa'],
+                ['../img/deduccion/objetos/camisa-naranja.svg','naranja'],
+                ['../img/deduccion/objetos/camisa-amarilla.svg','amarillo'],
+                ['../img/deduccion/objetos/camisa-gris.svg','gris']
             ],
-            'pista' : [
-               '¿Qué personaje es mayor?  1).Camilo es mayor que Martha y menor que Julia.  2).Rosario es menor que Pedro. 3).Julia es menor que Rosario.'
-            ]
+            'pista' : '¿Qué camisa es más cómoda? 1). La camisa amarilla es más cómoda que la camisa gris y menos que la camisa naranja. 2). La camisa rosa es más cómoda que la camisa naranja. 3). La camisa verde es más cómoda que la camisa rosa.',
+            'signo':'>',
+            'solucion':['verde','rosa','naranja','amarillo','gris']
         },
         {
             'img' : [
-                '../img/deduccion/personajes/jose.svg',
-                '../img/deduccion/personajes/ricardo.svg',
-                '../img/deduccion/personajes/belen.svg',
-                '../img/deduccion/personajes/javier.svg',
-                '../img/deduccion/personajes/ines.svg'
+                ['../img/deduccion/alimentos/ciruela.svg','ciruela'],
+                ['../img/deduccion/alimentos/piña.svg','piña'],
+                ['../img/deduccion/alimentos/guayaba.svg','guayaba'],
+                ['../img/deduccion/alimentos/uva.svg','uva'],
+                ['../img/deduccion/alimentos/pitahaya.svg','pitahaya']
             ],
-            'pista' : [
-               '¿Qué personaje es menor?  1).José es mayor que Ricardo y menor que Belén.  2).Javier es mayor que Inés y menor que Ricardo.'
-            ]
+            'pista' : '¿Qué fruta es menos jugosa?. 1). La piña es menos jugosa que la guayaba y más que la ciruela. 2). La uva es más jugosa que la guayaba y menos que la pitaya.',
+            'signo':'<',
+            'solucion':['ciruela','piña','guayaba','uva','pitahaya']
         },
         {
             'img' : [
-                '../img/deduccion/objetos/libro-verde.png',
-                '../img/deduccion/objetos/libro-azul.png',
-                '../img/deduccion/objetos/libro-blanco.png',
-                '../img/deduccion/objetos/libro-amarillo.png',
-                '../img/deduccion/objetos/libro-rosa.png'
+                ['../img/deduccion/alimentos/bebida-lila.svg','lila'],
+                ['../img/deduccion/alimentos/bebida-azul.svg','azul'],
+                ['../img/deduccion/alimentos/bebida-roja.svg','roja'],
+                ['../img/deduccion/alimentos/bebida-amarilla.svg','amarilla'],
+                ['../img/deduccion/alimentos/bebida-verde.svg','verde']
             ],
-            'pista' : [
-               '¿Qué libro cuesta menos dinero?  1).El libro verde cuesta más que el libro azul.  2).El libro blanco cuesta menos que el libro azul. 3). El libro amarillo cuesta más que el libro rosa y menos que el libro blanco.'
-            ]
+            'pista' : '¿Qué bebida es más dulce?. 1). La bebida verde es menos dulce que la bebida lila y más que la bebida roja. 2). La bebida amarilla es menos dulce que la bebida azul. 3. La bebida roja es más dulce que la bebida azul.',
+            'signo':'>',
+            'solucion':['lila','azul','roja','amarilla','verde']
         }
+
     ];
 });
