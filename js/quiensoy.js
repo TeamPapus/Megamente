@@ -349,8 +349,8 @@ define(function (require) {
             '../img/quien-soy/ejercicio11/raquel.svg'
     	],
         'pista' : [
-            '1). David, Javier y Juan tienen el pelo amarillo.',
-            '2). Ricardo tiene ojos azules.',
+            '1). Lorena, Ana y María usan gafas.',
+            '2). Lorena, Raquel e Isabel llevan reloj.',
             '3). María lleva collar.',
             '4). Teresa lleva sombrero.',
             '5). Ana e Isabel llevan mochila.',
@@ -467,7 +467,7 @@ define(function (require) {
             ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
-            ['María ', 'periódico', 'lazo', 'mochila'],
+            ['María', 'periódico', 'lazo', 'mochila'],
     		['Raquel', 'música', 'collar'],
     		['Ana', 'collar','lazo'],
             ['Paula', 'lazo','mochila'],
@@ -535,7 +535,7 @@ define(function (require) {
             ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
-            ['Ana ', 'gafas', 'gorra'],
+            ['Ana', 'gafas', 'gorra'],
     		['Paula', 'gafas', 'pañuelo','teléfono'],
     		['Raquel', 'pañuelo','gorra','teléfono'],
             ['Teresa', 'collar'],
@@ -601,7 +601,7 @@ define(function (require) {
             ['../img/deduccion/objetos/videojuego.png', 'videojuegos']
         ],
         'nombres' : [
-            ['Javier ', 'cantan', 'guitarra'],
+            ['Javier', 'cantan', 'guitarra'],
     		['Antonio', 'cantan', 'bicicleta'],
     		['David', 'cantan'],
             ['Ricardo', 'cantan', 'bicicleta','videojuegos'],
@@ -665,16 +665,16 @@ define(function (require) {
             ['../img/deduccion/objetos/corbata.svg', 'corbata'],
             ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
             ['../img/deduccion/objetos/gorra.svg', 'gorra'],
-            ['../img/deduccion/objetos/mochila2.svg', 'mochilas'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
             ['../img/deduccion/objetos/telefono.svg', 'teléfono']
         ],
         'nombres' : [
-            ['Fabiola ', 'gafas', 'gorra', 'corbata'],
+            ['Fabiola', 'gafas', 'gorra', 'corbata'],
     		['Javier', 'gafas', 'gorra'],
     		['Alejandro', 'gafas', 'gorra','teléfono'],
             ['Alicia', 'corbata', 'mochila','teléfono'],
-            ['Juan', 'pañuelos','teléfono'],
-            ['Antonio', 'mochila','teléfono']
+            ['Juan', 'pañuelos', 'teléfono'],
+            ['Antonio', 'mochila', 'teléfono']
         ]
     },
     {
@@ -697,9 +697,9 @@ define(function (require) {
         'obj' : [
             ['../img/deduccion/objetos/lentes.svg', 'gafas'],
             ['../img/deduccion/objetos/corbata.svg', 'corbata'],
-            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelo'],
             ['../img/deduccion/objetos/gorra.svg', 'gorra'],
-            ['../img/deduccion/objetos/mochila2.svg', 'mochilas'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
             ['../img/deduccion/objetos/telefono.svg', 'teléfono']
         ],
         'nombres' : [
@@ -707,7 +707,7 @@ define(function (require) {
     		['Javier', 'gafas', 'gorra'],
     		['Alejandro', 'gafas', 'gorra','teléfono'],
             ['Alicia', 'corbata', 'mochila','teléfono'],
-            ['Juan', 'pañuelos','teléfono'],
+            ['Juan', 'pañuelo','teléfono'],
             ['Antonio', 'mochila','teléfono']
         ]
     }

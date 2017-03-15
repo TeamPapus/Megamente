@@ -33,6 +33,7 @@ define(function (require) {
         // Actualiza los atributos del elemento
         target.setAttribute('data-x', x);
         target.setAttribute('data-y', y);
+        console.log(ejer + '!');
     };
 
     /**
@@ -46,19 +47,18 @@ define(function (require) {
     /**
      * Funcion que colocar las imagenes de cambian cada ejercicio de deduccion
      */
-    function spr_dd(id, matriz) {
-        var ejer = random(matriz); //Numero de ejercicio generado al azar
+    function spr_dd() {
+        ejer = random(deduccion); //Numero de ejercicio generado al azar
+        console.log(ejer+'%');
         // Ciclo de busqueda de imagenes en la matriz
-        for (var i=0; i<=(matriz[ejer].img.length - 1); i++) {
+        for (var i=0; i<=(deduccion[ejer].img.length - 1); i++) {
             // Coloca cada imagen en su elemento html correspondiente
-            $('#' + id + ' .'+cont[i]).css({'background': 'url(' + matriz[ejer].img[i][0] + ') 0 0 no-repeat', 'background-position': 'center'});
-            $('#' + id + ' .'+cont[i]).attr('data', matriz[ejer].img[i][1]);
+            $('#od .'+cont[i]).css({'background': 'url(' + deduccion[ejer].img[i][0] + ') 0 0 no-repeat', 'background-position': 'center'});
+            $('#od .'+cont[i]).attr('data', deduccion[ejer].img[i][1]);
         }
-        // La cuncion retorna el nuemro de ejercicio
-        return ejer;
     }
     
-    function sigpos(ejer){
+    function sigpos(){
         var signo = '';
         if (deduccion[ejer].signo == '<')
             signo = 'img/signo-menor.png';
@@ -72,15 +72,14 @@ define(function (require) {
     /**
      * Funcion que colocar las imagenes de cambian cada ejercicio de quiensoy
      */
-    function spr_qs(id, matriz) {
-        var ejer = random(matriz); //Numero de ejercicio generado al azar
+    function spr_qs() {
+        ejer = random(quiensoy); //Numero de ejercicio generado al azar
         // Ciclo de busqueda de imagenes en la matriz
-        for (var i=0; i<=(matriz[ejer].img.length - 1); i++) {
+        for (var i=0; i<=(quiensoy[ejer].img.length - 1); i++) {
             // Coloca cada imagen en su elemento html correspondiente
-            $('#' + id + ' .'+cont[i]).css({'background': 'url(' + matriz[ejer].img[i] + ') 0 0 no-repeat', 'background-position': 'center'});
+            $('#oqs .'+cont[i]).css({'background': 'url(' + quiensoy[ejer].img[i] + ') 0 0 no-repeat', 'background-position': 'center'});
         }
         // La cuncion retorna el nuemro de ejercicio
-        return ejer;
     }
 
     /**
@@ -100,12 +99,12 @@ define(function (require) {
     /**
      * Funcion para ordenar los nombre de los personajes de quien soy
      */
-    function nompos(ejer, matriz) {
+    function nompos() {
         var pos = 0; // Posicion acumulada por el espacio de cada elemento
         // Recorre cada elemento html que contendra los nombres
         $('#cont_nombres').children().each(function(index) {
             // Coloca el nombre correspondiente a cada elemento html
-            $(this).text(matriz[ejer].nombres[index][0]);
+            $(this).text(quiensoy[ejer].nombres[index][0]);
             // Actualiza los atributos de cada elemento html
             $(this).css({'top':'-20px','left': pos+'px', 'background-color': 'white'});
             pos += 136; // Aumento de espacio
@@ -202,6 +201,7 @@ define(function (require) {
         
         if(colocado == 5) {
             var cont_dd = 0;
+            console.log(ejer + '#');
             $('#bl').children().each(function(index){
                 if ($(this).attr('data') === deduccion[ejer].solucion[index]) cont_dd++;
             });
@@ -225,7 +225,9 @@ define(function (require) {
         // Captura los elemntos arrastrados y los de zona de arrastre
         var draggableElement = event.relatedTarget, dropzoneElement = event.target;
         // Llamado de la funcion que verifica los nombres
+        console.log(ejer+'$');
         validardd(draggableElement, dropzoneElement);
+        console.log(ejer+'&');
     };
 
     /**
@@ -259,7 +261,7 @@ define(function (require) {
     require(['domReady!'], function (doc) {
         // Initialize the activity.
         activity.setup();
-
+        console.log(ejer + 'ç');
         /**
         /* Regrasa al menu principal
          */
@@ -276,13 +278,13 @@ define(function (require) {
             // Hace visible la pantall del juego deduccion
         	$('#deduccion').toggle();
             // Carga al azar un ejercicio de deduccion
-            ejer = spr_dd('od', deduccion);
-            console.log(ejer);
+            spr_dd();
+            console.log(ejer+'-1');
             // Acomoda la pista deducion
             $('#pistasd').text(deduccion[ejer].pista);
             // Ordena la lista de objetos
             objpos('od', 70, 70);
-            sigpos(ejer);
+            sigpos();
         });
 
         /**
@@ -310,7 +312,7 @@ define(function (require) {
             overlap: 0.75,
             ondragenter:dragItem_ded,
             ondrop:stopItem_ded,
-            ondragleave:leaveItem_ded
+            ondragleave:leaveItem_ded,
         });
         
         /**
@@ -321,14 +323,20 @@ define(function (require) {
                 $(this).removeAttr('data');
                 $(this).removeClass('respuesta_ded');
             });
+            $('#od').children().each(function(index) {
+                $(this).remove();
+            });
+            for (var i=0; i<=4; i++) {
+                $('#od').append('<div class="objeto movimiento_d obj' + (i+1) + ' element"></div>');
+            }
             // Carga al azar un ejercicio de deduccion
-            ejer = spr_dd('od', deduccion);
+            spr_dd();
             console.log(ejer);
             // Acomoda la pista deducion
             $('#pistasd').text(deduccion[ejer].pista);
             // Ordena la lista de objetos
             objpos('od', 70, 70);
-            sigpos(ejer);
+            sigpos();
         });
         
         $('#dd_close').click(function() {
@@ -337,20 +345,22 @@ define(function (require) {
                 $(this).removeClass('respuesta_ded');
             });
             $('#Modal_dd').css('display', 'none');
-             $('#od').children().each(function(index) {
+            $('#od').children().each(function(index) {
                 $(this).remove();
             });
             for (var i=0; i<=4; i++) {
                 $('#od').append('<div class="objeto movimiento_d obj' + (i+1) + ' element"></div>');
             }
             // Carga al azar un ejercicio de deduccion
-            ejer = spr_dd('od', deduccion);
+            spr_dd();
             console.log(ejer);
             // Acomoda la pista deducion
             $('#pistasd').text(deduccion[ejer].pista);
+            console.log(ejer+'/');
             // Ordena la lista de objetos
             objpos('od', 70, 70);
-            sigpos(ejer);
+            sigpos();
+            console.log(ejer+'@');
         });
         
         /**
@@ -362,7 +372,7 @@ define(function (require) {
             // Hace visible la pantall del juego quien soy
         	$('#quiensoy').toggle();
             // Organiza los personajes del juego quien soy
-            ejer  = spr_qs('oqs', quiensoy);
+            spr_qs();
             pista = 0; // Cantidad de pistas
             // Coloca la lista en su lugar
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
@@ -370,7 +380,7 @@ define(function (require) {
             $('.objetop').css('background','url(' + quiensoy[ejer].obj[pista][0] + ') 0 0 no-repeat');
             $('.objetop').attr('data',quiensoy[ejer].obj[pista][1]);
             // Ordena la lista de nombres por objetos especificos
-            nompos(ejer, quiensoy);
+            nompos();
             var pos = 0; // Espaciados horizontal de lista de objetos especificos por nombre
             // Recorre la lista de elementos html de listas de objetos por nombre especifico
             $('#pizarra').children().each(function() {
@@ -423,7 +433,7 @@ define(function (require) {
                 $(this).removeAttr('respuesta_location');
             });
             // Organiza los personajes del juego quien soy
-            ejer  = spr_qs('oqs', quiensoy);
+            spr_qs();
             pista = 0; // Cantidad de pistas
             // Coloca la lista en su lugar
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
@@ -431,7 +441,7 @@ define(function (require) {
             $('.objetop').css('background','url(' + quiensoy[ejer].obj[pista][0] + ') 0 0 no-repeat');
             $('.objetop').attr('data',quiensoy[ejer].obj[pista][1]);
             // Ordena la lista de nombres por objetos especificos
-            nompos(ejer, quiensoy);
+            nompos();
             var pos = 0; // Espaciados horizontal de lista de objetos especificos por nombre
             $('#pizarra').children().each(function() {
                 // Organiza cada lista de objetos
@@ -565,7 +575,7 @@ define(function (require) {
                 $(this).removeAttr('respuesta_location');
             });
             // Organiza los personajes del juego quien soy
-            ejer  = spr_qs('oqs', quiensoy);
+            spr_qs();
             pista = 0; // Cantidad de pistas
             // Coloca la lista en su lugar
             $('#pistasqs').text(quiensoy[ejer].pista[pista]);
@@ -573,7 +583,7 @@ define(function (require) {
             $('.objetop').css('background','url(' + quiensoy[ejer].obj[pista][0] + ') 0 0 no-repeat');
             $('.objetop').attr('data',quiensoy[ejer].obj[pista][1]);
             // Ordena la lista de nombres por objetos especificos
-            nompos(ejer, quiensoy);
+            nompos();
             var pos = 0; // Espaciados horizontal de lista de objetos especificos por nombre
             $('#pizarra').children().each(function() {
                 // Organiza cada lista de objetos
