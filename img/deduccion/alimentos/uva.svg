@@ -14,8 +14,11 @@
    viewBox="0 0 114.0212 132.02033"
    id="svg15993"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="uvas.svg">
+   inkscape:version="0.92.1 r"
+   sodipodi:docname="uva.svg"
+   inkscape:export-filename="/home/sam/Trabajo/CI/fundecyt/Megamente/img/deduccion/alimentos/uva.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs15995">
     <linearGradient
@@ -1390,7 +1393,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="116.54685"
+     inkscape:cx="-42.024579"
      inkscape:cy="22.813119"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -1400,9 +1403,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="710"
+     inkscape:window-height="707"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata15998">
@@ -1412,7 +1415,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

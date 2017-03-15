@@ -9,14 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="31.044445mm"
-   height="30.99202mm"
-   viewBox="0 0 110 109.81423"
+   width="26.458334mm"
+   height="26.413652mm"
+   viewBox="0 0 93.75 93.591671"
    id="svg25244"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r"
    sodipodi:docname="tomate.svg"
-   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/alimentos/tomate.png"
+   inkscape:export-filename="/home/sam/Trabajo/CI/fundecyt/Megamente/img/deduccion/alimentos/tomate.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -1139,7 +1139,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="-107.13225"
+     inkscape:cx="-17.228671"
      inkscape:cy="34.813391"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -1149,9 +1149,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="710"
+     inkscape:window-height="707"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata25249">
@@ -1169,28 +1169,29 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-391.08904,-214.14603)">
+     transform="translate(-391.08904,-230.36859)">
     <g
        id="g4346"
-       transform="matrix(1.1501371,0,0,1.1501371,-58.716959,-48.638443)">
+       transform="matrix(0.98023038,0,0,0.98023038,7.7316927,6.40458)"
+       style="stroke-width:1.17333341">
       <path
          inkscape:connector-curvature="0"
          id="path33702"
-         style="fill:#d40000;stroke:none"
+         style="fill:#d40000;stroke:none;stroke-width:1.17333341"
          d="m 440.53579,232.33625 c 0,0 48.61067,-9.68133 46.1,35.75867 -2.72667,49.33466 -37.15733,56.47866 -50.55733,55.82666 -13.39867,-0.652 -46.97334,-11.10533 -44.89734,-60.472 1.91334,-45.468 49.35467,-31.11333 49.35467,-31.11333" />
       <path
          d="m 437.95946,229.41809 c 0,0 11.47025,6.05459 2.40428,20.38172 0,0 -8.61781,-5.65278 -2.40428,-20.38172"
-         style="fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.17333341"
          id="path33552"
          inkscape:connector-curvature="0" />
       <path
          d="m 438.28516,230.02791 c 0,0 11.57306,-5.8557 18.01775,9.82628 0,0 -9.59557,3.76108 -18.01775,-9.82628"
-         style="fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.17333341"
          id="path33552-6"
          inkscape:connector-curvature="0" />
       <path
          d="m 439.4403,229.82326 c 0,0 -11.25845,-6.43989 -18.49669,8.89198 0,0 9.39066,4.24688 18.49669,-8.89198"
-         style="fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#008000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.17333341"
          id="path33552-7"
          inkscape:connector-curvature="0" />
     </g>

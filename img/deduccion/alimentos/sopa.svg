@@ -15,9 +15,9 @@
    viewBox="0 0 110 64.068554"
    id="svg15993"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r"
    sodipodi:docname="sopa.svg"
-   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/deduccion/alimentos/sopa.png"
+   inkscape:export-filename="/home/sam/Trabajo/CI/fundecyt/Megamente/img/deduccion/alimentos/sopa.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -3101,7 +3101,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="-210.77434"
+     inkscape:cx="-416.84546"
      inkscape:cy="146.77702"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -3111,9 +3111,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="710"
+     inkscape:window-height="707"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata15998">
@@ -3123,7 +3123,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

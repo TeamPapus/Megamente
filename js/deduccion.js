@@ -10,7 +10,7 @@ define(function (require) {
             ],
             'pista' : '¿Qué personaje es mayor? 1). Irene es mayor que Ana y menor que Alonso. 2). Beatriz es mayor que Alonso. 3). Juan es mayor que Beatriz.',
             'signo' : '>',
-            'solucion' : ['juan', 'beatriz', 'alonzo', 'irene', 'ana']
+            'solucion' : ['juan', 'beatriz', 'alonso', 'irene', 'ana']
         },
         {
             'img' : [

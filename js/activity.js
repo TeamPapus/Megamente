@@ -12,7 +12,6 @@ define(function (require) {
     var ejer        = 0;
     var pista       = 0;
     var resps_qs    = [];
-    var cont_dd     = 0;
 
     /**
      * Funcion de movimiento para elementos html
@@ -70,12 +69,6 @@ define(function (require) {
         });
     }
     
-    function orden(ejer) {
-        $('#bl').children().each(function(index) {
-            $(this).attr('data', deduccion[ejer].solucion[index]);
-        });
-    }
-
     /**
      * Funcion que colocar las imagenes de cambian cada ejercicio de quiensoy
      */
@@ -197,12 +190,24 @@ define(function (require) {
      * Funcion que valida deduccion
      */
     function validardd(draggableElement, dropzoneElement) {
-        var arrastrable = $(draggableElement);
-        var zona_arrastre = $(dropzoneElement);
-        if(arrastrable.attr('data') == zona_arrastre.attr('data')) { console.log(cont_dd); cont_dd++; }
-        if(cont_dd == 5) {
-            console.log('igual');
-            $('#Modal_dd').css('display', 'block');
+        var arrastrable     = $(draggableElement);
+        var zona_arrastre   = $(dropzoneElement);
+        
+        zona_arrastre.attr('data', arrastrable.attr('data'));
+        
+        var colocado = 0;
+        $('#bl').children().each(function(index){
+            if( $(this).is('[data]') ) colocado++;
+        });
+        
+        if(colocado == 5) {
+            var cont_dd = 0;
+            $('#bl').children().each(function(index){
+                if ($(this).attr('data') === deduccion[ejer].solucion[index]) cont_dd++;
+            });
+            if(cont_dd == 5) {
+                $('#Modal_dd').css('display', 'block');
+            }
         }
     }
 
@@ -216,7 +221,7 @@ define(function (require) {
         validarqs(draggableElement, dropzoneElement);
     };
     
-     var stopItem_ded = function(event) {
+    var stopItem_ded = function(event) {
         // Captura los elemntos arrastrados y los de zona de arrastre
         var draggableElement = event.relatedTarget, dropzoneElement = event.target;
         // Llamado de la funcion que verifica los nombres
@@ -236,7 +241,7 @@ define(function (require) {
     function salida_dd(draggableElement, dropzoneElement) {
         var arrastrable = $(draggableElement);
         var zona_arrastre = $(dropzoneElement);
-        if(arrastrable.attr('data') == zona_arrastre.attr('data')) { console.log(cont_dd); cont_dd--; }
+        zona_arrastre.removeAttr('data');
     }
     
     /**
@@ -271,14 +276,13 @@ define(function (require) {
             // Hace visible la pantall del juego deduccion
         	$('#deduccion').toggle();
             // Carga al azar un ejercicio de deduccion
-            var ejer = spr_dd('od', deduccion);
+            ejer = spr_dd('od', deduccion);
+            console.log(ejer);
             // Acomoda la pista deducion
             $('#pistasd').text(deduccion[ejer].pista);
             // Ordena la lista de objetos
             objpos('od', 70, 70);
             sigpos(ejer);
-            orden(ejer);
-            cont_dd = 0;
         });
 
         /**
@@ -313,18 +317,25 @@ define(function (require) {
         /* Carga nuevo ejerccion de deduccion
          */
         $('#btndeduccion').on('click', function() {
+            $('#bl').children().each(function(index){
+                $(this).removeAttr('data');
+                $(this).removeClass('respuesta_ded');
+            });
             // Carga al azar un ejercicio de deduccion
-            var ejer = spr_dd('od', deduccion);
+            ejer = spr_dd('od', deduccion);
+            console.log(ejer);
             // Acomoda la pista deducion
             $('#pistasd').text(deduccion[ejer].pista);
             // Ordena la lista de objetos
             objpos('od', 70, 70);
             sigpos(ejer);
-            orden(ejer);
-            cont_dd = 0;
         });
         
         $('#dd_close').click(function() {
+            $('#bl').children().each(function(index){
+                $(this).removeAttr('data');
+                $(this).removeClass('respuesta_ded');
+            });
             $('#Modal_dd').css('display', 'none');
              $('#od').children().each(function(index) {
                 $(this).remove();
@@ -333,14 +344,13 @@ define(function (require) {
                 $('#od').append('<div class="objeto movimiento_d obj' + (i+1) + ' element"></div>');
             }
             // Carga al azar un ejercicio de deduccion
-            var ejer = spr_dd('od', deduccion);
+            ejer = spr_dd('od', deduccion);
+            console.log(ejer);
             // Acomoda la pista deducion
             $('#pistasd').text(deduccion[ejer].pista);
             // Ordena la lista de objetos
             objpos('od', 70, 70);
             sigpos(ejer);
-            orden(ejer);
-            cont_dd = 0;
         });
         
         /**

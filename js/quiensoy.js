@@ -443,12 +443,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../img/quien-soy/ejercicio14/ricardo.svg',
-            '../img/quien-soy/ejercicio14/antonio.svg',
-            '../img/quien-soy/ejercicio14/jorge.svg',
-            '../img/quien-soy/ejercicio14/juan.svg',
-            '../img/quien-soy/ejercicio14/daniel.svg',
-            '../img/quien-soy/ejercicio14/javier.svg'
+            '../img/quien-soy/ejercicio14/ana.svg',
+            '../img/quien-soy/ejercicio14/isabel.svg',
+            '../img/quien-soy/ejercicio14/lorena.svg',
+            '../img/quien-soy/ejercicio14/maria.svg',
+            '../img/quien-soy/ejercicio14/paula.svg',
+            '../img/quien-soy/ejercicio14/raquel.svg'
     	],
         'pista' : [
             '1). María lee el periódico.',
