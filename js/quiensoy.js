@@ -336,7 +336,7 @@ define(function (require) {
     		['Maria', 'gafas','collar'],
             ['Raquel', 'reloj'],
             ['Isabel', 'reloj','mochila'],
-            ['Teresa', 'mochila', 'teléfono']
+            ['Teresa', 'sombrero', 'teléfono']
         ]
     },
     {
@@ -469,8 +469,8 @@ define(function (require) {
         'nombres' : [
             ['María', 'periódico', 'lazo', 'mochila'],
     		['Raquel', 'música', 'collar'],
-    		['Ana', 'collar','lazo'],
-            ['Paula', 'lazo','mochila'],
+    		['Ana', 'collar', 'lazo'],
+            ['Paula', 'lazo', 'mochila'],
             ['Isabel', 'lazo'],
             ['Lorena', 'teléfono']
         ]
@@ -501,7 +501,7 @@ define(function (require) {
             ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
-            ['María ', 'periódico', 'lazo', 'mochila'],
+            ['María', 'periódico', 'lazo', 'mochila'],
     		['Raquel', 'música', 'collar'],
     		['Ana', 'collar','lazo'],
             ['Paula', 'lazo','mochila'],
@@ -629,17 +629,17 @@ define(function (require) {
         'obj' : [
             ['../img/deduccion/objetos/lentes.svg', 'gafas'],
             ['../img/deduccion/objetos/corbata.svg', 'corbata'],
-            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelo'],
             ['../img/deduccion/objetos/gorra.svg', 'gorra'],
-            ['../img/deduccion/objetos/mochila2.svg', 'mochilas'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
             ['../img/deduccion/objetos/telefono.svg', 'teléfono']
         ],
         'nombres' : [
-            ['Francisco ', 'gafas', 'mochila'],
-    		['Antonio', 'gafas', 'pañuelos'],
+            ['Francisco', 'gafas', 'mochila'],
+    		['Antonio', 'gafas', 'pañuelo'],
     		['Ricardo', 'corbata'],
-            ['Jorge', 'pañuelos', 'mochila','teléfono'],
-            ['José', 'pañuelos','mochila','teléfono'],
+            ['Jorge', 'pañuelo', 'mochila','teléfono'],
+            ['José', 'pañuelo','mochila','teléfono'],
             ['Oscar', 'gorra']
         ]
     },
@@ -663,7 +663,7 @@ define(function (require) {
         'obj' : [
             ['../img/deduccion/objetos/lentes.svg', 'gafas'],
             ['../img/deduccion/objetos/corbata.svg', 'corbata'],
-            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelo'],
             ['../img/deduccion/objetos/gorra.svg', 'gorra'],
             ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
             ['../img/deduccion/objetos/telefono.svg', 'teléfono']
@@ -673,7 +673,7 @@ define(function (require) {
     		['Javier', 'gafas', 'gorra'],
     		['Alejandro', 'gafas', 'gorra','teléfono'],
             ['Alicia', 'corbata', 'mochila','teléfono'],
-            ['Juan', 'pañuelos', 'teléfono'],
+            ['Juan', 'pañuelo', 'teléfono'],
             ['Antonio', 'mochila', 'teléfono']
         ]
     },

@@ -560,7 +560,7 @@ define(function (require) {
         /**
          * Funcion de modal
          */
-        $('.close').click(function() {
+        $('#qs_close').click(function() {
             $('#myModal').css('display', 'none');
             $('#cont_nombres').children().each(function(index) {
                 $(this).remove();
