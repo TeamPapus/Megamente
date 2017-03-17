@@ -561,19 +561,19 @@ define(function (require) {
             '6). Antonio, Ricardo y Carlos juegan videojuegos.'
     	],
         'obj' : [
-            ['../img/deduccion/objetos/microfono.svg', 'cantan'],
-            ['../img/deduccion/objetos/camara.svg', 'fotografías'],
+            ['../img/deduccion/objetos/microfono.svg', 'micrófono'],
+            ['../img/deduccion/objetos/camara.svg', 'cámara'],
             ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
             ['../img/deduccion/objetos/bicicleta.svg', 'bicicleta'],
             ['../img/deduccion/objetos/piano.png', 'piano'],
             ['../img/deduccion/objetos/videojuego.png', 'videojuegos']
         ],
         'nombres' : [
-            ['Isabel ', 'cantan', 'bicicleta','piano'],
-    		['Lorena', 'cantan', 'guitarra','piano'],
-    		['David', 'fotografías','bicicleta','piano'],
-            ['Carlos', 'fotografías','videojuegos'],
-            ['Ricardo', 'fotografías','bicicleta','videojuegos'],
+            ['Isabel', 'micrófono', 'bicicleta','piano'],
+    		['Lorena', 'micrófono', 'guitarra','piano'],
+    		['David', 'cámara','bicicleta','piano'],
+            ['Carlos', 'cámara','videojuegos'],
+            ['Ricardo', 'cámara','bicicleta','videojuegos'],
             ['Antonio', 'bicicleta','videojuegos']
         ]
     },
