@@ -14,9 +14,9 @@
    viewBox="0 0 85.741758 248"
    id="svg12295"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r"
    sodipodi:docname="ines.svg"
-   inkscape:export-filename="/home/piccolina/Escritorio/fundacion/megamente-web/Megamente/img/quien-soy/ejercicio1/ines.png"
+   inkscape:export-filename="/home/sam/Trabajo/CI/fundecyt/Megamente/img/quien-soy/ejercicio1/ines.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
   <defs
@@ -43,7 +43,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.9899495"
-     inkscape:cx="-158.43701"
+     inkscape:cx="-141.26442"
      inkscape:cy="163.40885"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -53,9 +53,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="710"
+     inkscape:window-height="707"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata12300">
@@ -65,7 +65,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

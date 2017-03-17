@@ -2,11 +2,11 @@ define(function (require) {
     return [
         {
             'img' : [
-                ['../img/deduccion/personajes/juan.svg', 'juan'],
-                ['../img/deduccion/personajes/beatriz.svg', 'beatriz'],
-                ['../img/deduccion/personajes/alonso.svg', 'alonso'],
-                ['../img/deduccion/personajes/irene.svg', 'irene'],
-                ['../img/deduccion/personajes/ana.svg', 'ana']
+                ['../img/deduccion/personajes/juan.png', 'juan'],
+                ['../img/deduccion/personajes/beatriz.png', 'beatriz'],
+                ['../img/deduccion/personajes/alonso.png', 'alonso'],
+                ['../img/deduccion/personajes/irene.png', 'irene'],
+                ['../img/deduccion/personajes/ana.png', 'ana']
             ],
             'pista' : '¿Qué personaje es mayor? 1). Irene es mayor que Ana y menor que Alonso. 2). Beatriz es mayor que Alonso. 3). Juan es mayor que Beatriz.',
             'signo' : '>',
@@ -14,15 +14,15 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/avion-verde.svg', ''],
-                ['../img/deduccion/objetos/avion-rojo.svg', ''],
-                ['../img/deduccion/objetos/avion-naranja.svg', ''],
-                ['../img/deduccion/objetos/avion-amarillo.svg', ''],
-                ['../img/deduccion/objetos/avion-azul.svg', '']
+                ['../img/deduccion/objetos/avion-verde.svg', 'verde'],
+                ['../img/deduccion/objetos/avion-rojo.svg', 'rojo'],
+                ['../img/deduccion/objetos/avion-naranja.svg', 'naranja'],
+                ['../img/deduccion/objetos/avion-amarillo.svg', 'amarillo'],
+                ['../img/deduccion/objetos/avion-azul.svg', 'azul']
             ],
             'pista' : '¿Qué avión vuela más alto? 1). El avión amarillo vuela más que el avión azul y menos que el avión naranja. 2). El avión rojo vuela más que el avión verde. 3). El avión naranja vuela menos que el avión verde.',
             'signo' : '>',
-            'solucion' : ['ana', 'alonso', 'irene', 'beatriz', 'juan']
+            'solucion' : ['verde', 'rojo', 'naranja', 'amarillo', 'azul']
         },
         {
             'img' : [

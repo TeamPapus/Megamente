@@ -15,8 +15,11 @@
    viewBox="0 0 95.832529 248"
    id="svg7923"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="javier.svg">
+   inkscape:version="0.92.1 r"
+   sodipodi:docname="javier.svg"
+   inkscape:export-filename="/home/sam/Trabajo/CI/fundecyt/Megamente/img/quien-soy/ejercicio3/javier.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs7925">
     <linearGradient
@@ -36,7 +39,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="-406.94543"
+     inkscape:cx="-266.94543"
      inkscape:cy="37.380888"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -46,9 +49,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1366"
-     inkscape:window-height="710"
+     inkscape:window-height="707"
      inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7928">
@@ -58,7 +61,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
