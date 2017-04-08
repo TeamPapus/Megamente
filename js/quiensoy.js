@@ -469,8 +469,8 @@ define(function (require) {
         'nombres' : [
             ['María', 'periódico', 'lazo', 'mochila'],
     		['Raquel', 'música', 'collar'],
-    		['Ana', 'collar','lazo'],
-            ['Paula', 'lazo','mochila'],
+    		['Ana', 'collar', 'lazo'],
+            ['Paula', 'lazo', 'mochila'],
             ['Isabel', 'lazo'],
             ['Lorena', 'teléfono']
         ]
@@ -501,7 +501,7 @@ define(function (require) {
             ['../img/deduccion/objetos/telefono.png', 'teléfono']
         ],
         'nombres' : [
-            ['María ', 'periódico', 'lazo', 'mochila'],
+            ['María', 'periódico', 'lazo', 'mochila'],
     		['Raquel', 'música', 'collar'],
     		['Ana', 'collar','lazo'],
             ['Paula', 'lazo','mochila'],
@@ -561,19 +561,19 @@ define(function (require) {
             '6). Antonio, Ricardo y Carlos juegan videojuegos.'
     	],
         'obj' : [
-            ['../img/deduccion/objetos/microfono.svg', 'cantan'],
-            ['../img/deduccion/objetos/camara.svg', 'fotografías'],
+            ['../img/deduccion/objetos/microfono.svg', 'micrófono'],
+            ['../img/deduccion/objetos/camara.svg', 'cámara'],
             ['../img/deduccion/objetos/guitarra.png', 'guitarra'],
             ['../img/deduccion/objetos/bicicleta.svg', 'bicicleta'],
             ['../img/deduccion/objetos/piano.png', 'piano'],
             ['../img/deduccion/objetos/videojuego.png', 'videojuegos']
         ],
         'nombres' : [
-            ['Isabel ', 'cantan', 'bicicleta','piano'],
-    		['Lorena', 'cantan', 'guitarra','piano'],
-    		['David', 'fotografías','bicicleta','piano'],
-            ['Carlos', 'fotografías','videojuegos'],
-            ['Ricardo', 'fotografías','bicicleta','videojuegos'],
+            ['Isabel', 'micrófono', 'bicicleta','piano'],
+    		['Lorena', 'micrófono', 'guitarra','piano'],
+    		['David', 'cámara','bicicleta','piano'],
+            ['Carlos', 'cámara','videojuegos'],
+            ['Ricardo', 'cámara','bicicleta','videojuegos'],
             ['Antonio', 'bicicleta','videojuegos']
         ]
     },
@@ -629,17 +629,21 @@ define(function (require) {
         'obj' : [
             ['../img/deduccion/objetos/lentes.svg', 'gafas'],
             ['../img/deduccion/objetos/corbata.svg', 'corbata'],
-            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelo'],
             ['../img/deduccion/objetos/gorra.svg', 'gorra'],
             ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
             ['../img/deduccion/objetos/telefono.svg', 'teléfono']
         ],
         'nombres' : [
             ['Francisco', 'gafas', 'mochila'],
+<<<<<<< HEAD
     		['Antonio', 'gafas', 'pañuelos'],
+=======
+    		['Antonio', 'gafas', 'pañuelo'],
+>>>>>>> 7542cad79d3c01a93157dd3bc2a385df79d17a1d
     		['Ricardo', 'corbata'],
-            ['Jorge', 'pañuelos', 'mochila','teléfono'],
-            ['José', 'pañuelos','mochila','teléfono'],
+            ['Jorge', 'pañuelo', 'mochila','teléfono'],
+            ['José', 'pañuelo','mochila','teléfono'],
             ['Oscar', 'gorra']
         ]
     },
@@ -663,7 +667,7 @@ define(function (require) {
         'obj' : [
             ['../img/deduccion/objetos/lentes.svg', 'gafas'],
             ['../img/deduccion/objetos/corbata.svg', 'corbata'],
-            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelos'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelo'],
             ['../img/deduccion/objetos/gorra.svg', 'gorra'],
             ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
             ['../img/deduccion/objetos/telefono.svg', 'teléfono']
@@ -673,7 +677,7 @@ define(function (require) {
     		['Javier', 'gafas', 'gorra'],
     		['Alejandro', 'gafas', 'gorra','teléfono'],
             ['Alicia', 'corbata', 'mochila','teléfono'],
-            ['Juan', 'pañuelos', 'teléfono'],
+            ['Juan', 'pañuelo', 'teléfono'],
             ['Antonio', 'mochila', 'teléfono']
         ]
     },

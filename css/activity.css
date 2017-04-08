@@ -3,6 +3,11 @@
   background-image: url(../activity/activity-icon.svg);
 }
 
+#canvas {
+	width: 1200px;
+	height: 845px;
+}
+
 .element {
     position: absolute;
 }
