@@ -22,7 +22,7 @@ define(function (require) {
             ],
             'pista' : '¿Qué avión vuela más alto? 1). El avión amarillo vuela más que el avión azul y menos que el avión naranja. 2). El avión rojo vuela más que el avión verde. 3). El avión naranja vuela menos que el avión verde.',
             'signo' : '>',
-            'solucion' : ['verde', 'rojo', 'naranja', 'amarillo', 'azul']
+            'solucion' : ['rojo', 'verde', 'naranja', 'amarillo', 'azul']
         },
         {
             'img' : [
