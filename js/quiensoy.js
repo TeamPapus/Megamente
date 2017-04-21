@@ -670,13 +670,47 @@ define(function (require) {
             ['../img/deduccion/objetos/naranja.svg', 'naranja']
         ],
         'nombres' : [
-            ['alison ', 'papaya', 'banano'],
-    		    ['antonio', 'papaya', 'banano'],
-    		    ['javier', 'papaya', 'piña','manzana'],
+            ['alison', 'papaya', 'banano'],
+            ['antonio', 'papaya', 'banano'],
+            ['javier', 'papaya', 'piña','manzana'],
             ['david', 'papaya', 'piña','melón'],
             ['raquel', 'manzana','melón','manzana'],
             ['isabel', 'melón','naranja']
         ]
-    }
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio21/gabriela.svg',
+            '../img/quien-soy/ejercicio21/ana.svg',
+            '../img/quien-soy/ejercicio21/maria.svg',
+            '../img/quien-soy/ejercicio21/carolina.svg',
+            '../img/quien-soy/ejercicio21/pedro.svg',
+            '../img/quien-soy/ejercicio21/luis.svg'
+    	],
+        'pista' : [
+            '1). María, Gabriela y Ana juegan baloncesto.',
+            '2). Luis juega al fútbol.',
+            '3). Carolina y Gabriela juegan tenis.',
+            '4). Pedro, Luis y Ana juegan fútbol americano.',
+            '5). Ana juega voleibol.',
+            '6). María y Pedro juegan ajedrez.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/baloncesto.svg', 'baloncesto'],
+            ['../img/deduccion/objetos/futbol.svg', 'futbol'],
+            ['../img/deduccion/objetos/tenis.svg', 'tenis'],
+            ['../img/deduccion/objetos/futbol-americano.svg', 'futbol-americano'],
+            ['../img/deduccion/objetos/voleibol.svg', 'voleibol'],
+            ['../img/deduccion/objetos/ajedrez.svg', 'ajedrez']
+        ],
+        'nombres' : [
+            ['maria', 'baloncesto', 'ajedrez'],
+            ['gabriela', 'baloncesto', 'tenis'],
+            ['ana', 'baloncesto', 'futbol-americano','voleibol'],
+            ['luis', 'futbol', 'futbol-americano'],
+            ['carolina', 'tenis'],
+            ['pedro', 'futbol-americano','ajedrez']
+        ]
+    }    
     ];
 });
