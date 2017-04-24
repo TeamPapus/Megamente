@@ -662,12 +662,12 @@ define(function (require) {
             '6). Teresa, Raquel e Isabel comen naranja.'
     	],
         'obj' : [
-            ['../img/deduccion/objetos/papaya.svg', 'papaya'],
-            ['../img/deduccion/objetos/pina.svg', 'piña'],
-            ['../img/deduccion/objetos/banano.svg', 'banano'],
-            ['../img/deduccion/objetos/manzana.svg', 'manzana'],
-            ['../img/deduccion/objetos/melon.svg', 'melón'],
-            ['../img/deduccion/objetos/naranja.svg', 'naranja']
+            ['../img/deduccion/alimentos/papaya.svg', 'papaya'],
+            ['../img/deduccion/alimentos/piña.svg', 'piña'],
+            ['../img/deduccion/alimentos/banano.svg', 'banano'],
+            ['../img/deduccion/alimentos/manzana.svg', 'manzana'],
+            ['../img/deduccion/alimentos/melon.svg', 'melón'],
+            ['../img/deduccion/alimentos/naranja.svg', 'naranja']
         ],
         'nombres' : [
             ['alison', 'papaya', 'banano'],
@@ -711,6 +711,108 @@ define(function (require) {
             ['carolina', 'tenis'],
             ['pedro', 'futbol-americano','ajedrez']
         ]
-    }    
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio22/danna.svg',
+            '../img/quien-soy/ejercicio22/doris.svg',
+            '../img/quien-soy/ejercicio22/flor.svg',
+            '../img/quien-soy/ejercicio22/julio.svg',
+            '../img/quien-soy/ejercicio22/karina.svg',
+            '../img/quien-soy/ejercicio22/luis.svg'
+    	],
+        'pista' : [
+            '1). Karina, Flor y Julio usan gafas.',
+            '2). Luis lleva corbata.',
+            '3). Karina y Danna llevan un lazo en el cabello.',
+            '4). Doris lleva una bufanda.',
+            '5). Karina, Flor y Luis llevan una mochila.',
+            '6). Flor lleva un pañuelo.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/lentes.svg', 'lentes'],
+            ['../img/deduccion/objetos/lazo.svg', 'lazo'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
+            ['../img/deduccion/objetos/pañuelo.svg', 'pañuelo'],
+            ['../img/deduccion/objetos/corbata.svg', 'corbata'],
+            ['../img/deduccion/objetos/bufanda.svg', 'bufanda']
+        ],
+        'nombres' : [
+            ['karina', 'lentes', 'lazo','mochila'],
+            ['flor', 'lentes', 'mochila','pañuelo'],
+            ['julio', 'lentes'],
+            ['luis', 'corbata', 'mochila'],
+            ['danna', 'lazo'],
+            ['doris', 'bufanda']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio23/alfredo.svg',
+            '../img/quien-soy/ejercicio23/fabiola.svg',
+            '../img/quien-soy/ejercicio23/javier.svg',
+            '../img/quien-soy/ejercicio23/luz.svg',
+            '../img/quien-soy/ejercicio23/nathalia.svg',
+            '../img/quien-soy/ejercicio23/pedro.svg'
+    	],
+        'pista' : [
+            '1). Luz, Natalia y Alfredo comen bananos.',
+            '2). Javier y Pedro comen naranjas.',
+            '3). Fabiola y Luz comen manzanas.',
+            '4). Alfredo come papaya.',
+            '5). Pedro y Natalia comen mango.',
+            '6). Javier y Alfredo comen sandía.'
+    	],
+        'obj' : [
+            ['../img/deduccion/alimentos/banano.svg', 'banano'],
+            ['../img/deduccion/alimentos/manzana.svg', 'manzana'],
+            ['../img/deduccion/alimentos/mango.svg', 'mango'],
+            ['../img/deduccion/alimentos/papaya.svg', 'papaya'],
+            ['../img/deduccion/alimentos/sandia.svg', 'sandia'],
+            ['../img/deduccion/alimentos/naranja.svg', 'naranja']
+        ],
+        'nombres' : [
+            ['luz', 'banano', 'manzana'],
+            ['nathalia', 'banano', 'mango'],
+            ['alfredo', 'banano','papaya','sandia'],
+            ['javier', 'naranja', 'sandia'],
+            ['pedro', 'naranja','mango'],
+            ['fabiola', 'manzana']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio24/ana.svg',
+            '../img/quien-soy/ejercicio24/francisco.svg',
+            '../img/quien-soy/ejercicio24/isabel.svg',
+            '../img/quien-soy/ejercicio24/maria.svg',
+            '../img/quien-soy/ejercicio24/raquel.svg',
+            '../img/quien-soy/ejercicio24/sonia.svg'
+    	],
+        'pista' : [
+            '1). Francisco lee el periódico.',
+            '2). Sonia y Francisco escucha música.',
+            '3). Raquel lleva collar.',
+            '4). María, Ana e Isabel llevan un lazo en el cabello.',
+            '5). María e Isabel llevan mochila.',
+            '6). Isabel y Ana lleva teléfono.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/periodico.svg', 'periodico'],
+            ['../img/deduccion/objetos/grabadora.svg', 'grabadora'],
+            ['../img/deduccion/objetos/collar.svg', 'collar'],
+            ['../img/deduccion/objetos/lazo.svg', 'lazo'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
+            ['../img/deduccion/objetos/telefono.svg', 'telefono']
+        ],
+        'nombres' : [
+            ['francisco', 'periodico', 'grabadora'],
+            ['sonia', 'grabadora'],
+            ['raquel', 'collar'],
+            ['maria', 'lazo', 'mochila'],
+            ['ana', 'lazo','telefono'],
+            ['isabel', 'lazo','mochila','telefono']
+        ]
+    }                                
     ];
 });
