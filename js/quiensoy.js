@@ -1075,7 +1075,7 @@ define(function (require) {
             ['../img/deduccion/alimentos/papaya.svg', 'papaya'],
             ['../img/deduccion/alimentos/manzana.svg', 'manzana'],
             ['../img/deduccion/alimentos/naranja.svg', 'naranja'],
-            ['../img/deduccion/alimentos/banano.svg', 'banano'],
+            ['../img/deduccion/alimentos/banano.svg', 'banano']
         ],
         'nombres' : [
             ['luz', 'sandia','papaya'],
@@ -1085,6 +1085,278 @@ define(function (require) {
             ['pedro', 'mango','naranja'],    
             ['fabiola', 'papaya']
         ]
-    }                                                               
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio33/ana.svg',
+            '../img/quien-soy/ejercicio33/david.svg',
+            '../img/quien-soy/ejercicio33/enrique.svg',
+            '../img/quien-soy/ejercicio33/gloria.svg',
+            '../img/quien-soy/ejercicio33/isabel.svg',
+            '../img/quien-soy/ejercicio33/paula.svg'
+    	],
+        'pista' : [
+            '1). Ana tiene una computadora.',
+            '2). Enrique tiene un teléfono.',
+            '3). Isabel y Paula tienen un nintendo.',
+            '4). David y Gloria tienen un cuaderno.',
+            '5). Enrique, Ana e Isabel tienen mochila.',
+            '6). Gloria, David y Enrique tienen lápiz.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/computadora.svg', 'computadora'],
+            ['../img/deduccion/objetos/telefono.svg', 'telefono'],
+            ['../img/deduccion/objetos/videojuego.svg', 'videojuego'],
+            ['../img/deduccion/objetos/cuaderno.svg', 'cuaderno'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
+            ['../img/deduccion/objetos/lapiz.svg', 'lapiz']
+        ],
+        'nombres' : [
+            ['ana', 'computadora','mochila'],
+            ['enrique', 'telefono','mochila','lapiz'],
+            ['isabel', 'videojuego','mochila'],
+            ['paula', 'videojuego'],
+            ['david', 'cuaderno','lapiz'],    
+            ['gloria', 'cuaderno','lapiz']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio34/ana.svg',
+            '../img/quien-soy/ejercicio34/antonio.svg',
+            '../img/quien-soy/ejercicio34/isabel.svg',
+            '../img/quien-soy/ejercicio34/javier.svg',
+            '../img/quien-soy/ejercicio34/maria.svg',
+            '../img/quien-soy/ejercicio34/paula.svg'
+    	],
+        'pista' : [
+            '1). Javier lee el periódico.',
+            '2). Javier y Antonio escuchan música.',
+            '3). Paula lleva collar.',
+            '4). María, Ana e Isabel llevan un lazo en el cabello.',
+            '5). María e Isabel llevan mochila.',
+            '6). Isabel y Ana lleva teléfono.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/periodico.svg', 'periodico'],
+            ['../img/deduccion/objetos/grabadora.svg', 'grabadora'],
+            ['../img/deduccion/objetos/collar.svg', 'collar'],
+            ['../img/deduccion/objetos/lazo.svg', 'lazo'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
+            ['../img/deduccion/objetos/telefono.svg', 'telefono']
+        ],
+        'nombres' : [
+            ['javier', 'periodico','grabadora'],
+            ['antonio', 'grabadora'],
+            ['maria', 'lazo','mochila'],
+            ['ana', 'lazo','telefono'],
+            ['paula', 'collar'],    
+            ['isabel', 'lazo','mochila','telefono']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio35/alison.svg',
+            '../img/quien-soy/ejercicio35/antonio.svg',
+            '../img/quien-soy/ejercicio35/david.svg',
+            '../img/quien-soy/ejercicio35/isabel.svg',
+            '../img/quien-soy/ejercicio35/javier.svg',
+            '../img/quien-soy/ejercicio35/raquel.svg'
+    	],
+        'pista' : [
+            '1). Alisson, Antonio, Javier y David comen piña.',
+            '2). Javier y David comen papaya.',
+            '3). Alisson y Antonio comen manzanas.',
+            '4). Raquel y Javier comen bananos.',
+            '5). Raquel, Isabel y David comen naranja.',
+            '6). Teresa, Raquel e Isabel comen melón.'
+    	],
+        'obj' : [
+            ['../img/deduccion/alimentos/piña.svg', 'piña'],
+            ['../img/deduccion/alimentos/papaya.svg', 'papaya'],
+            ['../img/deduccion/alimentos/manzana.svg', 'manzana'],
+            ['../img/deduccion/alimentos/banano.svg', 'banano'],
+            ['../img/deduccion/alimentos/naranja.svg', 'naranja'],
+            ['../img/deduccion/alimentos/melon.svg', 'melon']
+        ],
+        'nombres' : [
+            ['alison', 'piña','manzana'],
+            ['antonio', 'piña','manzana'],
+            ['javier', 'piña','papaya','banano'],
+            ['david', 'piña','papaya','naranja'],
+            ['raquel', 'banano','naranja','melon'],    
+            ['isabel', 'naranja','melon']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio36/antonio.svg',
+            '../img/quien-soy/ejercicio36/daniel.svg',
+            '../img/quien-soy/ejercicio36/javier.svg',
+            '../img/quien-soy/ejercicio36/jorge.svg',
+            '../img/quien-soy/ejercicio36/juan.svg',
+            '../img/quien-soy/ejercicio36/ricardo.svg'
+    	],
+        'pista' : [
+            '1). Juan y Antonio usan corbata.',
+            '2). Jorge lleva gafas.',
+            '3). Juan, Daniel, Javier y Ricardo llevan gorra.',
+            '4). Daniel lleva cinturón.',
+            '5). Juan y Daniel llevan teléfono.',
+            '6). Ricardo y Javier llevan mochila.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/corbata.svg', 'corbata'],
+            ['../img/deduccion/objetos/lentes.svg', 'lentes'],
+            ['../img/deduccion/objetos/gorra.svg', 'gorra'],
+            ['../img/deduccion/objetos/cinturon.svg', 'cinturon'],
+            ['../img/deduccion/objetos/telefono.svg', 'telefono'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochila']
+        ],
+        'nombres' : [
+            ['juan', 'corbata','gorra','telefono'],
+            ['antonio', 'gorra'],
+            ['jorge', 'lentes'],
+            ['daniel', 'gorra','cinturon','telefono'],
+            ['javier', 'gorra','mochila'],    
+            ['ricardo', 'gorra','mochila']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio37/jorge.svg',
+            '../img/quien-soy/ejercicio37/jose.svg',
+            '../img/quien-soy/ejercicio37/paula.svg',
+            '../img/quien-soy/ejercicio37/pedro.svg',
+            '../img/quien-soy/ejercicio37/raquel.svg',
+            '../img/quien-soy/ejercicio37/ruth.svg'
+    	],
+        'pista' : [
+            '1). Jorge y Raquel beben café.',
+            '2). Ruth y Raquel beben leche.',
+            '3). Jorge, José y Pedro beben refresco.',
+            '4). Ruth y Pedro beben yogurt.',
+            '5). José y Paula beben agua.',
+            '6). Ruth beben sopa.'
+    	],
+        'obj' : [
+            ['../img/deduccion/alimentos/cafe.svg', 'cafe'],
+            ['../img/deduccion/alimentos/leche.svg', 'leche'],
+            ['../img/deduccion/alimentos/refresco.svg', 'refresco'],
+            ['../img/deduccion/alimentos/yogurt.svg', 'yogurt'],
+            ['../img/deduccion/alimentos/agua.svg', 'agua'],
+            ['../img/deduccion/alimentos/sopa.svg', 'sopa']
+        ],
+        'nombres' : [
+            ['jorge', 'cafe','refresco'],
+            ['raquel', 'cafe','leche'],
+            ['ruth', 'leche','yogurt','sopa'],
+            ['jose', 'refresco','agua'],
+            ['pedro', 'refresco','yogurt'],    
+            ['paula', 'agua']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio38/ana.svg',
+            '../img/quien-soy/ejercicio38/ines.svg',
+            '../img/quien-soy/ejercicio38/luisa.svg',
+            '../img/quien-soy/ejercicio38/maria.svg',
+            '../img/quien-soy/ejercicio38/paula.svg',
+            '../img/quien-soy/ejercicio38/raquel.svg'
+    	],
+        'pista' : [
+            '1). Inés usa reloj.',
+            '2). RLuisa y María llevan gafas.',
+            '3). Paula, Inés y Ana llevan Sombrero.',
+            '4). Paula y María llevan collar.',
+            '5). Raquel, Luisa e Inés llevan teléfono.',
+            '6). Raquel, Paula, María, Ana llevan mochila.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/reloj.svg', 'reloj'],
+            ['../img/deduccion/objetos/lentes.svg', 'lentes'],
+            ['../img/deduccion/objetos/sombrero.svg', 'sombrero'],
+            ['../img/deduccion/objetos/collar.svg', 'collar'],
+            ['../img/deduccion/objetos/telefono.svg', 'telefono'],
+            ['../img/deduccion/objetos/mochila2.svg', 'mochila']
+        ],
+        'nombres' : [
+            ['maria', 'lentes','collar','mochila'],
+            ['ines', 'reloj','sombrero','telefono'],
+            ['luisa', 'lentes','telefono'],
+            ['paula', 'sombrero','collar','mochila'],
+            ['ana', 'sombrero','mochila'],    
+            ['raquel', 'telefono','mochila']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio39/ana.svg',
+            '../img/quien-soy/ejercicio39/carolina.svg',
+            '../img/quien-soy/ejercicio39/gabriela.svg',
+            '../img/quien-soy/ejercicio39/luis.svg',
+            '../img/quien-soy/ejercicio39/maria.svg',
+            '../img/quien-soy/ejercicio39/pedro.svg'
+    	],
+        'pista' : [
+            '1). María, Gabriela y Ana comen pepino.',
+            '2). Luis come tomate.',
+            '3). Carolina y Gabriela comen zanahoria.',
+            '4). Pedro, Luis y Ana comen brócoli.',
+            '5). Ana come lechuga.',
+            '6). María y Pedro comen remolacha.'
+    	],
+        'obj' : [
+            ['../img/deduccion/alimentos/pepino.svg', 'pepino'],
+            ['../img/deduccion/alimentos/tomate.svg', 'tomate'],
+            ['../img/deduccion/alimentos/zanahoria.svg', 'zanahoria'],
+            ['../img/deduccion/alimentos/brocoli.svg', 'brocoli'],
+            ['../img/deduccion/alimentos/lechuga.svg', 'lechuga'],
+            ['../img/deduccion/alimentos/remolacha.svg', 'remolacha']
+        ],
+        'nombres' : [
+            ['maria', 'pepino','remolacha'],
+            ['gabriela', 'pepino','zanahoria'],
+            ['ana', 'pepino','brocoli','lechuga'],
+            ['luis', 'tomate','brocoli'],
+            ['carolina', 'zanahoria'],    
+            ['pedro', 'brocoli','remolacha']
+        ]
+    },
+    {
+        'img' : [
+            '../img/quien-soy/ejercicio40/ana.svg',
+            '../img/quien-soy/ejercicio40/carolina.svg',
+            '../img/quien-soy/ejercicio40/gabriela.svg',
+            '../img/quien-soy/ejercicio40/luis.svg',
+            '../img/quien-soy/ejercicio40/maria.svg',
+            '../img/quien-soy/ejercicio40/pedro.svg'
+    	],
+        'pista' : [
+            '1). María, Gabriela y Ana juegan fútbol.',
+            '2). Luis juega al baloncesto.',
+            '3). Carolina y Gabriela juegan fútbol americano.',
+            '4). Pedro, Luis y Ana juegan tenis.',
+            '5). Ana juega voleibol .',
+            '6). María y Pedro juegan ajedrez.'
+    	],
+        'obj' : [
+            ['../img/deduccion/objetos/futbol.svg', 'futbol'],
+            ['../img/deduccion/objetos/baloncesto.svg', 'baloncesto'],
+            ['../img/deduccion/objetos/futbol-americano.svg', 'futbol-americano'],
+            ['../img/deduccion/objetos/tenis.svg', 'tenis'],
+            ['../img/deduccion/objetos/voleibol.svg', 'voleibol'],
+            ['../img/deduccion/objetos/ajedrez.svg', 'ajedrez']
+        ],
+        'nombres' : [
+            ['maria', 'futbol','ajedrez'],
+            ['gabriela', 'futbol','futbol-americano'],
+            ['ana', 'futbol','tenis','voleibol'],
+            ['luis', 'baloncesto','tenis'],
+            ['carolina', 'futbol-americano'],    
+            ['pedro', 'tenis','ajedrez']
+        ]
+    }                                                                                               
     ];
 });
