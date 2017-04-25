@@ -14,11 +14,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/avion-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/avion-rojo.svg', 'rojo'],
-                ['../img/deduccion/objetos/avion-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/avion-amarillo.svg', 'amarillo'],
-                ['../img/deduccion/objetos/avion-azul.svg', 'azul']
+                ['../img/deduccion/objetos/avion-verde.png', 'verde'],
+                ['../img/deduccion/objetos/avion-rojo.png', 'rojo'],
+                ['../img/deduccion/objetos/avion-naranja.png', 'naranja'],
+                ['../img/deduccion/objetos/avion-amarillo.png', 'amarillo'],
+                ['../img/deduccion/objetos/avion-azul.png', 'azul']
             ],
             'pista' : '¿Qué avión vuela más alto? 1). El avión amarillo vuela más que el avión azul y menos que el avión naranja. 2). El avión rojo vuela más que el avión verde. 3). El avión naranja vuela menos que el avión verde.',
             'signo' : '>',
@@ -26,11 +26,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/alimentos/naranja.svg', 'naranja'],
-                ['../img/deduccion/alimentos/fresa.svg', 'fresa'],
-                ['../img/deduccion/alimentos/sandia.svg', 'sandia'],
-                ['../img/deduccion/alimentos/manzana.svg', 'manzana'],
-                ['../img/deduccion/alimentos/pera.svg', 'pera']
+                ['../img/deduccion/alimentos/naranja.png', 'naranja'],
+                ['../img/deduccion/alimentos/fresa.png', 'fresa'],
+                ['../img/deduccion/alimentos/sandia.png', 'sandia'],
+                ['../img/deduccion/alimentos/manzana.png', 'manzana'],
+                ['../img/deduccion/alimentos/pera.png', 'pera']
             ],
             'pista' : '¿Qué fruta es menos jugosa?. 1). La pera es más jugosa que la manzana. 2). La sandía es menos jugosa que la manzana. 3). La fresa es más jugosa que la naranja y menos que la sandía.',
             'signo' : '<',
@@ -38,11 +38,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/camisa-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/camisa-rosa.svg', 'rosa'],
-                ['../img/deduccion/objetos/camisa-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/camisa-amarilla.svg', 'amarillo'],
-                ['../img/deduccion/objetos/camisa-gris.svg', 'gris']
+                ['../img/deduccion/objetos/camisa-verde.png', 'verde'],
+                ['../img/deduccion/objetos/camisa-rosa.png', 'rosa'],
+                ['../img/deduccion/objetos/camisa-naranja.png', 'naranja'],
+                ['../img/deduccion/objetos/camisa-amarilla.png', 'amarillo'],
+                ['../img/deduccion/objetos/camisa-gris.png', 'gris']
             ],
             'pista' : '¿Qué camisa es más cómoda? 1). La camisa amarilla es más cómoda que la camisa gris y menos que la camisa naranja. 2). La camisa rosa es más cómoda que la camisa naranja. 3). La camisa verde es más cómoda que la camisa rosa.',
             'signo' : '>',
@@ -50,11 +50,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/alimentos/ciruela.svg', 'ciruela'],
-                ['../img/deduccion/alimentos/piña.svg', 'piña'],
-                ['../img/deduccion/alimentos/guayaba.svg', 'guayaba'],
-                ['../img/deduccion/alimentos/uva.svg', 'uva'],
-                ['../img/deduccion/alimentos/pitahaya.svg', 'pitahaya']
+                ['../img/deduccion/alimentos/ciruela.png', 'ciruela'],
+                ['../img/deduccion/alimentos/piña.png', 'piña'],
+                ['../img/deduccion/alimentos/guayaba.png', 'guayaba'],
+                ['../img/deduccion/alimentos/uva.png', 'uva'],
+                ['../img/deduccion/alimentos/pitahaya.png', 'pitahaya']
             ],
             'pista' : '¿Qué fruta es menos jugosa?. 1). La piña es menos jugosa que la guayaba y más que la ciruela. 2). La uva es más jugosa que la guayaba y menos que la pitaya.',
             'signo' : '<',
@@ -62,11 +62,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/alimentos/bebida-lila.svg', 'lila'],
-                ['../img/deduccion/alimentos/bebida-azul.svg', 'azul'],
-                ['../img/deduccion/alimentos/bebida-roja.svg', 'roja'],
-                ['../img/deduccion/alimentos/bebida-amarilla.svg', 'amarilla'],
-                ['../img/deduccion/alimentos/bebida-verde.svg', 'verde']
+                ['../img/deduccion/alimentos/bebida-lila.png', 'lila'],
+                ['../img/deduccion/alimentos/bebida-azul.png', 'azul'],
+                ['../img/deduccion/alimentos/bebida-roja.png', 'roja'],
+                ['../img/deduccion/alimentos/bebida-amarilla.png', 'amarilla'],
+                ['../img/deduccion/alimentos/bebida-verde.png', 'verde']
             ],
             'pista' : '¿Qué bebida es más dulce?. 1). La bebida verde es menos dulce que la bebida lila y más que la bebida roja. 2). La bebida amarilla es menos dulce que la bebida azul. 3. La bebida roja es más dulce que la bebida azul.',
             'signo' : '>',
@@ -74,11 +74,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/chaqueta-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/chaqueta-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/chaqueta-rosa.svg', 'rosa'],
-                ['../img/deduccion/objetos/chaqueta-gris.svg', 'gris'],
-                ['../img/deduccion/objetos/chaqueta-verde.svg', 'verde']
+                ['../img/deduccion/objetos/chaqueta-naranja.png', 'naranja'],
+                ['../img/deduccion/objetos/chaqueta-azul.png', 'azul'],
+                ['../img/deduccion/objetos/chaqueta-rosa.png', 'rosa'],
+                ['../img/deduccion/objetos/chaqueta-gris.png', 'gris'],
+                ['../img/deduccion/objetos/chaqueta-verde.png', 'verde']
             ],
             'pista' : '¿Qué chaqueta es menos cómoda?. 1). La chaqueta rosa es menos cómoda que la chaqueta naranja. 2). La chaqueta verde es menos cómoda que la chaqueta gris y más que la chaqueta azul. 3. La chaqueta azul es más cómoda que la chaqueta naranja.',
             'signo' : '<',
@@ -86,11 +86,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/carro-anaranjado.svg', 'naranja'],
-                ['../img/deduccion/objetos/carro-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/carro-rosa.svg', 'rosa'],
-                ['../img/deduccion/objetos/carro-amarillo.svg', 'amarillo'],
-                ['../img/deduccion/objetos/carro-blanco.svg', 'blanco']
+                ['../img/deduccion/objetos/carro-anaranjado.png', 'naranja'],
+                ['../img/deduccion/objetos/carro-azul.png', 'azul'],
+                ['../img/deduccion/objetos/carro-rosa.png', 'rosa'],
+                ['../img/deduccion/objetos/carro-amarillo.png', 'amarillo'],
+                ['../img/deduccion/objetos/carro-blanco.png', 'blanco']
             ],
             'pista' : '¿Qué automóvil es más rápido? 1). El automóvil rosa es más rápido que el automóvil naranja. 2). El automóvil azul es más rápido que el automóvil rosa. 3. El automóvil amarillo es más rápido que el automóvil blanco y menos que el automóvil naranja.',
             'signo' : '>',
@@ -98,11 +98,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/zapato-gris.svg', 'gris'],
-                ['../img/deduccion/objetos/zapato-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/zapato-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/zapato-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/zapato-amarillo.svg', 'amarillo']
+                ['../img/deduccion/objetos/zapato-gris.png', 'gris'],
+                ['../img/deduccion/objetos/zapato-verde.png', 'verde'],
+                ['../img/deduccion/objetos/zapato-azul.png', 'azul'],
+                ['../img/deduccion/objetos/zapato-anaranjado.png', 'naranja'],
+                ['../img/deduccion/objetos/zapato-amarillo.png', 'amarillo']
             ],
             'pista' : '¿Qué zapato es más cómodo? 1). El zapato verde es menos cómodo que el zapato gris. 2). El zapato azul es más cómodo que el zapato naranja y menos que el zapato amarillo. 3. El zapato gris es menos cómodo que el zapato naranja.',
             'signo' : '>',
@@ -110,11 +110,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/personajes/rosa.svg', 'rosa'],
-                ['../img/deduccion/personajes/marlon.svg', 'marlon'],
-                ['../img/deduccion/personajes/blanca.svg', 'blanca'],
-                ['../img/deduccion/personajes/alfredo.svg', 'alfredo'],
-                ['../img/deduccion/personajes/daniel.svg', 'daniel']
+                ['../img/deduccion/personajes/rosa.png', 'rosa'],
+                ['../img/deduccion/personajes/marlon.png', 'marlon'],
+                ['../img/deduccion/personajes/blanca.png', 'blanca'],
+                ['../img/deduccion/personajes/alfredo.png', 'alfredo'],
+                ['../img/deduccion/personajes/daniel.png', 'daniel']
             ],
             'pista' : '¿Qué personaja es menor? 1). Marlon es menor que Alfredo y mayor que Rosa. 2). Blanca es menor que Daniel y mayor que Alfredo.',
             'signo' : '<',
@@ -122,11 +122,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/globo-blanco.svg', 'blanco'],
-                ['../img/deduccion/objetos/globo-amarilo.svg', 'amarilo'],
-                ['../img/deduccion/objetos/globo-rosa.svg', 'rosa'],
-                ['../img/deduccion/objetos/globo-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/globo-rojo.svg', 'rojo']
+                ['../img/deduccion/objetos/globo-blanco.png', 'blanco'],
+                ['../img/deduccion/objetos/globo-amarillo.png', 'amarilo'],
+                ['../img/deduccion/objetos/globo-rosa.png', 'rosa'],
+                ['../img/deduccion/objetos/globo-azul.png', 'azul'],
+                ['../img/deduccion/objetos/globo-rojo.png', 'rojo']
             ],
             'pista' : '¿Qué globo vuela menos? 1). El globo rosa vuela menos que el globo blanco y más que el globo amarillo. 2). El globo rojo vuela menos que el globo amarillo y más que el globo azul.',
             'signo' : '<',
@@ -134,11 +134,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/silla-gris.svg', 'gris'],
-                ['../img/deduccion/objetos/silla-amarilo.svg', 'amarilo'],
-                ['../img/deduccion/objetos/silla-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/silla-rosa.svg', 'rosa'],
-                ['../img/deduccion/objetos/silla-azul.svg', 'azul']
+                ['../img/deduccion/objetos/silla-gris.png', 'gris'],
+                ['../img/deduccion/objetos/silla-amarilla.png', 'amarilo'],
+                ['../img/deduccion/objetos/silla-verde.png', 'verde'],
+                ['../img/deduccion/objetos/silla-rosa.png', 'rosa'],
+                ['../img/deduccion/objetos/silla-azul.png', 'azul']
             ],
             'pista' : '¿Qué silla es más cómoda? 1). La silla azul es más cómoda que la silla gris y menos que la silla rosa. 2). La silla verde es menos cómoda que la silla gris y más que la silla amarilla.',
             'signo' : '>',
@@ -146,11 +146,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/alimentos/mango.svg', 'mango'],
-                ['../img/deduccion/alimentos/coco.svg', 'coco'],
-                ['../img/deduccion/alimentos/cereza.svg', 'cereza'],
-                ['../img/deduccion/alimentos/melón.svg', 'melón'],
-                ['../img/deduccion/alimentos/papaya.svg', 'papaya']
+                ['../img/deduccion/alimentos/mango.png', 'mango'],
+                ['../img/deduccion/alimentos/coco.png', 'coco'],
+                ['../img/deduccion/alimentos/cereza.png', 'cereza'],
+                ['../img/deduccion/alimentos/melon.png', 'melón'],
+                ['../img/deduccion/alimentos/papaya.png', 'papaya']
             ],
             'pista' : '¿Qué fruta es más jugosa? 1). La cereza es más jugosa que el mango. 2). El mango es más jugoso que el coco. 3). La papaya es más jugosa que la cereza y menos que el melón.',
             'signo' : '<',
@@ -158,11 +158,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/personajes/luz.svg', 'luz'],
-                ['../img/deduccion/personajes/anielka.svg', 'anielka'],
-                ['../img/deduccion/personajes/frannia.svg', 'frannia'],
-                ['../img/deduccion/personajes/juan.svg', 'juan'],
-                ['../img/deduccion/personajes/marieth.svg', 'marieth']
+                ['../img/deduccion/personajes/luz.png', 'luz'],
+                ['../img/deduccion/personajes/anielka.png', 'anielka'],
+                ['../img/deduccion/personajes/frannia.png', 'frannia'],
+                ['../img/deduccion/personajes/juan.png', 'juan'],
+                ['../img/deduccion/personajes/marieth.png', 'marieth']
             ],
             'pista' : '¿Qué personaje es mayor? 1). Frannia es mayor que Anielka y menor que Juan. 2). Luz es menor que Marieth. 3). Marieth es menor que Anielka.',
             'signo' : '>',
@@ -170,11 +170,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/personajes/felix.svg', 'Félix'],
-                ['../img/deduccion/personajes/reyna.svg', 'Reyna'],
-                ['../img/deduccion/personajes/antonio.svg', 'Antonio'],
-                ['../img/deduccion/personajes/gabriel.svg', 'Gabriel'],
-                ['../img/deduccion/personajes/alison.svg', 'Alisson']
+                ['../img/deduccion/personajes/felix.png', 'Félix'],
+                ['../img/deduccion/personajes/reina.png', 'Reyna'],
+                ['../img/deduccion/personajes/antonio.png', 'Antonio'],
+                ['../img/deduccion/personajes/gabriel.png', 'Gabriel'],
+                ['../img/deduccion/personajes/alison.png', 'Alisson']
             ],
             'pista' : '¿Qué personaje es mayor? 1). Félix es menor que Reyna y mayor que Gabriel. 2). Antonio es mayor que Alisson y menor que Gabriel.',
             'signo' : '>',
@@ -182,11 +182,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/alimentos/helado-azul.svg', 'azul'],
-                ['../img/deduccion/alimentos/helado-verde.svg', 'verde'],
-                ['../img/deduccion/alimentos/helado-rojo.svg', 'rojo'],
-                ['../img/deduccion/alimentos/helado-lila.svg', 'lila'],
-                ['../img/deduccion/alimentos/helado-amarillo.svg', 'amarillo']
+                ['../img/deduccion/alimentos/helado-azul.png', 'azul'],
+                ['../img/deduccion/alimentos/helado-verde.png', 'verde'],
+                ['../img/deduccion/alimentos/helado-rojo.png', 'rojo'],
+                ['../img/deduccion/alimentos/helado-lila.png', 'lila'],
+                ['../img/deduccion/alimentos/helado-amarillo.png', 'amarillo']
             ],
             'pista' : '¿Qué helado es más dulce? 1). El helado verde es menos dulce que el helado azul y más que el helado rojo. 2). El helado amarillo es más dulce que el helado azul. 3). El helado lila es más dulce que el helado amarillo.',
             'signo' : '<',
@@ -194,11 +194,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/pajaro-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/pajaro-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/pajaro-rojo.svg', 'rojo'],
-                ['../img/deduccion/objetos/pajaro-lila.svg', 'lila'],
-                ['../img/deduccion/objetos/pajaro-amarillo.svg', 'amarillo']
+                ['../img/deduccion/objetos/pajaro-azul.png', 'azul'],
+                ['../img/deduccion/objetos/pajaro-verde.png', 'verde'],
+                ['../img/deduccion/objetos/pajaro-rojo.png', 'rojo'],
+                ['../img/deduccion/objetos/pajaro-rosa.png', 'lila'],
+                ['../img/deduccion/objetos/pajaro-amarillo.png', 'amarillo']
             ],
             'pista' : '¿Qué pájaro vuela menos? 1). El pájaro azul vuela menos que el pájaro rosa y más que el pájaro rojo. 2). El pájaro amarillo vuela más que el pájaro rosa y menos que el pájaro verde.',
             'signo' : '<',
@@ -206,11 +206,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/alimentos/chocolate-azul.svg', 'azul'],
-                ['../img/deduccion/alimentos/chocolate-verde.svg', 'verde'],
-                ['../img/deduccion/alimentos/chocolate-rojo.svg', 'rojo'],
-                ['../img/deduccion/alimentos/chocolate-lila.svg', 'lila'],
-                ['../img/deduccion/alimentos/chocolate-amarillo.svg', 'amarillo']
+                ['../img/deduccion/alimentos/chocolate-azul.png', 'azul'],
+                ['../img/deduccion/alimentos/chocolate-verde.png', 'verde'],
+                ['../img/deduccion/alimentos/chocolate-rojo.png', 'rojo'],
+                ['../img/deduccion/alimentos/chocolate-lila.png', 'lila'],
+                ['../img/deduccion/alimentos/chocolate-amarillo.png', 'amarillo']
             ],
             'pista' : '¿Qué chocolate es más dulce? 1). El chocolate amarillo es más dulce que el chocolate lila. 2). El chocolate verde es más dulce que el chocolate amarillo. 3). El chocolate azul es menos dulce que el chocolate lila y más que el chocolate rojo.',
             'signo' : '>',
@@ -218,11 +218,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/edificio-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/edificio-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/edificio-rojo.svg', 'rojo'],
-                ['../img/deduccion/objetos/edificio-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/edificio-blanco.svg', 'blanco']
+                ['../img/deduccion/objetos/edificio-azul.png', 'azul'],
+                ['../img/deduccion/objetos/edificio-verde.png', 'verde'],
+                ['../img/deduccion/objetos/edificio-rojo.png', 'rojo'],
+                ['../img/deduccion/objetos/edificio-naranja.png', 'naranja'],
+                ['../img/deduccion/objetos/edificio-blanco.png', 'blanco']
             ],
             'pista' : '¿Qué edificio es más alto? 1). El edificio azul es menos alto que el edificio verde y más que el edificio naranja. 2). El edificio naranja es más alto que el edificio blanco. 3). El edificio rojo es menos alto que el edificio blanco.',
             'signo' : '>',
@@ -230,11 +230,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/faja-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/faja-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/faja-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/faja-amarilla.svg', 'amarilla'],
-                ['../img/deduccion/objetos/faja-rosa.svg', 'rosa']
+                ['../img/deduccion/objetos/faja-anaranjada.png', 'naranja'],
+                ['../img/deduccion/objetos/faja-verde.png', 'verde'],
+                ['../img/deduccion/objetos/faja-azul.png', 'azul'],
+                ['../img/deduccion/objetos/faja-amarilla.png', 'amarilla'],
+                ['../img/deduccion/objetos/faja-rosa.png', 'rosa']
             ],
             'pista' : '¿Qué faja es menos cómoda? 1). La faja azul es menos cómoda que la faja amarilla. 2). La faja naranja es más cómoda que la faja verde y menos que la faja rosa. 3). La faja amarilla es menos cómoda que la faja verde.',
             'signo' : '<',
@@ -242,11 +242,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/personajes/rosario.svg', 'Rosario'],
-                ['../img/deduccion/personajes/julia.svg', 'Julia'],
-                ['../img/deduccion/personajes/pedro.svg', 'Pedro'],
-                ['../img/deduccion/personajes/marta.svg', 'Martha'],
-                ['../img/deduccion/personajes/pedro.svg', 'Camilo']
+                ['../img/deduccion/personajes/rosario.png', 'Rosario'],
+                ['../img/deduccion/personajes/julia.png', 'Julia'],
+                ['../img/deduccion/personajes/pedro.png', 'Pedro'],
+                ['../img/deduccion/personajes/martha.png', 'Martha'],
+                ['../img/deduccion/personajes/pedro.png', 'Camilo']
             ],
             'pista' : '¿Qué personaje es mayor? 1). Camilo es mayor que Martha y menor que Julia. 2). Rosario es menor que Pedro. 3). Julia es menor que Rosario.',
             'signo' : '>',
@@ -254,11 +254,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/personajes/ricardo.svg', 'ricardo'],
-                ['../img/deduccion/personajes/jose.svg', 'Jose'],
-                ['../img/deduccion/personajes/ines.svg', 'ines'],
-                ['../img/deduccion/personajes/belen.svg', 'belen'],
-                ['../img/deduccion/personajes/javier.svg', 'javier']
+                ['../img/deduccion/personajes/ricardo.png', 'ricardo'],
+                ['../img/deduccion/personajes/jose.png', 'Jose'],
+                ['../img/deduccion/personajes/ines.png', 'ines'],
+                ['../img/deduccion/personajes/belen.png', 'belen'],
+                ['../img/deduccion/personajes/javier.png', 'javier']
             ],
             'pista' : '¿Qué personaje es menor? 1). José es mayor que Ricardo y menor que Belén. 2). Javier es mayor que Inés y menor que Ricardo.',
             'signo' : '<',
@@ -266,35 +266,37 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/libro-rosa.svg', 'rosa'],
-                ['../img/deduccion/objetos/libro-blanco.svg', 'blanco'],
-                ['../img/deduccion/objetos/libro-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/libro-amarillo.svg', 'amarillo'],
-                ['../img/deduccion/objetos/libro-azul.svg', 'azul']
+                ['../img/deduccion/objetos/libro-rosa.png', 'rosa'],
+                ['../img/deduccion/objetos/libro-blanco.png', 'blanco'],
+                ['../img/deduccion/objetos/libro-verde.png', 'verde'],
+                ['../img/deduccion/objetos/libro-amarillo.png', 'amarillo'],
+                ['../img/deduccion/objetos/libro-azul.png', 'azul']
             ],
             'pista' : '¿Qué libro cuesta menos dinero? 1). El libro verde cuesta más que el libro azul. 2). El libro blanco cuesta menos que el libro azul. 3).El libro amarillo cuesta más que el libro rosa y menos que el libro blanco.',
             'signo' : '<',
             'solucion' : ['rosa', 'amarillo', 'blanco', 'azul', 'verde']
         },
+        
         {
             'img' : [
-                ['../img/deduccion/objetos/pantalon-rosa.svg', 'rosa'],
-                ['../img/deduccion/objetos/pantalon-blanco.svg', 'gris'],
-                ['../img/deduccion/objetos/pantalon-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/pantalon-amarillo.svg', 'amarillo'],
-                ['../img/deduccion/objetos/pantalon-azul.svg', 'azul']
+                ['../img/deduccion/objetos/pantalon-rosa.png', 'rosa'],
+                ['../img/deduccion/objetos/pantalon-blanco.png', 'gris'],
+                ['../img/deduccion/objetos/pantalon-verde.png', 'verde'],
+                ['../img/deduccion/objetos/pantalon-amarillo.png', 'amarillo'],
+                ['../img/deduccion/objetos/pantalon-azul.png', 'azul']
             ],
             'pista' : '¿Qué pantalón es menos cómodo? 1). El pantalón amarillo es más cómodo que el pantalón azul y menos que el pantalón gris. 2). El pantalón verde es más cómodo que el pantalón rosa. 3).El pantalón azul es más cómodo que el pantalón verde.',
             'signo' : '<',
             'solucion' : ['rosa', 'verde', 'azul', 'amarillo', 'gris']
         },
+      
         {
             'img' : [
-                ['../img/deduccion/alimentos/mamey.svg', 'mamey'],
-                ['../img/deduccion/alimentos/banano.svg', 'banano'],
-                ['../img/deduccion/alimentos/nispero.svg', 'nispero'],
-                ['../img/deduccion/alimentos/durazno.svg', 'durazno'],
-                ['../img/deduccion/alimentos/melocoton.svg', 'melocoton']
+                ['../img/deduccion/alimentos/mamey.png', 'mamey'],
+                ['../img/deduccion/alimentos/banano.png', 'banano'],
+                ['../img/deduccion/alimentos/nispero.png', 'nispero'],
+                ['../img/deduccion/alimentos/durazno.png', 'durazno'],
+                ['../img/deduccion/alimentos/melocoton.png', 'melocoton']
             ],
             'pista' : '¿Qué fruta es más jugosa? 1). El banano es menos jugoso que el melocotón y más que el mamey. 2). El níspero es más jugoso que el melocotón y menos que el durazno.',
             'signo' : '>',
@@ -302,11 +304,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/personajes/fabiola.svg', 'fabiola'],
-                ['../img/deduccion/personajes/rogelio.svg', 'rogelio'],
-                ['../img/deduccion/personajes/asael.svg', 'asael'],
-                ['../img/deduccion/personajes/fernando.svg', 'fernando'],
-                ['../img/deduccion/personajes/migdalia.svg', 'migdalia']
+                ['../img/deduccion/personajes/fabiola.png', 'fabiola'],
+                ['../img/deduccion/personajes/felix.png', 'rogelio'],
+                ['../img/deduccion/personajes/alonso.png', 'asael'],
+                ['../img/deduccion/personajes/francisco.png', 'fernando'],
+                ['../img/deduccion/personajes/maria.png', 'migdalia']
             ],
             'pista' : '¿Qué personaje es mayor? 1). Fabiola es mayor que Rogelio y menor que Fernando. 2). Asael es menor que Migdalia. 3). Fernando es menor que Asael.',
             'signo' : '>',
@@ -314,11 +316,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/alimentos/manzana.svg', 'manzana'],
-                ['../img/deduccion/alimentos/pera.svg', 'pera'],
-                ['../img/deduccion/alimentos/fresa.svg', 'fresa'],
-                ['../img/deduccion/alimentos/sandía.svg', 'sandía'],
-                ['../img/deduccion/alimentos/naranja.svg', 'naranja']
+                ['../img/deduccion/alimentos/manzana.png', 'manzana'],
+                ['../img/deduccion/alimentos/pera.png', 'pera'],
+                ['../img/deduccion/alimentos/fresa.png', 'fresa'],
+                ['../img/deduccion/alimentos/sandia.png', 'sandía'],
+                ['../img/deduccion/alimentos/naranja.png', 'naranja']
             ],
             'pista' : '¿Qué fruta es menos jugosa? 1). La sandía es menos jugosa que la pera y más que la fresa. 2). La naranja es más jugosa que la pera y menos que la manzana.',
             'signo' : '<',
@@ -326,11 +328,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/personajes/yahosca.svg', 'yahosca'],
-                ['../img/deduccion/personajes/roger.svg', 'roger'],
-                ['../img/deduccion/personajes/carlos.svg', 'carlos'],
-                ['../img/deduccion/personajes/jorge.svg', 'jorge'],
-                ['../img/deduccion/personajes/kevin.svg', 'kevin']
+                ['../img/deduccion/personajes/lorena.png', 'yahosca'],
+                ['../img/deduccion/personajes/jose.png', 'roger'],
+                ['../img/deduccion/personajes/julio.png', 'carlos'],
+                ['../img/deduccion/personajes/jorge.png', 'jorge'],
+                ['../img/deduccion/personajes/daniel.png', 'kevin']
             ],
             'pista' : '¿Qué personaje es menor? 1). Carlos es mayor que kevin y menor que Roger. 2). Jorge es menor que Yahosca y mayor que Roger.',
             'signo' : '<',
@@ -338,11 +340,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/libro-amarillo.svg', 'amarillo'],
-                ['../img/deduccion/objetos/libro-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/libro-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/libro-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/libro-rojo.svg', 'rojo']
+                ['../img/deduccion/objetos/libro-amarillo.png', 'amarillo'],
+                ['../img/deduccion/objetos/libro-verde.png', 'verde'],
+                ['../img/deduccion/objetos/libro-azul.png', 'azul'],
+                ['../img/deduccion/objetos/libro-naranja.png', 'naranja'],
+                ['../img/deduccion/objetos/libro-rojo.png', 'rojo']
             ],
             'pista' : '¿Qué libro cuesta más dinero? 1). El libro rojo cuesta menos que el libro amarillo y más que el libro verde. 2). El libro azul cuesta más que el libro naranja y menos que el libro verde.',
             'signo' : '>',
@@ -350,11 +352,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/libro-amarillo.svg', 'amarillo'],
-                ['../img/deduccion/objetos/libro-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/libro-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/libro-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/libro-rojo.svg', 'rojo']
+                ['../img/deduccion/objetos/faja-rosa.png', 'rosa'],
+                ['../img/deduccion/objetos/faja-verde.png', 'verde'],
+                ['../img/deduccion/objetos/faja-azul.png', 'azul'],
+                ['../img/deduccion/objetos/faja-anaranjada.png', 'naranja'],
+                ['../img/deduccion/objetos/faja-gris.png', 'gris']
             ],
             'pista' : '¿Qué faja es menos cómoda? 1). La faja naranja es más cómoda que la faja verde y menos que la faja gris. 2). La faja rosa es menos cómoda que la faja azul. 3).La faja azul es menos cómoda que la faja verde.',
             'signo' : '<',
@@ -362,23 +364,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/faja-rosa.svg', 'rosa'],
-                ['../img/deduccion/objetos/faja-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/faja-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/faja-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/faja-gris.svg', 'gris']
-            ],
-            'pista' : '¿Qué faja es menos cómoda? 1). La faja naranja es más cómoda que la faja verde y menos que la faja gris. 2). La faja rosa es menos cómoda que la faja azul. 3).La faja azul es menos cómoda que la faja verde.',
-            'signo' : '<',
-            'solucion' : ['rosa', 'azul', 'verde', 'naranja', 'gris']
-        },
-        {
-            'img' : [
-                ['../img/deduccion/objetos/bebida-lila.svg', 'lila'],
-                ['../img/deduccion/objetos/bebida-amarilla.svg', 'amarilla'],
-                ['../img/deduccion/objetos/bebida-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/bebida-azul.svg', 'azul'],
-                ['../img/deduccion/objetos/bebida-roja.svg', 'roja']
+                ['../img/deduccion/alimentos/bebida-lila.png', 'lila'],
+                ['../img/deduccion/alimentos/bebida-amarilla.png', 'amarilla'],
+                ['../img/deduccion/alimentos/bebida-verde.png', 'verde'],
+                ['../img/deduccion/alimentos/bebida-azul.png', 'azul'],
+                ['../img/deduccion/alimentos/bebida-roja.png', 'roja']
             ],
             'pista' : '¿Qué bebida es menos dulce? 1). La bebida amarilla es más dulce que la bebida lila y menos que la bebida azul. 2).La bebida roja es menos dulce que la bebida lila y más que la bebida verde.',
             'signo' : '<',
@@ -386,11 +376,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/crayola-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/crayola-blanca.svg', 'blanca'],
-                ['../img/deduccion/objetos/crayola-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/crayola-amarilla.svg', 'amarilla'],
-                ['../img/deduccion/objetos/crayola-roja.svg', 'roja']
+                ['../img/deduccion/objetos/crayola-naranja.png', 'naranja'],
+                ['../img/deduccion/objetos/crayola-blanca.png', 'blanca'],
+                ['../img/deduccion/objetos/crayola-verde.png', 'verde'],
+                ['../img/deduccion/objetos/crayola-amarilla.png', 'amarilla'],
+                ['../img/deduccion/objetos/crayola-roja.png', 'roja']
             ],
             'pista' : '¿Qué crayola cuesta menos dinero? 1). La crayola roja cuesta más que la crayola amarilla y menos que la crayola blanca. 2).La crayola verde cuesta más que la crayola naranja. 3).La crayola blanca cuesta menos que la crayola naranja.',
             'signo' : '<',
@@ -398,23 +388,23 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/zapato-naranja.svg', 'naranja'],
-                ['../img/deduccion/objetos/zapato-gris.svg', 'gris'],
-                ['../img/deduccion/objetos/zapato-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/zapato-rosa.svg', 'rosa'],
-                ['../img/deduccion/objetos/zapato-azul.svg', 'azul']
+                ['../img/deduccion/objetos/zapato-anaranjado.png', 'naranja'],
+                ['../img/deduccion/objetos/zapato-gris.png', 'gris'],
+                ['../img/deduccion/objetos/zapato-verde.png', 'verde'],
+                ['../img/deduccion/objetos/zapato-rojo.png', 'rojo'],
+                ['../img/deduccion/objetos/zapato-azul.png', 'azul']
             ],
-            'pista' : '¿Qué zapato es menos cómodo? 1). El zapato azul es menos cómodo que el zapato verde y más que el zapato naranja. 2).El zapato gris es más cómodo que el zapato verde y menos que el zapato rosa.',
+            'pista' : '¿Qué zapato es menos cómodo? 1). El zapato azul es menos cómodo que el zapato verde y más que el zapato naranja. 2).El zapato gris es más cómodo que el zapato verde y menos que el zapato rojo.',
             'signo' : '<',
-            'solucion' : ['naranja', 'azul', 'verde', 'gris', 'rosa']
+            'solucion' : ['naranja', 'azul', 'verde', 'gris', 'rojo']
         },
         {
             'img' : [
-                ['../img/deduccion/personajes/lucia.svg', 'lucia'],
-                ['../img/deduccion/personajes/alberto.svg', 'alberto'],
-                ['../img/deduccion/personajes/jairo.svg', 'jairo'],
-                ['../img/deduccion/personajes/juana.svg', 'juana'],
-                ['../img/deduccion/personajes/margarita.svg', 'margarita']
+                ['../img/deduccion/personajes/lucia.png', 'lucia'],
+                ['../img/deduccion/personajes/alejandro.png', 'alberto'],
+                ['../img/deduccion/personajes/alfredo.png', 'jairo'],
+                ['../img/deduccion/personajes/julia.png', 'juana'],
+                ['../img/deduccion/personajes/maria.png', 'margarita']
             ],
             'pista' : '¿Qué personaje es menor? 1). Lucía es menor que Margarita y mayor que Alberto. 2).Juana es mayor que Margarita y menor que Jairo.',
             'signo' : '>',
@@ -422,11 +412,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/alimentos/bebida-azul.svg', 'azul'],
-                ['../img/deduccion/alimentos/bebida-verde.svg', 'verde'],
-                ['../img/deduccion/alimentos/bebida-lila.svg', 'lila'],
-                ['../img/deduccion/alimentos/bebida-amarilla.svg', 'amarilla'],
-                ['../img/deduccion/alimentos/bebida-roja.svg', 'roja']
+                ['../img/deduccion/alimentos/bebida-azul.png', 'azul'],
+                ['../img/deduccion/alimentos/bebida-verde.png', 'verde'],
+                ['../img/deduccion/alimentos/bebida-lila.png', 'lila'],
+                ['../img/deduccion/alimentos/bebida-amarilla.png', 'amarilla'],
+                ['../img/deduccion/alimentos/bebida-roja.png', 'roja']
             ],
             'pista' : '¿Qué bebida es menos dulce? 1). La bebida roja es menos dulce que la bebida lila. 2).La bebida amarilla es más dulce que la bebida verde y menos que la bebida azul. 3). La bebida lila es menos dulce que la bebida verde.',
             'signo' : '<',
@@ -434,11 +424,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/objetos/crayola-roja.svg', 'roja'],
-                ['../img/deduccion/objetos/crayola-verde.svg', 'verde'],
-                ['../img/deduccion/objetos/crayola-lila.svg', 'rosa'],
-                ['../img/deduccion/objetos/crayola-amarilla.svg', 'naranja'],
-                ['../img/deduccion/objetos/crayola-roja.svg', 'azul']
+                ['../img/deduccion/objetos/crayola-roja.png', 'roja'],
+                ['../img/deduccion/objetos/crayola-verde.png', 'verde'],
+                ['../img/deduccion/objetos/crayola-rosa.png', 'blanca'],
+                ['../img/deduccion/objetos/crayola-amarilla.png', 'naranja'],
+                ['../img/deduccion/objetos/crayola-roja.png', 'azul']
             ],
             'pista' : '¿Qué crayola cuesta más dinero? 1). La crayola verde es más cara que la crayola rosa y menos que la crayola naranja. 2).La crayola roja es más cara que la crayola azul. 3). La crayola azul es más cara que la crayola naranja.',
             'signo' : '>',
@@ -446,11 +436,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/personajes/ricardo.svg', 'ricardo'],
-                ['../img/deduccion/personajes/maria.svg', 'maria'],
-                ['../img/deduccion/personajes/jose.svg', 'jose'],
-                ['../img/deduccion/personajes/javier.svg', 'javier'],
-                ['../img/deduccion/personajes/isabel.svg', 'isabel']
+                ['../img/deduccion/personajes/ricardo.png', 'ricardo'],
+                ['../img/deduccion/personajes/maria.png', 'maria'],
+                ['../img/deduccion/personajes/jose.png', 'jose'],
+                ['../img/deduccion/personajes/javier.png', 'javier'],
+                ['../img/deduccion/personajes/isabel.png', 'isabel']
             ],
             'pista' : '¿Qué personaje es mayor? 1). María es mayor que Javier y menor que Ricardo. 2).Isabel es menor que José y mayor que Ricardo.',
             'signo' : '>',
@@ -458,11 +448,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/alimentos/bebida-lila.svg', 'lila'],
-                ['../img/deduccion/alimentos/bebida-amarilla.svg', 'amarilla'],
-                ['../img/deduccion/alimentos/bebida-verde.svg', 'verde'],
-                ['../img/deduccion/alimentos/bebida-azul.svg', 'azul'],
-                ['../img/deduccion/alimentos/bebida-roja.svg', 'roja']
+                ['../img/deduccion/alimentos/bebida-lila.png', 'lila'],
+                ['../img/deduccion/alimentos/bebida-amarilla.png', 'amarilla'],
+                ['../img/deduccion/alimentos/bebida-verde.png', 'verde'],
+                ['../img/deduccion/alimentos/bebida-azul.png', 'azul'],
+                ['../img/deduccion/alimentos/bebida-roja.png', 'roja']
             ],
             'pista' : '¿Qué bebida es menos dulce? 1). La bebida lila es menos dulce que la bebida roja. 2).La bebida amarilla es más dulce que la bebida roja. 3).La bebida azul es menos dulce que la bebida verde y más que la bebida amarilla.',
             'signo' : '<',
@@ -470,15 +460,15 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/alimentos/sandia.svg', 'sandia'],
-                ['../img/deduccion/alimentos/fresa.svg', 'fresa'],
-                ['../img/deduccion/alimentos/manzana.svg', 'manzana'],
-                ['../img/deduccion/alimentos/pera.svg', 'pera'],
-                ['../img/deduccion/alimentos/naranja.svg', 'naranja']
+                ['../img/deduccion/alimentos/sandia.png', 'sandia'],
+                ['../img/deduccion/alimentos/fresa.png', 'fresa'],
+                ['../img/deduccion/alimentos/manzana.png', 'manzana'],
+                ['../img/deduccion/alimentos/pera.png', 'pera'],
+                ['../img/deduccion/alimentos/naranja.png', 'naranja']
             ],
             'pista' : '¿Qué fruta es más jugosa? 1). La manzana es más jugosa que la pera y menos que la naranja. 2).La fresa es menos jugosa que la sandía. 3).La sandía es menos jugosa que la pera.',
             'signo' : '>',
             'solucion' : ['naranja', 'manzana', 'pera', 'sandia', 'fresa']
-        },
+        }
     ];
 });
