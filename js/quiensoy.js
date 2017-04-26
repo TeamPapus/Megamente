@@ -833,30 +833,30 @@ define(function (require) {
             '6). Gloria y Enrique tienen lápiz.'
     	],
         'obj' : [
-            ['../img/deduccion/objetos/computadora.svg', 'computadora'],
-            ['../img/deduccion/objetos/telefono.svg', 'telefono'],
-            ['../img/deduccion/objetos/videojuego.svg', 'videojuego'],
-            ['../img/deduccion/objetos/cuaderno.svg', 'cuaderno'],
-            ['../img/deduccion/objetos/mochila2.svg', 'mochila'],
-            ['../img/deduccion/objetos/lapiz.svg', 'lapiz']
+            ['../img/deduccion/objetos/computadora.png', 'computadora'],
+            ['../img/deduccion/objetos/telefono.png', 'telefono'],
+            ['../img/deduccion/objetos/videojuego.png', 'videojuego'],
+            ['../img/deduccion/objetos/cuaderno.png', 'cuaderno'],
+            ['../img/deduccion/objetos/mochila2.png', 'mochila'],
+            ['../img/deduccion/objetos/lapiz.png', 'lapiz']
         ],
         'nombres' : [
-            ['enrique', 'computadora','mochila','lapiz'],
-            ['ana', 'telefono','mochila'],
-            ['david', 'videojuego','mochila'],
-            ['gloria', 'videojuego', 'lapiz'],
-            ['isabel', 'cuaderno','mochila'],
-            ['paula', 'cuaderno']
+            ['Enrique', 'computadora','mochila','lapiz'],
+            ['Ana', 'telefono','mochila'],
+            ['David', 'videojuego','mochila'],
+            ['Gloria', 'videojuego','lapiz'],
+            ['Isabel', 'cuaderno','mochila'],
+            ['Paula', 'cuaderno']
         ]
     },
     {
         'img' : [
-            '../img/quien-soy/ejercicio26/alicia.svg',
-            '../img/quien-soy/ejercicio26/alison.svg',
-            '../img/quien-soy/ejercicio26/david.svg',
-            '../img/quien-soy/ejercicio26/jorge.svg',
-            '../img/quien-soy/ejercicio26/luis.svg',
-            '../img/quien-soy/ejercicio26/martha.svg'
+            '../img/quien-soy/ejercicio26/alicia.png',
+            '../img/quien-soy/ejercicio26/alison.png',
+            '../img/quien-soy/ejercicio26/david.png',
+            '../img/quien-soy/ejercicio26/jorge.png',
+            '../img/quien-soy/ejercicio26/luis.png',
+            '../img/quien-soy/ejercicio26/martha.png'
     	],
         'pista' : [
             '1). Alisson come piña.',
@@ -867,30 +867,30 @@ define(function (require) {
             '6). Alicia come naranja.'
     	],
         'obj' : [
-            ['../img/deduccion/alimentos/piña.svg', 'piña'],
-            ['../img/deduccion/alimentos/papaya.svg', 'papaya'],
-            ['../img/deduccion/alimentos/banano.svg', 'banano'],
-            ['../img/deduccion/alimentos/manzana.svg', 'manzana'],
-            ['../img/deduccion/alimentos/melon.svg', 'melon'],
-            ['../img/deduccion/alimentos/naranja.svg', 'naranja']
+            ['../img/deduccion/alimentos/piña.png', 'piña'],
+            ['../img/deduccion/alimentos/papaya.png', 'papaya'],
+            ['../img/deduccion/alimentos/banano.png', 'banano'],
+            ['../img/deduccion/alimentos/manzana.png', 'manzana'],
+            ['../img/deduccion/alimentos/melon.png', 'melon'],
+            ['../img/deduccion/alimentos/naranja.png', 'naranja']
         ],
         'nombres' : [
-            ['alison', 'piña','manzana'],
-            ['luis', 'papaya','melon'],
-            ['david', 'papaya','manzana'],
-            ['alicia', 'banano', 'melon','naranja'],
-            ['jorge', 'banano'],    
-            ['martha', 'banano','melon']
+            ['Alisson', 'piña','manzana'],
+            ['Luis', 'papaya','melon'],
+            ['David', 'papaya','manzana'],
+            ['Alicia', 'banano', 'melon','naranja'],
+            ['Jorge', 'banano'],    
+            ['Martha', 'banano','melon']
         ]
     },
     {
         'img' : [
-            '../img/quien-soy/ejercicio27/ana.svg',
-            '../img/quien-soy/ejercicio27/carolina.svg',
-            '../img/quien-soy/ejercicio27/gabriela.svg',
-            '../img/quien-soy/ejercicio27/luis.svg',
-            '../img/quien-soy/ejercicio27/maria.svg',
-            '../img/quien-soy/ejercicio27/pedro.svg'
+            '../img/quien-soy/ejercicio27/ana.png',
+            '../img/quien-soy/ejercicio27/carolina.png',
+            '../img/quien-soy/ejercicio27/gabriela.png',
+            '../img/quien-soy/ejercicio27/luis.png',
+            '../img/quien-soy/ejercicio27/maria.png',
+            '../img/quien-soy/ejercicio27/pedro.png'
     	],
         'pista' : [
             '1). María, Gabriela y Ana comen tomate.',
