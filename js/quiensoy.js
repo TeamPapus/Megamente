@@ -241,12 +241,12 @@ define(function (require) {
     },
     {
         'img' : [
-            '../img/quien-soy/ejercicio8/jorge.svg',
-            '../img/quien-soy/ejercicio8/pedro.svg',
-            '../img/quien-soy/ejercicio8/ana.svg',
-            '../img/quien-soy/ejercicio8/cristina.svg',
-            '../img/quien-soy/ejercicio8/jose.svg',
-            '../img/quien-soy/ejercicio8/raquel.svg'
+            '../img/quien-soy/ejercicio8/jorge.png',
+            '../img/quien-soy/ejercicio8/pedro.png',
+            '../img/quien-soy/ejercicio8/ana.png',
+            '../img/quien-soy/ejercicio8/cristina.png',
+            '../img/quien-soy/ejercicio8/jose.png',
+            '../img/quien-soy/ejercicio8/raquel.png'
     	],
         'pista' : [
             '1). Jorge y Raquel comen tomate.',
