@@ -305,10 +305,10 @@ define(function (require) {
         {
             'img' : [
                 ['../img/deduccion/personajes/fabiola.png', 'fabiola'],
-                ['../img/deduccion/personajes/felix.png', 'rogelio'],
-                ['../img/deduccion/personajes/alonso.png', 'asael'],
-                ['../img/deduccion/personajes/francisco.png', 'fernando'],
-                ['../img/deduccion/personajes/maria.png', 'migdalia']
+                ['../img/deduccion/personajes/rogelio.png', 'rogelio'],
+                ['../img/deduccion/personajes/asael.png', 'asael'],
+                ['../img/deduccion/personajes/fernando.png', 'fernando'],
+                ['../img/deduccion/personajes/migdalia.png', 'migdalia']
             ],
             'pista' : '¿Qué personaje es mayor? 1). Fabiola es mayor que Rogelio y menor que Fernando. 2). Asael es menor que Migdalia. 3). Fernando es menor que Asael.',
             'signo' : '>',
@@ -401,14 +401,14 @@ define(function (require) {
         {
             'img' : [
                 ['../img/deduccion/personajes/lucia.png', 'lucia'],
-                ['../img/deduccion/personajes/alejandro.png', 'alberto'],
-                ['../img/deduccion/personajes/alfredo.png', 'jairo'],
-                ['../img/deduccion/personajes/julia.png', 'juana'],
-                ['../img/deduccion/personajes/maria.png', 'margarita']
+                ['../img/deduccion/personajes/alejandro.png', 'alejandro'],
+                ['../img/deduccion/personajes/alfredo.png', 'alfredo'],
+                ['../img/deduccion/personajes/julia.png', 'julia'],
+                ['../img/deduccion/personajes/maria.png', 'maria']
             ],
-            'pista' : '¿Qué personaje es menor? 1). Lucía es menor que Margarita y mayor que Alberto. 2).Juana es mayor que Margarita y menor que Jairo.',
+            'pista' : '¿Qué personaje es menor? 1). Lucía es menor que Maria y mayor que Alejandro. 2).Julia es mayor que Maria y menor que Alfredo.',
             'signo' : '>',
-            'solucion' : ['alberto', 'lucia', 'margarita', 'juana', 'jairo']
+            'solucion' : ['alejandro', 'lucia', 'maria', 'julia', 'alfredo']
         },
         {
             'img' : [
