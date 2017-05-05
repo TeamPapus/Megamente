@@ -246,7 +246,7 @@ define(function (require) {
                 ['../img/deduccion/personajes/julia.png', 'Julia'],
                 ['../img/deduccion/personajes/pedro.png', 'Pedro'],
                 ['../img/deduccion/personajes/martha.png', 'Martha'],
-                ['../img/deduccion/personajes/pedro.png', 'Camilo']
+                ['../img/deduccion/personajes/camilo.png', 'Camilo']
             ],
             'pista' : '¿Qué personaje es mayor? 1). Camilo es mayor que Martha y menor que Julia. 2). Rosario es menor que Pedro. 3). Julia es menor que Rosario.',
             'signo' : '>',
@@ -328,11 +328,11 @@ define(function (require) {
         },
         {
             'img' : [
-                ['../img/deduccion/personajes/lorena.png', 'yahosca'],
-                ['../img/deduccion/personajes/jose.png', 'roger'],
-                ['../img/deduccion/personajes/julio.png', 'carlos'],
+                ['../img/deduccion/personajes/yahosca.png', 'yahosca'],
+                ['../img/deduccion/personajes/roger.png', 'roger'],
+                ['../img/deduccion/personajes/carlos.png', 'carlos'],
                 ['../img/deduccion/personajes/jorge.png', 'jorge'],
-                ['../img/deduccion/personajes/daniel.png', 'kevin']
+                ['../img/deduccion/personajes/kevin.png', 'kevin']
             ],
             'pista' : '¿Qué personaje es menor? 1). Carlos es mayor que kevin y menor que Roger. 2). Jorge es menor que Yahosca y mayor que Roger.',
             'signo' : '<',
