@@ -671,12 +671,12 @@ define(function (require) {
             ['../img/deduccion/alimentos/naranja.png', 'naranja']
         ],
         'nombres' : [
-            ['alison', 'papaya', 'banano'],
-            ['antonio', 'papaya', 'banano'],
-            ['javier', 'papaya', 'piña','manzana'],
-            ['david', 'papaya', 'piña','melón'],
-            ['raquel', 'manzana','melón','manzana'],
-            ['isabel', 'melón','naranja']
+            ['Alison', 'papaya', 'banano'],
+            ['Antonio', 'papaya', 'banano'],
+            ['Javier', 'papaya', 'piña','manzana'],
+            ['David', 'papaya', 'piña','melón'],
+            ['Raquel', 'manzana','melón','manzana'],
+            ['Isabel', 'melón','naranja']
         ]
     },
     {
@@ -739,12 +739,12 @@ define(function (require) {
             ['../img/deduccion/objetos/pañuelo.png', 'pañuelo']
         ],
         'nombres' : [
-            ['karina', 'lentes', 'lazo','mochila'],
-            ['flor', 'lentes', 'mochila','pañuelo'],
-            ['julio', 'lentes'],
-            ['luis', 'corbata', 'mochila'],
-            ['danna', 'lazo'],
-            ['doris', 'bufanda']
+            ['Karina', 'lentes', 'lazo','mochila'],
+            ['Flor', 'lentes', 'mochila','pañuelo'],
+            ['Julio', 'lentes'],
+            ['Luis', 'corbata', 'mochila'],
+            ['Danna', 'lazo'],
+            ['Doris', 'bufanda']
         ]
     },
     {
@@ -773,12 +773,12 @@ define(function (require) {
             ['../img/deduccion/alimentos/sandia.svg', 'sandia']
         ],
         'nombres' : [
-            ['luz', 'banano', 'manzana'],
-            ['nathalia', 'banano', 'mango'],
-            ['alfredo', 'banano','papaya','sandia'],
-            ['javier', 'naranja', 'sandia'],
-            ['pedro', 'naranja','mango'],
-            ['fabiola', 'manzana']
+            ['Luz', 'banano', 'manzana'],
+            ['Nathalia', 'banano', 'mango'],
+            ['Alfredo', 'banano','papaya','sandia'],
+            ['Javier', 'naranja', 'sandia'],
+            ['Pedro', 'naranja','mango'],
+            ['Fabiola', 'manzana']
         ]
     },
     {
@@ -807,12 +807,12 @@ define(function (require) {
             ['../img/deduccion/objetos/telefono.png', 'telefono']
         ],
         'nombres' : [
-            ['francisco', 'periodico', 'grabadora'],
-            ['sonia', 'grabadora'],
-            ['raquel', 'collar'],
-            ['maria', 'lazo', 'mochila'],
-            ['ana', 'lazo','telefono'],
-            ['isabel', 'lazo','mochila','telefono']
+            ['Francisco', 'periodico', 'grabadora'],
+            ['Sonia', 'grabadora'],
+            ['Raquel', 'collar'],
+            ['María', 'lazo', 'mochila'],
+            ['Ana', 'lazo','telefono'],
+            ['Isabel', 'lazo','mochila','telefono']
         ]
     },
     {
@@ -1045,12 +1045,12 @@ define(function (require) {
             ['../img/deduccion/alimentos/agua.png', 'agua']
         ],
         'nombres' : [
-            ['jorge', 'leche','yogurt'],
-            ['raquel', 'leche','cafe'],
-            ['ruth', 'cafe','refresco','agua'],
-            ['jose', 'yogurt','sopa'],
-            ['pedro', 'yogurt','refresco'],    
-            ['paula', 'sopa']
+            ['Jorge', 'leche','yogurt'],
+            ['Raquel', 'leche','cafe'],
+            ['Ruth', 'cafe','refresco','agua'],
+            ['Jose', 'yogurt','sopa'],
+            ['Pedro', 'yogurt','refresco'],    
+            ['Paula', 'sopa']
         ]
     },
     {
@@ -1079,12 +1079,12 @@ define(function (require) {
             ['../img/deduccion/alimentos/banano.png', 'banano']
         ],
         'nombres' : [
-            ['luz', 'sandia','papaya'],
-            ['nathalia', 'sandia','naranja'],
-            ['alfredo', 'sandia','banano','manzana'],
-            ['javier', 'mango','banano'],
-            ['pedro', 'mango','naranja'],    
-            ['fabiola', 'papaya']
+            ['Luz', 'sandia','papaya'],
+            ['Nathalia', 'sandia','naranja'],
+            ['Alfredo', 'sandia','banano','manzana'],
+            ['Javier', 'mango','banano'],
+            ['Pedro', 'mango','naranja'],    
+            ['Fabiola', 'papaya']
         ]
     },
     {
@@ -1113,12 +1113,12 @@ define(function (require) {
             ['../img/deduccion/objetos/lapiz.png', 'lapiz']
         ],
         'nombres' : [
-            ['ana', 'computadora','mochila'],
-            ['enrique', 'telefono','mochila','lapiz'],
-            ['isabel', 'videojuego','mochila'],
-            ['paula', 'videojuego'],
-            ['david', 'cuaderno','lapiz'],    
-            ['gloria', 'cuaderno','lapiz']
+            ['Ana', 'computadora','mochila'],
+            ['Enrique', 'telefono','mochila','lapiz'],
+            ['Isabel', 'videojuego','mochila'],
+            ['Paula', 'videojuego'],
+            ['David', 'cuaderno','lapiz'],    
+            ['Gloria', 'cuaderno','lapiz']
         ]
     },
     {
@@ -1147,12 +1147,12 @@ define(function (require) {
             ['../img/deduccion/objetos/telefono.png', 'telefono']
         ],
         'nombres' : [
-            ['javier', 'periodico','grabadora'],
-            ['antonio', 'grabadora'],
-            ['maria', 'lazo','mochila'],
-            ['ana', 'lazo','telefono'],
-            ['paula', 'collar'],    
-            ['isabel', 'lazo','mochila','telefono']
+            ['Javier', 'periodico','grabadora'],
+            ['Antonio', 'grabadora'],
+            ['Maria', 'lazo','mochila'],
+            ['Ana', 'lazo','telefono'],
+            ['Paula', 'collar'],    
+            ['Isabel', 'lazo','mochila','telefono']
         ]
     },
     {
@@ -1181,12 +1181,12 @@ define(function (require) {
             ['../img/deduccion/alimentos/melon.png', 'melon']
         ],
         'nombres' : [
-            ['alison', 'piña','manzana'],
-            ['antonio', 'piña','manzana'],
-            ['javier', 'piña','papaya','banano'],
-            ['david', 'piña','papaya','naranja'],
-            ['raquel', 'banano','naranja','melon'],    
-            ['isabel', 'naranja','melon']
+            ['Alison', 'piña','manzana'],
+            ['Antonio', 'piña','manzana'],
+            ['Javier', 'piña','papaya','banano'],
+            ['David', 'piña','papaya','naranja'],
+            ['Raquel', 'banano','naranja','melon'],    
+            ['Isabel', 'naranja','melon']
         ]
     },
     {
@@ -1352,11 +1352,11 @@ define(function (require) {
         ],
         'nombres' : [
             ['María', 'futbol','ajedrez'],
-            ['gabriela', 'futbol','futbol-americano'],
-            ['ana', 'futbol','tenis','voleibol'],
-            ['luis', 'baloncesto','tenis'],
-            ['carolina', 'futbol-americano'],    
-            ['pedro', 'tenis','ajedrez']
+            ['Gabriela', 'futbol','futbol-americano'],
+            ['Ana', 'futbol','tenis','voleibol'],
+            ['Luis', 'baloncesto','tenis'],
+            ['Carolina', 'futbol-americano'],    
+            ['Pedro', 'tenis','ajedrez']
         ]
     }                                                                                               
     ];
